@@ -1,8 +1,10 @@
 <template>
-  <div>
-    <TheNavbar />
+  <div class="bg-[#f4f2f3] font-dm-sans min-h-screen">
+    <main>
+      <TheNavbar />
 
-    <TheFooter />
+      <TheFooter />
+    </main>
   </div>
 </template>
 
