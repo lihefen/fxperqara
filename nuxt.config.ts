@@ -1,3 +1,11 @@
+/*
+ * @Description: 
+ * @version: 
+ * @Author: hean
+ * @Date: 2025-05-07 23:27:22
+ * @LastEditors: hean
+ * @LastEditTime: 2025-05-07 23:56:05
+ */
 import tailwindcss from "@tailwindcss/vite";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
@@ -6,6 +14,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
   modules: ["@nuxt/eslint", "@nuxt/image", "@nuxt/ui", "@nuxt/icon"],
+  image: {
+    // 配置图片服务
+    provider: 'ipx', // 或其他提供商
+  },
   vite: {
     plugins: [tailwindcss()],
   },

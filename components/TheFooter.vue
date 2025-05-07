@@ -5,11 +5,7 @@
         <div class="lg:flex w-full">
           <div id="wrap-logo">
             <div class="flex justify-center py-6 lg:justify-start">
-              <NuxtImg
-                class="w-2/5 lg:w-1/2"
-                src="/image/logo-footer.png"
-                alt="logo-footer-perqara"
-              />
+                <!-- <img class="w-2/5 lg:w-1/2" src="../assets/image/footer/logo-footer.png"  alt="logo-footer-perqara"> -->
             </div>
             <div class="flex gap-2 pb-8 justify-center">
               <a
@@ -27,7 +23,7 @@
                 ><NuxtImg
                   alt="android-logo"
                   class="w-36"
-                  src="/image/landing-page/google-logo.png"
+                  src="/image/footer/google-logo.png"
               /></a>
             </div>
             <p class="font-dm-sans font-bold text-white text-base antialiased">
