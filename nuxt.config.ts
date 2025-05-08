@@ -4,7 +4,7 @@
  * @Author: hean
  * @Date: 2025-05-07 23:27:22
  * @LastEditors: hean
- * @LastEditTime: 2025-05-07 23:56:05
+ * @LastEditTime: 2025-05-08 20:42:17
  */
 import tailwindcss from "@tailwindcss/vite";
 
