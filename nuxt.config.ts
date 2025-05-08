@@ -1,6 +1,6 @@
 /*
- * @Description: 
- * @version: 
+ * @Description:
+ * @version:
  * @Author: hean
  * @Date: 2025-05-07 23:27:22
  * @LastEditors: hean
@@ -14,9 +14,15 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
   modules: ["@nuxt/eslint", "@nuxt/image", "@nuxt/ui", "@nuxt/icon"],
+  // swiper: {
+  //   // 配置 swiper
+  //   prefix: "Swiper", // 组件前缀
+  //   styleLang: "css", // 样式语言
+  //   modules: ["navigation", "pagination"], // 使用模块
+  // },
   image: {
     // 配置图片服务
-    provider: 'ipx', // 或其他提供商
+    provider: "ipx", // 或其他提供商
   },
   vite: {
     plugins: [tailwindcss()],
@@ -27,5 +33,8 @@ export default defineNuxtConfig({
   icon: {
     mode: "css",
     cssLayer: "base",
+    serverBundle: {
+      collections: ["streamline"], // <!--- this
+    },
   },
 });

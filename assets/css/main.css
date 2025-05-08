@@ -1,2 +1,10 @@
 @import "tailwindcss";
-/* @import "@nuxt/ui"; */
+@import "@nuxt/ui";
+
+@theme {
+  --color-blue-2: rgb(10 80 163);
+  --color-blue-9: rgb(8 71 147);
+
+  --color-red-1: #ef5944;
+  --color-red-2: #ff998b;
+}

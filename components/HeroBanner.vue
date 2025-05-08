@@ -1,77 +1,134 @@
 <template>
-  <div
-    class="hero-section container mx-auto px-4 py-8 md:py-12 flex flex-col md:flex-row items-center"
-  >
-    <div class="hero-content md:w-1/2 mb-8 md:mb-0">
-      <div class="bebas-konsultasi">
-        <h1 class="text-4xl md:text-6xl font-bold text-navy-blue">
-          <span>BEBAS</span>
-          <span class="text-red-500 font-script block md:inline"
-            >Konsultasi</span
-          >
-        </h1>
-        <p class="hashtag text-sm md:text-base mt-2">#PasAdaPerqara</p>
-      </div>
-
-      <div class="mt-6">
-        <h2 class="text-xl md:text-2xl font-bold text-navy-blue">
-          Rasakan BEBASnya<br />
-          Konsultasi Hukum
-        </h2>
-        <div
-          class="price-tag bg-red-500 text-white px-3 py-1 rounded-full text-sm inline-block mt-2"
-        >
-          Mulai dari Rp800/menit
-        </div>
-
-        <button
-          class="consultation-btn w-full mt-4 bg-navy-blue text-white py-3 px-6 rounded-md font-medium"
-        >
-          Konsultasi Sekarang
-        </button>
-
-        <div class="pro-bono mt-4 bg-blue-100 rounded-md p-3 flex items-center">
-          <div class="icon mr-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 text-blue-500"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+  <div class="w-full h-full relative">
+    <!---->
+    <div class="max-w-[1280px] px-4 xl:px-40 mx-auto relative z-10">
+      <div class="flex md:flex-row flex-col justify-between">
+        <div class="mt-16">
+          <NuxtImg
+            sizes="(max-width: 768px) 276px, 384px"
+            class="mx-auto"
+            src="/image/landing-page/hero-bebas-konsultasi.png"
+          />
+          <div class="hidden md:flex items-center flex-col gap-3">
+            <p class="text-[#003A6D] font-semibold text-xl text-center w-3/4">
+              Rasakan <span class="text-blue-2">BEBAS</span>nya Konsultasi Hukum
+            </p>
+            <div class="relative w-full">
+              <div
+                class="absolute right-0 -top-3 bg-[linear-gradient(90deg,#FA4D56_0%,#FFA8AC_100%)] rounded-md py-0.5 px-1.5 text-white text-sm font-semibold"
+              >
+                Mulai dari Rp800/menit
+              </div>
+              <button
+                type="button"
+                class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 w-full flex justify-center items-center px-4.5 py-2.5 md:text-lg bg-blue-2 text-white hover:bg-blue-9 rounded-lg md:w-[384px]"
+              >
+                <span>Konsultasi Sekarang</span>
+              </button>
+            </div>
+            <a href="/probono" class="w-full">
+              <div
+                class="flex justify-between gap-1 py-2 px-4 rounded-md items-center text-lexend text-[#181E23] border border-[#BAE6FF] font-semibold bg-[linear-gradient(91.47deg,#52BEE7_-13.62%,#EFF8FF_56.52%)]"
+              >
+                <div class="flex items-center gap-2">
+                  <img
+                    src="/image/utils/icon-probono-payment.svg"
+                    alt="icon-probono"
+                    width="24"
+                    class="rounded-full"
+                  />
+                  <span class="text-[10px] sm:text-xs"
+                    >Dapat Konsultasi Gratis dengan Pro Bono</span
+                  >
+                </div>
+                <span class="text-blue-2 text-xs">Pelajari</span>
+              </div>
+            </a>
+          </div>
+          <div class="hidden md:flex gap-3 justify-start items-center mt-3">
+            <img src="/image/landing-page/icon-peradi.svg" alt="peradi" /><img
+              class="mt-1"
+              src="/image/landing-page/icon-verified-perqara.svg"
+              alt="verified-perqara"
+            />
+            <div class="pl-2">
+              <p class="mb-1 text-[#7C8DA1] text-[10px]">Terdaftar di:</p>
+              <img
+                src="/image/partner/kominfo.png"
+                class="w-20"
+                alt="kominfo"
               />
-            </svg>
-          </div>
-          <div class="text-sm">
-            Dapat Konsultasi Gratis dengan Pro Bono
-            <a href="#" class="text-blue-600 ml-1">Pelajari</a>
+            </div>
           </div>
         </div>
-
-        <div class="partners mt-4 flex items-center">
-          <span class="text-xs text-gray-500 mr-2">Terdaftar di:</span>
-          <div class="partner-logos flex space-x-2">
-            <div class="partner-logo bg-white p-1 rounded-md">
-              <div class="w-8 h-8 bg-gray-200 rounded-md"></div>
+        <div class="md:mx-0 mx-auto md:mt-16 mt-6">
+          <NuxtImg
+            sizes="(max-width: 640px) 248px, 525px"
+            src="/image/landing-page/hero-picture-video-call.png"
+          />
+        </div>
+        <div class="flex md:hidden flex-col gap-3 mt-6">
+          <p class="text-[#003A6D] font-semibold text-xl text-center">
+            Rasakan <span class="text-blue-2">BEBAS</span>nya Konsultasi Hukum
+          </p>
+          <div class="relative w-full">
+            <div
+              class="absolute right-0 -top-3 bg-[linear-gradient(90deg,#FA4D56_0%,#FFA8AC_100%)] rounded-md py-0.5 px-1.5 text-white text-sm font-semibold"
+            >
+              Disc. 60%
             </div>
-            <div class="partner-logo bg-white p-1 rounded-md">
-              <div class="w-8 h-8 bg-gray-200 rounded-md"></div>
+            <button
+              type="button"
+              class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 w-full flex justify-center items-center px-4.5 py-2.5 md:text-lg bg-blue-2 text-white hover:bg-blue-9 rounded-lg"
+            >
+              <span>Konsultasi Sekarang</span>
+            </button>
+          </div>
+          <a href="/probono" class="w-full"
+            ><div
+              class="flex justify-between gap-1 py-2 px-4 rounded-md items-center text-lexend text-[#181E23] border border-[#BAE6FF] font-semibold bg-[linear-gradient(91.47deg,#52BEE7_-13.62%,#EFF8FF_56.52%)] text-xs"
+            >
+              <div class="flex items-center gap-2">
+                <img
+                  src="/image/utils/icon-probono-payment.svg"
+                  alt="icon-probono"
+                  width="24"
+                  class="rounded-full"
+                />
+                <span class="text-[10px] sm:text-xs"
+                  >Dapat Konsultasi Gratis dengan Pro Bono</span
+                >
+              </div>
+              <span class="text-blue-2 text-xs">Pelajari</span>
             </div>
+          </a>
+        </div>
+        <div class="flex md:hidden gap-3 justify-center items-center mt-3">
+          <img src="/image/landing-page/icon-peradi.svg" alt="peradi" /><img
+            class="mt-1"
+            src="/image/landing-page/icon-verified-perqara.svg"
+            alt="verified-perqara"
+          />
+          <div class="p-2">
+            <p class="mb-1 text-[#7C8DA1] text-[10px]">Terdaftar di:</p>
+            <img
+              src="/image/partner/kominfo.png"
+              class="w-20 object-fit"
+              alt="kominfo"
+            />
           </div>
         </div>
       </div>
     </div>
-
-    <div class="hero-image md:w-1/2 relative">
+    <div class="z-0">
       <img
-        src="https://sjc.microlink.io/x8OPO17JRUVtpVK9K81h_V5Dp1Tz8Bi6tuC4fWUfJPI1WovKozgZpckaJB1Hl98QNMphT-BdyuOXUF_4w8SvIw.jpeg"
-        alt="Perqara Mobile App"
-        class="w-full max-w-md mx-auto"
+        class="absolute w-full top-20 right-0 md:hidden"
+        src="/image/landing-page/m-ellipse-bg.svg"
+        alt="ornament"
+      /><img
+        class="absolute w-1/2 top-0 right-0 hidden md:block"
+        src="/image/landing-page/d-ellipse-bg.svg"
+        alt="ornament"
       />
     </div>
   </div>
