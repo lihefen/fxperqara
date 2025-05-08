@@ -4,11 +4,9 @@
     <section
       class="justify-center items-center flex-col flex lg:flex-row lg:gap-8"
     >
-      <!--[-->
       <div
         class="bg-white rounded-xl p-3 mt-4 w-[328px] h-auto flex-1 relative"
       >
-        <!---->
         <div id="content-payment">
           <div class="flex justify-between sm:justify-center items-center">
             <div id="wrap-title" class="flex sm:flex-col gap-2 items-center">
@@ -43,7 +41,6 @@
             Identitas (KTP).
           </p>
         </div>
-        <!----><!---->
         <div v-show="isOpen1">
           <ul class="mt-4 space-y-2 text-[#556987] text-sm">
             <div
@@ -90,7 +87,6 @@
       <div
         class="bg-white rounded-xl p-3 mt-4 w-[328px] h-auto flex-1 relative"
       >
-        <!---->
         <div id="content-payment">
           <div class="flex justify-between sm:justify-center items-center">
             <div id="wrap-title" class="flex sm:flex-col gap-2 items-center">
@@ -128,7 +124,6 @@
             ringkas.
           </p>
         </div>
-        <!----><!---->
         <div v-show="isOpen2">
           <ul class="mt-4 space-y-2 text-[#556987] text-sm">
             <div
@@ -262,7 +257,6 @@
           </button>
         </div>
       </div>
-      <!--]-->
     </section>
   </div>
 </template>

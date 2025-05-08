@@ -16,7 +16,6 @@
   <div
     class="grid grid-rows-2 grid-cols-2 md:grid-cols-3 grid-flow-col md:gap-x-10 md:gap-y-6 gap-4"
   >
-    <!--[-->
     <div
       class="bg-[#F5FBFD] rounded-xl p-3 text-[#4D5B6A] font-light md:text-base text-sm space-y-1"
     >
@@ -89,7 +88,6 @@
         Perqara.
       </p>
     </div>
-    <!--]-->
   </div>
   <div class="space-y-2">
     <div

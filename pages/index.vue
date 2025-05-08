@@ -7,14 +7,17 @@
  * @LastEditTime: 2025-05-08 08:04:10
 -->
 <template>
-  <div class="bg-[#f4f2f3] font-dm-sans min-h-screen">
+  <div class="bg-[#f4f2f3] font-dm-sans min-h-screen text-black">
     <main>
       <TheNavbar />
       <div class="bg-white font-lexend -mt-16">
         <HeroBanner />
         <FeaturesSection />
+        <ConsultationSection />
+        <SolutionSection />
+        <FootBanner />
+        <TheFooter />
       </div>
-      <TheFooter />
     </main>
   </div>
 </template>
