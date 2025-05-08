@@ -4,7 +4,7 @@
  * @Author: hean
  * @Date: 2025-05-08 21:30:13
  * @LastEditors: hean
- * @LastEditTime: 2025-05-08 21:39:40
+ * @LastEditTime: 2025-05-08 22:01:13
 -->
 <template>
   <section id="sponsor" class="p-4">
@@ -16,4 +16,11 @@
         </div>
     </div>
   </section>
+
+
 </template>
+<style scoped>
+    .bg-radial-gradient {
+        background: radial-gradient(50% 50% at 50% 50%,#07346a 0,#0a50a3)
+    }
+</style>
