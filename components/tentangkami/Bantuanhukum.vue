@@ -4,7 +4,7 @@
  * @Author: hean
  * @Date: 2025-05-08 22:07:22
  * @LastEditors: hean
- * @LastEditTime: 2025-05-08 22:37:23
+ * @LastEditTime: 2025-05-08 23:43:49
 -->
 <!--
  * @Description: 
@@ -82,7 +82,4 @@
 
 </template>
 <style scoped>
-    .bg-radial-gradient {
-        background: radial-gradient(50% 50% at 50% 50%,#07346a 0,#0a50a3)
-    }
 </style>
