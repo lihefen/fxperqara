@@ -48,7 +48,7 @@
     <div class="hidden md:block row-span-2 my-auto">
       <UCarousel
         v-slot="{ item }"
-        loop
+        :loop="true"
         dots
         :autoplay="{ delay: 5000 }"
         :items="items"

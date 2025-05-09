@@ -262,9 +262,27 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 // 每个卡片独立展开/收起状态
-const isOpen1 = ref(false); // 默认展开，可改为false
-const isOpen2 = ref(false);
+const isOpen1 = ref(true); // 默认展开，可改为false
+const isOpen2 = ref(true);
 const isOpen3 = ref(true);
+
+// 1024px 以上全部展开
+const handleResize = () => {
+  if (window.innerWidth >= 1024) {
+    isOpen1.value = true;
+    isOpen2.value = true;
+    isOpen3.value = true;
+  } else {
+    isOpen1.value = false;
+    isOpen2.value = false;
+    isOpen3.value = true;
+  }
+};
+
+// 监听窗口大小变化
+onMounted(() => {
+  window.addEventListener("resize", handleResize);
+});
 </script>

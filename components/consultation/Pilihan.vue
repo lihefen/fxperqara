@@ -220,8 +220,8 @@
               </button>
               <button
                 class="navigation-next-lawyer button-arrow"
-                :class="{ 'opacity-50': activeIndex === items.length - 1 }"
-                :disabled="activeIndex === items.length - 1"
+                :class="{ 'opacity-50': isEnd }"
+                :disabled="isEnd"
                 @click="swiperRef.slideNext()"
               >
                 <img src="/image/arrow-right.svg" alt="" />
@@ -243,6 +243,7 @@ import "swiper/css";
 
 const swiperRef = ref(null);
 const activeIndex = ref(0);
+const isEnd = ref(false);
 const isMobile = ref(false);
 
 const onResize = () => {
@@ -343,6 +344,7 @@ const onSwiper = (newSwiper) => {
 
 const onSlideChange = () => {
   activeIndex.value = swiperRef.value.activeIndex;
+  isEnd.value = swiperRef.value.isEnd;
 };
 </script>
 <style scoped>

@@ -64,7 +64,7 @@
               <router-link
                 v-if="!item.hasDropdown"
                 :to="item.path"
-                class="text-perqara-text hover:text-perqara-blue flex items-center h-16 px-2 font-medium text-sm text-[#344052]"
+                class="flex items-center h-16 px-2 font-medium text-sm text-[#344052]"
               >
                 {{ item.title }}
               </router-link>
@@ -72,13 +72,13 @@
               <a
                 v-else
                 href="#"
-                class="text-perqara-text hover:text-perqara-blue flex items-center h-16 px-2 font-medium text-sm text-black"
+                class="flex items-center h-16 px-2 font-medium text-sm text-black"
               >
                 {{ item.title }}
                 <ChevronDown
                   :class="[
                     'chevron-rotate',
-                    { 'rotate-180': openDropdownId === item.id },
+                    { 'rotate-chevron': openDropdownId === item.id },
                   ]"
                   class="ml-1"
                   :size="18"
@@ -157,7 +157,7 @@
               class="py-4 flex items-center justify-between"
               @click="toggleDropdown"
             >
-              <p class="text-base font-semibold text-perqara-text text-black">
+              <p class="text-base font-semibold text-black">
                 {{ item.title }}
               </p>
               <ChevronDown
@@ -170,7 +170,7 @@
             <router-link
               v-else
               :to="item.path"
-              class="block py-4 text-base font-semibold text-perqara-text text-[#344052]"
+              class="block py-4 text-base font-semibold text-[#344052]"
             >
               {{ item.title }}
             </router-link>
@@ -341,7 +341,7 @@ onUnmounted(() => {
 .chevron-rotate {
   transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.rotate-180 {
+.rotate-chevron {
   transform: rotate(180deg);
 }
 </style>

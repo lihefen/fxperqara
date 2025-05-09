@@ -15,6 +15,8 @@
         <FeaturesSection />
         <ConsultationSection />
         <SolutionSection />
+        <TopAdvocate />
+        <TestimoniesSection />
         <FootBanner />
         <TheFooter />
       </div>
