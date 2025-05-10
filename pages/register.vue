@@ -135,6 +135,8 @@
 
 <script setup>
 import { ref } from 'vue'
+import { useRouter } from 'vue-router'
+const router = useRouter()
 const inputName = ref('')
 const inputPhone = ref('')
 const inputEmail = ref('')
@@ -164,4 +166,8 @@ const options = [
     label: 'Option5',
   },
 ]
+
+const navigateToRegister = () => {
+    router.push('/login')
+};
 </script>
