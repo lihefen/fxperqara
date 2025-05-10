@@ -93,6 +93,16 @@
     --tw-bg-opacity: 1;
     background-color: rgb(237 242 247 / var(--tw-bg-opacity, 1));
 }
+.animate-ping-slow {
+    animation: ping 2.5s cubic-bezier(0,0,.2,1) infinite
+}
+
+@keyframes ping {
+    75%,to {
+        opacity: 0;
+        transform: scale(2)
+    }
+}
 @media (min-width: 768px) {
     .md\:bg-black {
         --tw-bg-opacity: 1;
