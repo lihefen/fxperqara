@@ -4,7 +4,7 @@
  * @Author: hean
  * @Date: 2025-05-07 23:27:22
  * @LastEditors: hean
- * @LastEditTime: 2025-05-08 20:42:17
+ * @LastEditTime: 2025-05-10 09:27:13
  */
 import tailwindcss from "@tailwindcss/vite";
 
@@ -12,7 +12,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
-  css: ["~/assets/css/main.css"],
+  css: ["~/assets/css/main.css", "~/assets/css/entry.css"],
   modules: ["@nuxt/eslint", "@nuxt/image", "@nuxt/ui", "@nuxt/icon"],
   // swiper: {
   //   // 配置 swiper

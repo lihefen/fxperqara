@@ -130,6 +130,7 @@
             class="flex rounded-lg bg-gradient-to-r from-[#4F46E5] to-[#46A7E2] w-full items-center"
           >
             <button
+               @click="navigateToRegister"
               class="border-2 bg-white border-[#0a50a3] text-[#0a50a3] py-1.5 px-3 rounded-lg leading-5"
             >
               Daftar
@@ -214,9 +215,10 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
+import { useRouter } from 'vue-router'
 import NewBadge from "./NewBadge.vue";
 import ChevronDown from "./ChevronDown.vue";
-
+const router = useRouter()
 // Menu items data
 const menuItems = [
   {
@@ -308,6 +310,10 @@ const closeDropdown = () => {
 // Check for mobile viewport
 const checkMobile = () => {
   isMobile.value = window.innerWidth < 768;
+};
+
+const navigateToRegister = () => {
+    router.push('/register')
 };
 
 // Lifecycle hooks
