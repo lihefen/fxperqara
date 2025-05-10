@@ -137,6 +137,7 @@
             </button>
           </div>
           <button
+            @click="loginHandler"
             class="border-2 border-[#0a50a3] bg-[#0a50a3] text-white py-1.5 px-3 rounded-lg leading-5"
           >
             Masuk
@@ -315,6 +316,11 @@ const checkMobile = () => {
 const navigateToRegister = () => {
     router.push('/register')
 };
+const loginHandler = () => {
+    emit('loginHandler');
+};
+
+const emit = defineEmits(['loginHandler']);
 
 // Lifecycle hooks
 onMounted(() => {
