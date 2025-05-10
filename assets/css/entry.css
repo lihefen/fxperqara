@@ -85,7 +85,14 @@
     --tw-bg-opacity: 1;
     background-color: rgb(244 242 243/var(--tw-bg-opacity,1))
 }
-
+.border-lightgrey-2 {
+    --tw-border-opacity: 1;
+    border-color: rgb(238 240 243 / var(--tw-border-opacity, 1));
+}
+.bg-lightblue-3 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(237 242 247 / var(--tw-bg-opacity, 1));
+}
 @media (min-width: 768px) {
     .md\:bg-black {
         --tw-bg-opacity: 1;
@@ -95,5 +102,11 @@
 @media (min-width: 768px) {
     .md\:bg-opacity-50 {
         --tw-bg-opacity: .5;
+    }
+}
+@media (min-width: 768px) {
+    .md\:text-sm {
+        font-size: .875rem;
+        line-height: 1.25rem;
     }
 }

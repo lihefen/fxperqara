@@ -110,7 +110,7 @@
                                                             :label="item.label"
                                                             :value="item.value"
                                                         />
-                                                        </el-select>
+                                                    </el-select>
                                                 </div>
                                                 
                                             </div>
