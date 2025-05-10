@@ -241,7 +241,7 @@ const menuItems = [
   {
     id: 4,
     title: "FAQ",
-    path: "#",
+    path: "faq",
   },
 ];
 
