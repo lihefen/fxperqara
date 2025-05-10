@@ -4,7 +4,7 @@
  * @Author: hean
  * @Date: 2025-05-10 09:39:46
  * @LastEditors: hean
- * @LastEditTime: 2025-05-10 10:37:28
+ * @LastEditTime: 2025-05-10 11:48:39
 -->
 <!--
  * @Description: 
@@ -33,8 +33,10 @@
                                 <p class="text-center text-neutral-800 text-2xl font-bold pb-4"> Daftar Akun </p>
                                 <div class="space-y-4">
                                     <div class="space-y-2">
-                                        <label class="text-slate-700 text-xs">Nama Lengkap</label><div><input value="" type="text" class="border rounded-lg text-black border-gray-300 w-full" placeholder="Tuliskan nama lengkap Anda"><!----></div>
+                                        <label class="text-slate-700 text-xs">Nama Lengkap</label><div><el-button type="primary">测试</el-button></div>
+
                                     </div>
+
                                 </div>
                             </div>
                         </div>
