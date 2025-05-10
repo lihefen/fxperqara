@@ -12,11 +12,11 @@
       <TheNavbar />
       <div class="bg-white font-lexend -mt-16">
         <HeroBanner />
-        <FeaturesSection />
-        <ConsultationSection />
-        <SolutionSection />
+        <Features />
+        <Consultation />
+        <Solution />
         <TopAdvocate />
-        <TestimoniesSection />
+        <Testimonies />
         <FootBanner />
         <TheFooter />
       </div>
