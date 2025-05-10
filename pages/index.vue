@@ -7,7 +7,7 @@
  * @LastEditTime: 2025-05-10 11:55:43
 -->
 <template>
-  <div class="bg-[#f4f2f3] font-dm-sans min-h-screen text-black">
+  <div class="bg-[#f4f2f3] font-dm-sans min-h-screen">
     <main>
       <TheNavbar />
       <div class="bg-white font-lexend -mt-16">

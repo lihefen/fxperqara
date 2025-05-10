@@ -11,3 +11,7 @@
 
   --color-crayola: rgb(255 91 94);
 }
+
+body {
+  color: black;
+}
