@@ -94,7 +94,7 @@
                     <a
                       v-for="service in serviceItems"
                       :key="service.id"
-                      href="#"
+                      :href="service.path"
                       class="flex gap-2 p-2 hover:bg-gray-50 rounded-lg items-center"
                     >
                       <NuxtImg
@@ -252,6 +252,7 @@ const serviceItems = [
     title: "Konsultasi Hukum",
     description: "Konsultasi hukum langsung bersama advokat Perqara.",
     icon: "/image/navbar/icon-legal-consultation.svg",
+    path:'cari-advokat'
   },
   {
     id: 2,
@@ -260,6 +261,7 @@ const serviceItems = [
       "Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.",
     icon: "/image/navbar/icon-company-establishment.svg",
     isNew: true,
+     path:'cari-advokat'
   },
   {
     id: 3,
@@ -268,6 +270,7 @@ const serviceItems = [
       "Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.",
     icon: "/image/navbar/icon-document-creation.svg",
     isNew: true,
+     path:'cari-advokat'
   },
   {
     id: 4,
@@ -275,6 +278,7 @@ const serviceItems = [
     description: "Layanan pendaftaran Merek, Paten, Hak Cipta, dll.",
     icon: "/image/navbar/icon-haki-registration.svg",
     isNew: true,
+     path:'cari-advokat'
   },
   {
     id: 5,
@@ -282,6 +286,7 @@ const serviceItems = [
     description: "Konsultasi pelaporan pajak perusahaan maupun individu.",
     icon: "/image/navbar/icon-tax-consultation.svg",
     isNew: true,
+    path:'cari-advokat'
   },
 ];
 
