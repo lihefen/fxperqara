@@ -145,3 +145,8 @@
         line-height: 1.25rem;
     }
 }
+@media (min-width: 640px) {
+    .sm\:mt-9 {
+        margin-top: 2.25rem;
+    }
+}
