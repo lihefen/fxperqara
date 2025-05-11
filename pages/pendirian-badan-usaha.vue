@@ -4,7 +4,7 @@
  * @Author: hean
  * @Date: 2025-05-11 10:03:08
  * @LastEditors: hean
- * @LastEditTime: 2025-05-11 10:38:52
+ * @LastEditTime: 2025-05-11 10:43:44
 -->
 <template>
   <div class="bg-cultured font-dm-sans min-h-screen">
@@ -232,6 +232,38 @@
                     </div>
                 </section>
             </div>
+            <section id="faqs" class="py-6 md:py-12 bg-[#E5F6FF]">
+                <div class="relative z-10 max-w-[1280px] mx-auto px-4 xl:px-40">
+                    <div class="flex items-center justify-center gap-4">
+                        <NuxtImg
+                            alt="img-faq"
+                            class="w-1/3 lg:w-[35%] md:block hidden"
+                            src="image/notary/img-faq.png" />
+                        <div class="space-y-4">
+                            <h6 class="font-bold text-xl md:text-3xl text-center"> Masih Ada Pertanyaan? </h6>
+                            
+                            <div class="space-y-4">
+                                <div data-active="true" class="group bg-white border border-[#EEF2F7] rounded-xl px-4 py-3 shadow-sm flex gap-4 cursor-pointer transition-all duration-300 ease-in-out">
+                                    <div class="space-y-2 flex-1">
+                                        <p class="font-semibold leading-5">Apa Apa perbedaan antara PT, CV, dan Yayasan?</p>
+                                        <p class="font-light text-[#737373] leading-6 group-data-[active=false]:hidden prose [&amp;>p]:mb-0 [&amp;>ul]:mt-0">
+                                    <ul>
+                                        <li>Perseroan Terbatas (PT): badan hukum yang didirikan berdasarkan perjanjian dan melakukan kegiatan usahanya dengan modal dasar yang terbagi atas saham.</li>
+                                        <li>Persekutuan Komanditer (CV): persekutuan yang melibatkan dua orang atau lebih, terdiri dari seorang yang melibatkan dirinya secara penuh terhadap perusahaan (sekutu aktif) dan seorang lainnya yang tidak turut mengurus operasional perusahaan (sekutu pasif), sehingga tidak turut bertanggung jawab atas risiko dalam perusahaan.</li>
+                                        <li>Yayasan: badan hukum yang kekayaannya dipisahkan dan diperuntukkan untuk mencapai tujuan dalam bidang sosial, keagamaan, dan kemanusiaan.</li>
+                                    </ul>
+                                    <p>Pelajari lebih lanjut mengenai perbedaan PT, CV dan Yayasan <a href="https://perqara.com/blog/apa-itu-badan-usaha-kenali-definisi-dan-jenisnya/">di sini</a>.</p>
+                                        </p>
+                                    </div>
+                                    <div class="group-data-[active=true]:rotate-180 self-start">
+                                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.9995 16.8509C11.2995 16.8509 10.5995 16.5809 10.0695 16.0509L3.54953 9.53092C3.25953 9.24092 3.25953 8.76092 3.54953 8.47092C3.83953 8.18092 4.31953 8.18092 4.60953 8.47092L11.1295 14.9909C11.6095 15.4709 12.3895 15.4709 12.8695 14.9909L19.3895 8.47092C19.6795 8.18092 20.1595 8.18092 20.4495 8.47092C20.7395 8.76092 20.7395 9.24092 20.4495 9.53092L13.9295 16.0509C13.3995 16.5809 12.6995 16.8509 11.9995 16.8509Z" fill="#003A6D"></path></svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
         <TheFooter />
     </main>
