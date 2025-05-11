@@ -227,6 +227,16 @@
                                     </div>
                                     <button type="button" class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 px-4.5 py-2.5 md:text-lg bg-blue-2 text-white hover:bg-blue-9 rounded-lg !px-7 sm:self-center" ><span><!--[--> Lihat Karir <!--]--></span></button>
                                 </div>
+
+                                <div class="relative flex sm:flex-row flex-col gap-3 justify-between rounded-2xl md:p-6 p-3 bg-gradient-to-r from-blue-2 to-[#D301BE]/50 overflow-hidden" data-v-63014e6b="">
+                                    <img src="/image/career-page/bg-form-career.svg" alt="" class="absolute inset-0 rounded-2xl z-0 w-full h-full" data-v-63014e6b="">
+                                    <div class="relative text-cultured flex flex-col gap-2" data-v-63014e6b="">
+                                        <h4 class="text-xl sm:text-2xl font-semibold" data-v-63014e6b=""> Tidak menemukan Karir yang anda cari? </h4>
+                                        <p data-v-63014e6b="">Temukan karir impianmu di Perqara</p>
+                                    </div>
+                                    <button type="button" class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 px-4.5 py-2.5 md:text-lg bg-white text-lightblack-1 hover:bg-cultured rounded-lg !px-10 sm:self-center relative font-semibold" data-v-63014e6b=""><span><!--[--> Isi Form Karir <!--]--></span></button>
+                                </div>
+
                             </div>
                         </div>
                     </section>
@@ -259,7 +269,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                    </div>
                 </div>
             </div>
         </div>
