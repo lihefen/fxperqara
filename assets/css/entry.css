@@ -150,3 +150,8 @@
         margin-top: 2.25rem;
     }
 }
+@media (min-width: 768px) {
+    .md\:pt-\[241px\] {
+        padding-top: 241px;
+    }
+}

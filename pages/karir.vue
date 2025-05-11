@@ -265,10 +265,10 @@
                                                 class="md:w-36 w-full"
                                                 src="/image/landing-page/google-logo.png" />
                                             </a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
                     </div>
                 </div>
             </div>
