@@ -95,16 +95,16 @@
                     <p class="sm:text-2xl text-xl font-semibold text-center"> Manfaat Berkonsultasi di Perqara </p>
                     <div class="grid md:grid-cols-4 grid-cols-2 lg:gap-9 gap-3 mt-7">
                         <div class="flex flex-col gap-2 items-center text-center md:w-[195px]">
-                            <!-- <NuxtImg
+                            <NuxtImg
                                 class="sm:w-[75px] sm:h-[75px] w-14 h-14"
-                                src="/image/login-advocate/icon-1.svg" /> -->
+                                src="/image/login-advocate/icon-1.svg" />
                             <p class="md:text-xl text-base font-semibold">Konsultasi Probono</p>
                             <p class="md:text-base text-sm">Memberikan dan akses konsultasi Probono dengan mudah</p>
                         </div>
                         <div class="flex flex-col gap-2 items-center text-center md:w-[195px]">
-                            <!-- <NuxtImg
+                            <NuxtImg
                                 class="sm:w-[75px] sm:h-[75px] w-14 h-14"
-                                src="/image/login-advocate/icon-3.svg" /> -->
+                                src="/image/login-advocate/icon-3.svg" />
                             <p class="md:text-xl text-base font-semibold">Mendapatkan Klien Baru</p>
                             <p class="md:text-base text-sm">Mendapatkan klien baru dari berbagai wilayan di Indonesia</p>
                         </div>
