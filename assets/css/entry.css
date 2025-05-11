@@ -104,6 +104,14 @@
 .bg-radial-gradient {
     background: radial-gradient(50% 50% at 50% 50%, #07346a 0, #0a50a3);
 }
+.bg-steelBlue {
+    --tw-bg-opacity: 1;
+    background-color: rgb(32 114 184 / var(--tw-bg-opacity, 1));
+}
+.bg-lightblue-1 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(225 242 248 / var(--tw-bg-opacity, 1));
+}
 @keyframes ping {
     75%,to {
         opacity: 0;

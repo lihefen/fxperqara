@@ -120,6 +120,184 @@
                     </div>
                 </div>
             </section>
+
+            <section id="pendirian-badan-usaha" class="py-6 md:py-12 bg-[#F5FBFD] relative z-10">
+                <div class="max-w-[1280px] mx-auto px-4 xl:px-40">
+                    <div class="flex flex-col-reverse md:flex-row gap-8 md:gap-12">
+                        <div class="flex flex-col gap-6 w-full md:w-1/2">
+                            <img src="/image/landing-page/icon-company-establishment-colored.svg" alt="" class="w-fit md:inline-block hidden" >
+                            <h2 class="text-2xl md:text-3xl font-bold md:text-left text-center" > Pendirian Badan Usaha </h2>
+                            <p class="text-[#55707A]" > Solusi mudah dan lengkap untuk pendirian badan usaha meliputi: </p>
+                            <div class="flex flex-col gap-3" >
+                                <div class="flex items-start gap-3" >
+                                    <img src="/image/landing-page/icon-check.svg" alt="" >
+                                    <div class="flex flex-col" >
+                                        <span class="md:text-xl font-bold" >Pendirian PT, CV, Yayasan</span><span class="text-[#55707A]" >Layanan pendirian PT, CV, Yayasan</span>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3" >
+                                    <img src="/image/landing-page/icon-check.svg" alt="" >
+                                    <div class="flex flex-col" >
+                                        <span class="md:text-xl font-bold" >Perubahan Akta</span><span class="text-[#55707A]" >Layanan perubahan informasi terkait beberapa aspek usaha pada Akta perusahaan</span>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3" >
+                                    <img src="/image/landing-page/icon-check.svg" alt="" >
+                                    <div class="flex flex-col" >
+                                        <span class="md:text-xl font-bold italic" >Waarmerking</span><span class="text-[#55707A]" >Layanan pembukuan (waarmerking) atas surat di bawah tangan</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <button  class="bg-blue-2 px-5 py-3 w-full text-center md:w-fit text-white rounded-md shadow-gray-500 hover:bg-blue-9 transition-all ease-in-out duration-300 cursor-pointer"> Ajukan Sekarang </button>
+                        </div>
+                        <div  class="relative w-full md:w-1/2">
+                            <NuxtImg
+                                alt="iimg-company-services"
+                                class="w-full"
+                                src="/image/landing-page/img-company-services.png" />
+                            <img  src="/image/landing-page/icon-company-establishment-colored.svg" alt="" class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-fit md:hidden">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section  id="pembuatan-dokumen" class="py-6 md:py-12 relative z-10">
+                <div class="max-w-[1280px] mx-auto px-4 xl:px-40">
+                    <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+                        <div  class="relative w-full md:w-1/2">
+                            <NuxtImg
+                                alt="img-document-creation"
+                                class="w-full"
+                                src="/image/landing-page/img-document-creation.png" />
+
+
+                            <img  src="/image/landing-page/icon-document-creation-colored.svg" alt="" class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-fit md:hidden">
+                        </div>
+                        <div  class="flex flex-col gap-6 w-full md:w-1/2">
+                            <div class="flex flex-col gap-4" >
+                                <img src="/image/landing-page/icon-document-creation-colored.svg" alt="" class="w-fit md:inline-block hidden" >
+                                <h2 class="text-2xl md:text-3xl font-bold md:text-left text-center" > Pembuatan Dokumen </h2><p class="text-[#55707A]" > Buat berbagai surat dan perjanjian hukum dalam sekejap. Cukup jawab pertanyaan panduan, dokumen hukum Anda akan terisi secara otomatis dan siap untuk diunduh. </p>
+                                <div class="flex flex-wrap gap-2" >
+                                    <span class="px-2 py-0.5 rounded-lg bg-lightblue-1 text-blue-2 text-sm font-medium" >Perjanjian Jual Beli</span><span class="px-2 py-0.5 rounded-lg bg-lightblue-1 text-blue-2 text-sm font-medium" >Surat Kuasa</span><span class="px-2 py-0.5 rounded-lg bg-lightblue-1 text-blue-2 text-sm font-medium" >Perjanjian Kerja</span><span class="px-2 py-0.5 rounded-lg bg-lightblue-1 text-blue-2 text-sm font-medium" >+24</span>
+                                </div>
+                            </div>
+                            <button  class="bg-blue-2 px-5 py-3 w-full text-center md:w-fit text-white rounded-md shadow-gray-500 hover:bg-blue-9 transition-all ease-in-out duration-300 cursor-pointer"> Buat Sekarang </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section  id="pendaftaran-haki" class="py-6 md:py-12 bg-[#F5FBFD] relative z-10">
+                <div  class="max-w-[1280px] mx-auto px-4 xl:px-40">
+                    <div  class="flex flex-col-reverse md:flex-row gap-8 md:gap-12">
+                        <div  class="flex flex-col gap-4 w-full md:w-1/2">
+                            <img src="/image/landing-page/icon-haki-registration-colored.svg" alt="" class="w-fit md:inline-block hidden" >
+                            <h2 class="text-2xl md:text-3xl font-bold md:text-left text-center" > Pendaftaran HAKI (Hak Kekayaan Intelektual) </h2>
+                            <p class="text-[#55707A]" > Dapatkan kemudahan pendaftaran dan perlindungan hukum atas Hak Kekayaan Intelektual (HAKI) meliputi: </p>
+                            <div class="flex flex-col gap-3" >
+                                <div class="flex items-start gap-3" >
+                                    <img src="/image/landing-page/icon-check.svg" alt="" >
+                                    <div class="flex flex-col" >
+                                        <span class="md:text-xl font-bold" >Pendaftaran Merek</span><span class="text-[#55707A]" >Dapatkan hak eksklusif atas merek berikut perlindungan hukumnya</span>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3" >
+                                    <img src="/image/landing-page/icon-check.svg" alt="" >
+                                    <div class="flex flex-col" >
+                                        <span class="md:text-xl font-bold" >Pencatatan Hak Cipta</span><span class="text-[#55707A]" >Dapatkan hak eksklusif dari sebuah karya ciptaan.</span>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3" >
+                                    <img src="/image/landing-page/icon-check.svg" alt="" ><div class="flex flex-col" ><span class="md:text-xl font-bold" >Permohonan Desain Industri</span><span class="text-[#55707A]" >Dapatkan perlindungan atas kreasi desain yang berguna untuk menghasilkan suatu produk, barang komoditas industri, atau kerajinan tangan.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button  class="bg-blue-2 px-5 py-3 w-full text-center md:w-fit text-white rounded-md shadow-gray-500 hover:bg-blue-9 transition-all ease-in-out duration-300 cursor-pointer"> Daftarkan Sekarang </button>
+                    </div>
+                    <div  class="relative w-full md:w-1/2">
+                        <NuxtImg
+                            alt="img-hero-service-page"
+                            class="w-full"
+                            src="/image/landing-page/img-haki-registration.png" />
+                        <img  src="/image/landing-page/icon-haki-registration-colored.svg" alt="" class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-fit md:hidden"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section  id="konsultasi-pajak" class="py-6 md:py-12 relative z-10">
+                <div class="max-w-[1280px] mx-auto px-4 xl:px-40">
+                    <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+                        <div class="relative w-full md:w-1/2">
+                            <NuxtImg
+                                alt="img-tax-consultation"
+                                class="w-full"
+                                src="/image/landing-page/img-tax-consultation.png" />
+                                
+                            <img  src="/image/landing-page/icon-tax-consultation-colored.svg" alt="" class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-fit md:hidden">
+                        </div>
+                        <div  class="flex flex-col gap-6 w-full md:w-1/2">
+                            <div  class="flex flex-col gap-4">
+                                <img  src="/image/landing-page/icon-tax-consultation-colored.svg" alt="" class="w-fit md:inline-block hidden">
+                                <h2  class="text-2xl md:text-3xl font-bold md:text-left text-center"> Konsultasi Pajak </h2>
+                                <p  class="text-[#55707A]"> Lapor pajak perusahaan maupun pribadi secara tepat bersama advokat yang berpengalaman dan tersertifikasi di bidang perpajakan. </p>
+                            </div>
+                            <button  class="bg-blue-2 px-5 py-3 w-full text-center md:w-fit text-white rounded-md shadow-gray-500 hover:bg-blue-9 transition-all ease-in-out duration-300 cursor-pointer"> Konsultasi Sekarang </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-8 md:py-12 relative z-10" >
+                <div class="max-w-[1280px] mx-auto px-4 xl:px-40" >
+                    <div class="flex flex-col gap-12" >
+                        <h2 class="text-2xl md:text-3xl font-bold text-center" > Tahapan Proses </h2>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-6 text-center" >
+                            <div class="relative bg-lightblue-1 rounded-xl p-4 pt-6 md:p-6 md:pt-8 flex flex-col gap-2 md:gap-4" >
+                                <span class="absolute -top-6 left-1/2 transform -translate-x-1/2 shadow-[0_0_0_7px] rounded-full bg-steelBlue flex items-center justify-center text-white text-xl font-semibold w-12 h-12" >1</span><span class="text-lg md:text-2xl font-bold" >Kirim Formulir Penawaran</span><span class="text-[#556987] font-light text-left" >Jelaskan detail kebutuhan legal Anda dengan mengisi formulir penawaran.</span>
+                            </div>
+                            <div class="relative bg-lightblue-1 rounded-xl p-4 pt-6 md:p-6 md:pt-8 flex flex-col gap-2 md:gap-4" >
+                                <span class="absolute -top-6 left-1/2 transform -translate-x-1/2 shadow-[0_0_0_7px] rounded-full bg-steelBlue flex items-center justify-center text-white text-xl font-semibold w-12 h-12" >2</span><span class="text-lg md:text-2xl font-bold" >Konsultasikan Kebutuhan Anda</span><span class="text-[#556987] font-light text-left" >Tim Perqara akan menghubungi Anda dalam waktu maksimal 24 jam.</span>
+                            </div>
+                            <div class="relative bg-lightblue-1 rounded-xl p-4 pt-6 md:p-6 md:pt-8 flex flex-col gap-2 md:gap-4" >
+                                <span class="absolute -top-6 left-1/2 transform -translate-x-1/2 shadow-[0_0_0_7px] rounded-full bg-steelBlue flex items-center justify-center text-white text-xl font-semibold w-12 h-12" >3</span><span class="text-lg md:text-2xl font-bold" >Proses yang Transparan</span><span class="text-[#556987] font-light text-left" >Tim profesional kami akan mengabarkan proses pengerjaan secara berkala hingga selesai.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="form" class="md:py-12 relative z-10">
+                <div class="max-w-[1280px] mx-auto xl:px-56">
+                    <div class="rounded-2xl bg-white px-4 md:px-8 py-7 shadow-[0_-8px_10px_-5px_rgba(0,0,0,0.04),_0_10px_25px_-5px_rgba(0,0,0,0.10)]">
+                        <div class="flex flex-col gap-4">
+                            <h2 class="text-2xl font-semibold text-center md:w-[52%] mx-auto"> Lengkapi Data Diri agar Kami Dapat Segera Menghubungi Anda </h2>
+                            <div class="flex flex-col sm:flex-row gap-6">
+                                <div class="w-full sm:w-1/2 flex flex-col gap-3">
+                                    <div>
+                                        <p class="font-medium font-dm-sans antialiased mb-2 text-black text-base">Nama Lengkap</p>
+                                        <div class="relative w-full text-black">
+                                            <el-input v-model="inputName" type="text"  placeholder="Tuliskan nama lengkap anda" size="large" ></el-input>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <p  class="font-medium font-dm-sans antialiased mb-2 text-black text-base">Nomor Handphone (Whatsapp)</p>
+                                        <div class="relative w-full text-black">
+                                            <el-input v-model="inputPhone" type="text"  placeholder="Contoh: 08123456789" size="large" ></el-input>
+                                        </div>
+                                    </div>
+
+                                    <div >
+                                        <p  class="font-medium font-dm-sans antialiased mb-2 text-black text-base">Email</p>
+                                        <div  class="relative w-full  text-black ">
+                                            <el-input v-model="inputEmail" type="text"  placeholder="Tuliskan email aktif anda"  size="large" ></el-input>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
         <TheFooter />
     </main>
