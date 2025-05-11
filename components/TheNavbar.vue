@@ -261,7 +261,7 @@ const serviceItems = [
       "Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.",
     icon: "/image/navbar/icon-company-establishment.svg",
     isNew: true,
-     path:'cari-advokat'
+     path:'pendirian-badan-usaha'
   },
   {
     id: 3,
