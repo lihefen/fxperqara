@@ -270,7 +270,7 @@ const serviceItems = [
       "Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.",
     icon: "/image/navbar/icon-document-creation.svg",
     isNew: true,
-     path:'cari-advokat'
+     path:'layanan-lainnya'
   },
   {
     id: 4,
@@ -278,7 +278,7 @@ const serviceItems = [
     description: "Layanan pendaftaran Merek, Paten, Hak Cipta, dll.",
     icon: "/image/navbar/icon-haki-registration.svg",
     isNew: true,
-     path:'cari-advokat'
+     path:'/pendirian-badan-usaha'
   },
   {
     id: 5,
@@ -286,7 +286,7 @@ const serviceItems = [
     description: "Konsultasi pelaporan pajak perusahaan maupun individu.",
     icon: "/image/navbar/icon-tax-consultation.svg",
     isNew: true,
-    path:'cari-advokat'
+    path:'layanan-lainnya'
   },
 ];
 

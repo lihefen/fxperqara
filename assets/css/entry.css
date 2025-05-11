@@ -96,7 +96,14 @@
 .animate-ping-slow {
     animation: ping 2.5s cubic-bezier(0,0,.2,1) infinite
 }
-
+.space-y-4>:not([hidden])~:not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+    margin-top: calc(1rem * (1 - var(--tw-space-y-reverse)));
+}
+.bg-radial-gradient {
+    background: radial-gradient(50% 50% at 50% 50%, #07346a 0, #0a50a3);
+}
 @keyframes ping {
     75%,to {
         opacity: 0;
