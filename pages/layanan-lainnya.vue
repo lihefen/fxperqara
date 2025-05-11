@@ -293,7 +293,126 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="w-full sm:w-1/2 flex flex-col gap-3">
+                                    <div>
+                                        <label class="mb-2 block">Layanan Hukum</label>
+                                        <div class="relative z-100">
+                                            <el-select
+                                                v-model="inputHukum"
+                                                placeholder="Pilih layanan hukum"
+                                                size="large"
+                                                >
+                                                <el-option
+                                                    v-for="item in hukumOptions"
+                                                    :key="item.value"
+                                                    :label="item.label"
+                                                    :value="item.value"
+                                                />
+                                            </el-select>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                            <div class="border-b border-[#E7ECF0]"></div>
+                            <div>
+                                <label class="mb-2 block">Detail Layanan yang Dibutuhkan</label>
+                                <el-input
+                                    v-model="textareaDibutuhkan"
+                                    :rows="5"
+                                    type="textarea"
+                                    placeholder="Contoh: saya ingin mendaftarkan merek perusahaan furnitur saya"
+                                />
+                                <div class="flex items-center justify-between gap-2 text-xs">
+                                    <span class="text-[#676767]">Minimal 10 karakter</span><span class="mr-1 transform duration-300 ease-in-out -translate-y-4 opacity-0">0</span>
+                                </div>
+                            </div>
+                            <div  class="rounded-lg px-3 py-2 flex items-center gap-2 bg-[#F5FBFD] text-[#344052] text-sm">
+                                <svg  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path  d="M9 12.7506L11.25 15.0006L15 9.75058M12 2.71484C9.8495 4.75147 6.94563 6.00059 3.75 6.00059C3.69922 6.00059 3.64852 6.00028 3.59789 5.99965C3.2099 7.17976 3 8.44069 3 9.75064C3 15.3422 6.82432 20.0405 12 21.3726C17.1757 20.0405 21 15.3422 21 9.75064C21 8.44069 20.7901 7.17976 20.4021 5.99965C20.3515 6.00028 20.3008 6.00059 20.25 6.00059C17.0544 6.00059 14.1505 4.75147 12 2.71484Z" stroke="#2072B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg><span  class="flex-1">Keamanan data Anda adalah prioritas utama kami, data ini akan digunakan secara eksklusif dalam layanan Perqara.</span>
+                            </div>
+                            <button  class="text-center bg-blue-2 px-7 py-2.5 w-full text-lg text-white rounded-md shadow-gray-500 hover:bg-blue-9 transition-all ease-in-out duration-300 cursor-pointer"> Kirim </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-8 relative z-10">
+                <div class="max-w-[1280px] mx-auto px-4 xl:px-40">
+                    <div class="space-y-4">
+                        <h2 class="text-2xl md:text-3xl font-bold text-[#262E35] text-center" > Frequent Ask Question </h2>
+                        <div class="space-y-4">
+                            <el-collapse  @change="handleChange" class="rounded-xl px-4 py-3 shadow-sm flex gap-4 ">
+                                <el-collapse-item title="Consistency" name="1">
+                                    <template #title="{ isActive }">
+                                    <div :class="['title-wrapper', { 'is-active': isActive }]">
+                                        <div class="space-y-2 flex-1">
+                                            <p class="font-semibold leading-5" >Apa itu layanan hukum on-demand Perqara?</p>
+                                        </div>
+                                    </div>
+                                    </template>
+                                    <div>
+                                        <p class="font-light text-[#737373] leading-6 group-data-[active=false]:hidden" >Layanan hukum on-demand Perqara memungkinkan Anda mendapatkan bantuan hukum sesuai kebutuhan. Anda bisa mengurus perizinan usaha, registrasi hak cipta, konsultasi pajak hingga membuat dokumen hukum kapan saja dengan biaya transparan.</p>
+                                    </div>
+                                </el-collapse-item>
+                            </el-collapse>
+                        </div>
+                        <div class="space-y-4">
+                            <el-collapse  @change="handleChange" class="rounded-xl px-4 py-3 shadow-sm flex gap-4 ">
+                                <el-collapse-item title="Consistency" name="1">
+                                    <template #title="{ isActive }">
+                                    <div :class="['title-wrapper', { 'is-active': isActive }]">
+                                        <div class="space-y-2 flex-1">
+                                            <p class="font-semibold leading-5" >Apa itu layanan hukum on-demand Perqara?</p>
+                                        </div>
+                                    </div>
+                                    </template>
+                                    <div>
+                                        <p class="font-light text-[#737373] leading-6 group-data-[active=false]:hidden" >Layanan hukum on-demand Perqara memungkinkan Anda mendapatkan bantuan hukum sesuai kebutuhan. Anda bisa mengurus perizinan usaha, registrasi hak cipta, konsultasi pajak hingga membuat dokumen hukum kapan saja dengan biaya transparan.</p>
+                                    </div>
+                                </el-collapse-item>
+                            </el-collapse>
+                        </div>
+                        <div class="space-y-4">
+                            <el-collapse  @change="handleChange" class="rounded-xl px-4 py-3 shadow-sm flex gap-4 ">
+                                <el-collapse-item title="Consistency" name="1">
+                                    <template #title="{ isActive }">
+                                    <div :class="['title-wrapper', { 'is-active': isActive }]">
+                                        <div class="space-y-2 flex-1">
+                                            <p class="font-semibold leading-5" >Apa itu layanan hukum on-demand Perqara?</p>
+                                        </div>
+                                    </div>
+                                    </template>
+                                    <div>
+                                        <p class="font-light text-[#737373] leading-6 group-data-[active=false]:hidden" >Layanan hukum on-demand Perqara memungkinkan Anda mendapatkan bantuan hukum sesuai kebutuhan. Anda bisa mengurus perizinan usaha, registrasi hak cipta, konsultasi pajak hingga membuat dokumen hukum kapan saja dengan biaya transparan.</p>
+                                    </div>
+                                </el-collapse-item>
+                            </el-collapse>
+                        </div>
+                        <div class="space-y-4">
+                            <el-collapse  @change="handleChange" class="rounded-xl px-4 py-3 shadow-sm flex gap-4 ">
+                                <el-collapse-item title="Consistency" name="1">
+                                    <template #title="{ isActive }">
+                                    <div :class="['title-wrapper', { 'is-active': isActive }]">
+                                        <div class="space-y-2 flex-1">
+                                            <p class="font-semibold leading-5" >Apa itu layanan hukum on-demand Perqara?</p>
+                                        </div>
+                                    </div>
+                                    </template>
+                                    <div>
+                                        <p class="font-light text-[#737373] leading-6 group-data-[active=false]:hidden" >Layanan hukum on-demand Perqara memungkinkan Anda mendapatkan bantuan hukum sesuai kebutuhan. Anda bisa mengurus perizinan usaha, registrasi hak cipta, konsultasi pajak hingga membuat dokumen hukum kapan saja dengan biaya transparan.</p>
+                                    </div>
+                                </el-collapse-item>
+                            </el-collapse>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-8 relative z-10" >
+                <div class="max-w-[1280px] mx-auto px-4 xl:px-60" >
+                    <div class="bg-blue-2 p-4 md:px-6 md:py-2 flex flex-col md:flex-row items-center gap-3 md:gap-6 rounded-2xl" >
+                        <img src="/image/landing-page/icon-customer-service.svg" alt="" >
+                        <div class="flex flex-col md:flex-row items-center justify-between w-full text-center md:text-left gap-3" >
+                            <span class="flex-1 font-semibold text-xl md:text-2xl text-cultured" >Tidak menemukan layanan yang Anda butuhkan?</span><button class="w-full md:w-auto text-lightblack-1 font-semibold bg-white px-5 py-3 text-center rounded-md shadow" > Hubungi kami </button>
                         </div>
                     </div>
                 </div>
@@ -313,6 +432,8 @@ const inputSearch = ref('')
 const radioStatus = ref(1)
 const showLoginDialog = ref(false);
 const activeNames = ref(['1'])
+const inputHukum =ref('')
+const textareaDibutuhkan = ref('')
 const loginHandler = () => {
     console.log("loginHandler");
     showLoginDialog.value = true;
@@ -322,26 +443,14 @@ const handleChange = (val) => {
 }
 
 
-const provinsiOptions = [
+const hukumOptions = [
   {
-    value: 'ACEH',
-    label: 'ACEH',
+    value: 'Pembuatan Dokumen',
+    label: 'Pembuatan Dokumen',
   },
   {
-    value: 'SUMATERA UTARA',
-    label: 'SUMATERA UTARA',
-  },
-  {
-    value: 'SUMATERA BARAT',
-    label: 'SUMATERA BARAT',
-  },
-  {
-    value: 'RIAU',
-    label: 'RIAU',
-  },
-  {
-    value: 'JAMBI',
-    label: 'JAMBI',
+    value: 'Pendaftaran HAKI (Hak Kekayaan Intelektual)',
+    label: 'Pendaftaran HAKI (Hak Kekayaan Intelektual)',
   },
 ]
 
