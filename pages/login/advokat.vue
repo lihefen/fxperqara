@@ -68,6 +68,64 @@
                     </div>
                 </div>
             </div>
+            <div class="px-4">
+                <div class="relative rounded-xl text-center sm:px-6 sm:py-3.5 p-3 bg-blue-2 sm:w-fit mx-auto mt-12">
+                    <div class="flex md:flex-row flex-col items-center justify-center md:gap-6 gap-4 text-cultured">
+                        <span class="sm:text-2xl text-xl font-semibold">Unduh Juga Aplikasi Perqara Advokat</span>
+                        <div class="flex items-center gap-3 flex-1">
+                            <a href="https://play.google.com/store/apps/details?id=com.limaindonesia.lawyers" rel="noopener noreferrer" target="_blank">
+                                <NuxtImg
+                                    alt="android-logo"
+                                    class="sm:w-36 w-full"
+                                    src="/image/landing-page/google-logo.png" />
+
+                            </a>
+                            <a href="https://apps.apple.com/id/app/perqara-for-lawyers/id1659860332" rel="noopener noreferrer" target="_blank">
+                                <NuxtImg
+                                    alt="appstore-logo"
+                                    class="sm:w-36 w-full"
+                                    src="/image/landing-page/appstore-logo.png" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="px-4">
+                <div class="relative rounded-[30px] md:mt-10 mt-8 bg-[radial-gradient(54.51%_54.51%_at_50%_50%,#1B77E5_0%,#0A50A3_100%)] md:py-8 md:px-9 p-4 shadow-[0px_0px_16.7px_0px_#00000080] text-white w-fit mx-auto">
+                    <p class="sm:text-2xl text-xl font-semibold text-center"> Manfaat Berkonsultasi di Perqara </p>
+                    <div class="grid md:grid-cols-4 grid-cols-2 lg:gap-9 gap-3 mt-7">
+                        <div class="flex flex-col gap-2 items-center text-center md:w-[195px]">
+                            <!-- <NuxtImg
+                                class="sm:w-[75px] sm:h-[75px] w-14 h-14"
+                                src="/image/login-advocate/icon-1.svg" /> -->
+                            <p class="md:text-xl text-base font-semibold">Konsultasi Probono</p>
+                            <p class="md:text-base text-sm">Memberikan dan akses konsultasi Probono dengan mudah</p>
+                        </div>
+                        <div class="flex flex-col gap-2 items-center text-center md:w-[195px]">
+                            <!-- <NuxtImg
+                                class="sm:w-[75px] sm:h-[75px] w-14 h-14"
+                                src="/image/login-advocate/icon-3.svg" /> -->
+                            <p class="md:text-xl text-base font-semibold">Mendapatkan Klien Baru</p>
+                            <p class="md:text-base text-sm">Mendapatkan klien baru dari berbagai wilayan di Indonesia</p>
+                        </div>
+                        <div class="flex flex-col gap-2 items-center text-center md:w-[195px]">
+                            <NuxtImg
+                                class="sm:w-[75px] sm:h-[75px] w-14 h-14"
+                                src="/image/login-advocate/icon-3.svg" />
+
+
+                            <p class="md:text-xl text-base font-semibold">Mengembangkan Keahlian</p>
+                            <p class="md:text-base text-sm">Mengasah kemampuan Anda dan terhubung dengan berbagai kasus</p>
+                        </div>
+                        <div class="flex flex-col gap-2 items-center text-center md:w-[195px]">
+                            <NuxtImg
+                                class="sm:w-[75px] sm:h-[75px] w-14 h-14"
+                                src="/image/login-advocate/icon-4.svg" />
+                            <p class="md:text-xl text-base font-semibold">Memperluas Koneksi</p><p class="md:text-base text-sm">Advokat Perqara terhubung dan terkoneksi dari seluruh Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>
