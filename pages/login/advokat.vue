@@ -126,6 +126,39 @@
                     </div>
                 </div>
             </div>
+
+            <div class="bg-[linear-gradient(89.79deg,#1C2E7F_21.98%,#0A50A3_81.66%)] mt-20">
+                <div class="container max-w-[1280px] xl:px-40 mx-auto sm:py-6 p-4 flex sm:flex-row flex-col items-center justify-between gap-y-8 sm:text-left text-center">
+                    <div>
+                        <NuxtImg
+                            class="w-32 mx-auto sm:mx-0"
+                            src="/image/logo-perqara-advocate-white.svg" />
+
+                        <div class="grid gap-1 text-sm leading-3 mt-1.5 text-white">
+                            <span>PT Lima Ventura Indonesia, Senopati Jakarta</span><span>© 2025 Perqara. Hak Cipta Dilindungi</span>
+                        </div>
+                    </div>
+                    <div class="text-sm text-white">
+                        <span>Unduh Perqara Advokat</span>
+                        <div class="flex items-center gap-4 mt-2">
+                            <a href="https://play.google.com/store/apps/details?id=com.limaindonesia.lawyers" rel="noopener noreferrer" target="_blank">
+                                <NuxtImg
+                                    alt="android-logo"
+                                    class="sm:w-36 w-full"
+                                    src="/image/landing-page/google-logo.png" />
+
+                            </a>
+                            <a href="https://apps.apple.com/id/app/perqara-for-lawyers/id1659860332" rel="noopener noreferrer" target="_blank">
+                                <NuxtImg
+                                    alt="appstore-logo"
+                                    class="sm:w-36 w-full"
+                                    src="/image/landing-page/appstore-logo.png" />
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>
