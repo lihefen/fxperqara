@@ -4,7 +4,7 @@
  * @Author: hean
  * @Date: 2025-05-08 23:42:04
  * @LastEditors: hean
- * @LastEditTime: 2025-05-09 00:45:08
+ * @LastEditTime: 2025-05-13 00:26:43
 -->
 
 <template>
@@ -40,23 +40,9 @@
                     </div>
                     </div>
                 </div>
-            
-                <div id="founder-coFounder">
-                    <div class="flex flex-col">
-                        <p class="font-dm-sans font-bold antialiased text-2xl text-center mb-8"> Life at <span  class="text-[#2072B8]">Perqara</span></p>
-                        <Swiper
-                            :slides-per-view="isMobile ? 1 : 2"
-                            :space-between="50"
-                            :pagination="pagination"
-                            :modules="[Pagination, Autoplay, Navigation]"
-                            @swiper="onSwiper"
-                            @slide-change="onSlideChange"
-                        >
-                            <SwiperSlide v-for="item in items" :key="item.id">
-                                <NuxtImg alt="lifeatperqara-image" class="w-full rounded-2xl" src="/image/about-us/lifeatperqara-content2.png" />
-                            </SwiperSlide>
-                        </Swiper>
-                    </div>
+                
+                <div id="life-at-perqara">
+                    <p class="font-dm-sans font-bold antialiased text-2xl text-center mb-8"> Life at <span class="text-[#2072B8]">Perqara</span></p>
                 </div>
 
                 <div id="career" class="mt-14">

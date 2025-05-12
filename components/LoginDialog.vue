@@ -4,7 +4,7 @@
  * @Author: hean
  * @Date: 2025-05-10 15:14:40
  * @LastEditors: hean
- * @LastEditTime: 2025-05-10 17:44:49
+ * @LastEditTime: 2025-05-13 00:15:26
 -->
 <template>
    
@@ -34,7 +34,7 @@
                             <div class="pt-8 lg:pt-10">
                                 <p class="font-medium font-dm-sans antialiased mb-2 text-black text-base">Nomor Ponsel atau Email</p>
                                 <div class="relative w-full ">
-                                    <el-input v-model="inputEmail" type="text" placeholder="email@email.com atau 0813302938***" ></el-input>
+                                    <el-input v-model="inputEmail" type="text" size="large" placeholder="email@email.com atau 0813302938***" ></el-input>
                                 </div>
                             </div>
 
@@ -47,6 +47,7 @@
                                             type="password"
                                             placeholder="Contoh: Abc1*"
                                             show-password
+                                            size="large" 
                                         />
                                         <div class="absolute right-3 top-1/2 transform -translate-y-1/2 cursor-pointer">
                                         </div>
