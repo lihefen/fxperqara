@@ -260,6 +260,7 @@ const onSwiper = (newSwiper) => {
 };
 
 const onSlideChange = () => {
+  console.log(swiperRef.value.isEnd);
   activeIndex.value = swiperRef.value.activeIndex;
   isEnd.value = swiperRef.value.isEnd;
 };

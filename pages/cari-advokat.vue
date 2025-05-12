@@ -147,6 +147,7 @@
                         </div>
                     </div>
                     <div class="lg:col-span-2">
+                        <CariSwiper />
                         <div class="mb-4">
                             <div>
                                 <div class="cursor-pointer relative font-lexend min-w-[328px] max-h-[239px] mb-4">
@@ -214,7 +215,11 @@
 
 <script setup>
 import { ref ,defineEmits} from "vue";
+import CariSwiper from "~/components/CariSwiper.vue";
+
 const inputSearch = ref('')
+const inputCity = ref('')
+const checked1 = ref(false)
 const radioStatus = ref(1)
 const showLoginDialog = ref(false);
 const loginHandler = () => {
