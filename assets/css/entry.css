@@ -155,3 +155,8 @@
         padding-top: 241px;
     }
 }
+@media (min-width: 768px) {
+    .md\:pt-40 {
+        padding-top: 10rem;
+    }
+}

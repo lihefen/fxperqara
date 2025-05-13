@@ -231,7 +231,7 @@ const menuItems = [
   {
     id: 2,
     title: "Tentang Kami",
-    path: "kami",
+    path: "tentang-kami",
   },
   {
     id: 3,

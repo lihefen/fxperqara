@@ -4,7 +4,7 @@
  * @Author: hean
  * @Date: 2025-05-08 22:07:22
  * @LastEditors: hean
- * @LastEditTime: 2025-05-08 23:43:49
+ * @LastEditTime: 2025-05-13 00:10:39
 -->
 <!--
  * @Description: 
@@ -17,6 +17,11 @@
 <template>
   <section id="story" class="xl:px-40 md:-mt-32 xl:-mt-32">
     <div class="bg-[#F5FBFD] rounded-2xl mt-4 relative">
+        <img class="absolute top-10 right-0 hidden md:block" src="/image/about-us/ornament-story-right.svg" alt="story-ornament-right" >
+        <img class="absolute top-80 left-0 hidden md:block" src="/image/about-us/ornament-story-left.svg" alt="story-ornament-left" >
+        <div class="md:flex md:justify-center md:pt-40 p-4" >
+            <p class="text-2xl md:text-3xl text-gray-900 font-bold antialiased mb-4 text-center md:w-2/3" > Tercipta karena <span class="text-blue-2" >minimnya akses</span> terhadap bantuan hukum. </p>
+        </div>
         <div id="laptop-story" class="hidden md:block md:pb-8 md:px-4 xl:pb-20 xl:px-20 relative">
             <div >
                 <div class="flex justify-center gap-4 max-w-[880px] w-full mx-auto items-start">
