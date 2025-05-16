@@ -4,7 +4,7 @@
  * @Author: hean
  * @Date: 2025-05-07 23:27:22
  * @LastEditors: hean
- * @LastEditTime: 2025-05-13 10:35:16
+ * @LastEditTime: 2025-05-14 14:12:32
  */
 import tailwindcss from "@tailwindcss/vite";
 
@@ -18,9 +18,22 @@ export default defineNuxtConfig({
         "~/assets/css/entry.css",
         "@fortawesome/fontawesome-svg-core/styles.css",
     ],
-    modules: ["@nuxt/eslint", "@nuxt/image", "@nuxt/ui",'@element-plus/nuxt',],
+    modules: ["@nuxt/eslint", "@nuxt/image", "@nuxt/ui",'@element-plus/nuxt'],
     vite: {
         plugins: [tailwindcss()],
+    },
+    nitro: {
+        devProxy:{
+            "/proxyDev":{
+                target: 'http://wealthwapt1.jirongyunke.net',
+                changeOrigin: true,
+                prependPath: true,
+            }
+        }
+    },
+    devServer: {
+        port: 5000, // 你可以选择一个未被占用的端口
+        host: 'http://g.jirongyunke.net'
     },
     image: {
         // 配置图片服务
