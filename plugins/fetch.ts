@@ -25,7 +25,7 @@ export default defineNuxtPlugin(nuxtApp => {
             ? config.public.prodApiBase
             : config.public.devApiBase
     } else {
-        // 服务器端强制使用生产环境 URL
+        // SSG 模式下，服务器端使用生产环境 URL
         baseURL = config.public.prodApiBase
     }
 

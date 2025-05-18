@@ -32,7 +32,7 @@ export default defineNuxtPlugin((nuxtApp) => {
   // 创建 axios 实例
   const axiosInstance = axios.create({
     baseURL,
-    timeout: 10000, // 可根据需要调整
+    timeout: 10000, 
     headers: {
       'Content-Type': 'application/json',
     },
