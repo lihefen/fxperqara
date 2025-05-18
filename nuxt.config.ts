@@ -45,4 +45,16 @@ export default defineNuxtConfig({
     ui: {
         fonts: false,
     },
+      // 运行时配置
+  runtimeConfig: {
+    // 在客户端也可用的公共配置
+    public: {
+      // 开发环境 API 地址
+      devApiBase: 'http://localhost:8000/api',
+      // 生产环境 API 地址
+      prodApiBase: 'https://api.yourdomain.com/api',
+      // 当前环境（可以在 Cloudflare 环境变量中设置）
+      env: 'development'
+    }
+  },
 });
