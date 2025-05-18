@@ -25,15 +25,18 @@ export default defineNuxtConfig({
     nitro: {
         devProxy:{
             "/proxyDev":{
-                target: 'http://wealthwapt1.jirongyunke.net',
+                target: 'xxxx',
                 changeOrigin: true,
                 prependPath: true,
             }
         }
     },
+    alias: {
+        // services: "/<rootDir>/services",
+    },
     devServer: {
         port: 5000, // 你可以选择一个未被占用的端口
-        host: 'http://g.jirongyunke.net'
+        host: 'http://g.test.net'
     },
     image: {
         // 配置图片服务

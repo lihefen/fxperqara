@@ -14,13 +14,11 @@
 
 <script setup>
 import { ref} from "vue";
-console.log(useNuxtApp())
-const {$request} = useNuxtApp()
-console.log($request)
+import { info } from '~/services/info';
+
 
 const testRequest =  async() => {
-    const res = await $request.get('/proxyDev/ter-fin-wealth/wap/account/info')
-    console.log(res)
+    const res = await info()
 }
 testRequest()
 const showLoginDialog = ref(false);
