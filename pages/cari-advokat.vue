@@ -33,7 +33,7 @@
                                 size="large"
                             >
                                 <template #suffix>
-                                    <NuxtImg
+                                    <img
                                     alt="icon-search"
                                     class="w-6 h-6"
                                     src="/image/utils/icon-search.png" />
@@ -43,7 +43,7 @@
                     </div>
                     <div class="relative basis-1/6 bg-white border border-blue-2 lg:hidden rounded-md flex justify-center items-center">
                         <button class="w-6 h-6">
-                            <NuxtImg
+                            <img
                                 alt="icon-filter"
                                 class="w-6 h-6"
                                 src="/image/utils/icon-filter.png" />
@@ -159,7 +159,7 @@
                                                 <div class="relative h-fit">
                                                     <img src="/image/photo/photo_1722932861.jpeg" class="min-w-[62px] w-[62px] md:w-[80px] max-w-[80px] min-h-[80px] h-[80px] md:h-[123px] max-h-[123px] rounded-md md:rounded-lg md:ml-1 object-cover border border-[#E7ECF0]">
                                                     <div id="tagging-video-voice-call" class="absolute bottom-0 bg-gradient-to-r from-[#52BEE7] to-[#1C2E7F] min-w-[62px] w-[62px] md:w-[90px] max-w-[90px] flex items-center justify-center gap-1 py-1 px-2 md:py-2 md:px-3 rounded-md md:rounded-lg">
-                                                        <NuxtImg
+                                                        <img
                                                         alt="ivideo-icon"
                                                         class="w-2 md:w-4"
                                                         src="/image/lawyer-card/video-icon.png" />
@@ -172,14 +172,14 @@
                                                     </div>
                                                     <div class="flex gap-1 text-xs md:text-sm items-center">
                                                         <div class="flex gap-1 items-center">
-                                                            <NuxtImg
+                                                            <img
                                                                 alt="location"
                                                                 class="w-4 h-4"
                                                                 src="/image/landing-page/icon-location.png" />
                                                             <span class="text-[#4D5B6A] capitalize">bogor</span>
                                                         </div>
                                                         <div class="border-l h-2/3 border-gray-500"></div><div class="flex gap-1 flex-1">
-                                                            <NuxtImg
+                                                            <img
                                                                 alt="medal-star"
                                                                 class="w-4 h-4"
                                                                 src="/image/landing-page/icon-medal-star.png" />

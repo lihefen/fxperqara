@@ -19,7 +19,7 @@
                                 <h1 class="text-[#1C232D] text-2xl sm:text-4xl font-semibold mb-4" > Life at <span class="text-steelBlue" >Perqara</span></h1>
                                 <p class="text-sm text-[#3A475B] sm:inline-block hidden" > Temukan karir impianmu di Perqara! </p>
                             </div>
-                            <NuxtImg
+                            <img
                                 alt="header"
                                 class="w-full sm:mt-8 mt-0"
                                 src="/image/career-page/header.png" />
@@ -35,22 +35,22 @@
 
                             <div class="md:mt-32 sm:mt-10 mt-8" >
                                 <div class="grid sm:grid-cols-3 grid-cols-2 sm:gap-4 gap-2" ><!--[-->
-                                    <NuxtImg
+                                    <img
                                         class="sm:w-[256px] sm:h-[168.26px] object-cover rounded-xl w-full self-end justify-self-end"
                                         src="/image/career-page/img-1.png" />
-                                    <NuxtImg
+                                    <img
                                         class="sm:w-[352px] w-full"
                                         src="/image/career-page/img-2.png" />
-                                    <NuxtImg
+                                    <img
                                         class="sm:w-[256px] w-full self-end" 
                                         src="/image/career-page/img-3.png" />
-                                    <NuxtImg
+                                    <img
                                        class="sm:w-[256px] sm:h-[150.41px] object-cover rounded-xl w-full self-start justify-self-end"
                                         src="/image/career-page/img-4.png" />
-                                    <NuxtImg
+                                    <img
                                        class="sm:w-[352px] w-full"
                                         src="/image/career-page/img-5.png" />
-                                    <NuxtImg
+                                    <img
                                         class="sm:w-[256px] w-full"
                                         src="/image/career-page/img-6.png" />
                                 </div>
@@ -254,13 +254,13 @@
                                     </div>
                                     <div class="flex items-center md:justify-start justify-center gap-2">
                                         <a href="https://apps.apple.com/id/app/perqara/id6443946589" rel="noopener noreferrer" target="_blank">
-                                            <NuxtImg
+                                            <img
                                                 alt="appstore-logo"
                                                 class="md:w-36 w-full"
                                                 src="/image/landing-page/appstore-logo.png" />
                                         </a>
                                         <a href="https://play.google.com/store/apps/details?id=com.limaindonesia.perqara" rel="noopener noreferrer" target="_blank">
-                                            <NuxtImg
+                                            <img
                                                 alt="android-logo"
                                                 class="md:w-36 w-full"
                                                 src="/image/landing-page/google-logo.png" />

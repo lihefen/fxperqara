@@ -45,7 +45,7 @@
             </svg>
           </button>
           <router-link to="/" class="flex-shrink-0">
-            <NuxtImg
+            <img
               src="/image/logo-perqara.svg"
               width="140"
               alt="Perqara Logo"
@@ -97,7 +97,7 @@
                       :href="service.path"
                       class="flex gap-2 p-2 hover:bg-gray-50 rounded-lg items-center"
                     >
-                      <NuxtImg
+                      <img
                         :src="service.icon"
                         width="32"
                         height="32"
@@ -185,7 +185,7 @@
                 class="flex items-center gap-2 p-3"
               >
                 <div>
-                  <NuxtImg
+                  <img
                     :src="service.icon"
                     width="32"
                     height="32"

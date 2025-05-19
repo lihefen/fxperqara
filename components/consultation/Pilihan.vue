@@ -67,7 +67,7 @@
                         id="tagging-video-voice-call"
                         class="absolute bottom-0 bg-gradient-to-r from-[#52BEE7] to-[#1C2E7F] min-w-[62px] w-[62px] flex items-center justify-center gap-1 py-1 px-2 rounded-md"
                       >
-                        <NuxtImg
+                        <img
                           alt="video-icon"
                           class="w-2"
                           src="/image/landing-page/video-icon.png"
@@ -88,7 +88,7 @@
                       </div>
                       <div class="flex gap-1 text-xs items-center">
                         <div class="flex gap-1 items-center">
-                          <NuxtImg
+                          <img
                             alt="location"
                             class="w-4 h-4"
                             src="/image/landing-page/icon-location.png"
@@ -98,7 +98,7 @@
                         </div>
                         <div class="border-l h-2/3 border-gray-500"></div>
                         <div class="flex gap-1 flex-1">
-                          <NuxtImg
+                          <img
                             class="w-4 h-4"
                             src="/image/landing-page/icon-medal-star.png"
                             alt="medal-star"

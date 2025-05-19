@@ -10,12 +10,12 @@
     <div class="bg-cultured font-dm-sans min-h-screen">
         <div class="relative bg-[#10172A] min-h-screen">
             <div class="absolute top-0 left-0 w-full z-0 ease-in-out transition-opacity">
-                <NuxtImg
+                <img
                     class="w-full h-auto"
                     src="/image/login-advocate/img-2.jpeg" />
             </div>
             <a aria-current="page" href="/login/advokat" class="router-link-active router-link-exact-active">
-                <NuxtImg
+                <img
                     class="absolute z-10 top-4 left-1/2 transform -translate-x-1/2 sm:w-[200px] w-[155px]" 
                     src="/image/logo-perqara-advocate-white.svg" />
             </a>
@@ -74,14 +74,14 @@
                         <span class="sm:text-2xl text-xl font-semibold">Unduh Juga Aplikasi Perqara Advokat</span>
                         <div class="flex items-center gap-3 flex-1">
                             <a href="https://play.google.com/store/apps/details?id=com.limaindonesia.lawyers" rel="noopener noreferrer" target="_blank">
-                                <NuxtImg
+                                <img
                                     alt="android-logo"
                                     class="sm:w-36 w-full"
                                     src="/image/landing-page/google-logo.png" />
 
                             </a>
                             <a href="https://apps.apple.com/id/app/perqara-for-lawyers/id1659860332" rel="noopener noreferrer" target="_blank">
-                                <NuxtImg
+                                <img
                                     alt="appstore-logo"
                                     class="sm:w-36 w-full"
                                     src="/image/landing-page/appstore-logo.png" />
@@ -95,21 +95,21 @@
                     <p class="sm:text-2xl text-xl font-semibold text-center"> Manfaat Berkonsultasi di Perqara </p>
                     <div class="grid md:grid-cols-4 grid-cols-2 lg:gap-9 gap-3 mt-7">
                         <div class="flex flex-col gap-2 items-center text-center md:w-[195px]">
-                            <NuxtImg
+                            <img
                                 class="sm:w-[75px] sm:h-[75px] w-14 h-14"
                                 src="/image/login-advocate/icon-1.svg" />
                             <p class="md:text-xl text-base font-semibold">Konsultasi Probono</p>
                             <p class="md:text-base text-sm">Memberikan dan akses konsultasi Probono dengan mudah</p>
                         </div>
                         <div class="flex flex-col gap-2 items-center text-center md:w-[195px]">
-                            <NuxtImg
+                            <img
                                 class="sm:w-[75px] sm:h-[75px] w-14 h-14"
                                 src="/image/login-advocate/icon-3.svg" />
                             <p class="md:text-xl text-base font-semibold">Mendapatkan Klien Baru</p>
                             <p class="md:text-base text-sm">Mendapatkan klien baru dari berbagai wilayan di Indonesia</p>
                         </div>
                         <div class="flex flex-col gap-2 items-center text-center md:w-[195px]">
-                            <NuxtImg
+                            <img
                                 class="sm:w-[75px] sm:h-[75px] w-14 h-14"
                                 src="/image/login-advocate/icon-3.svg" />
 
@@ -118,7 +118,7 @@
                             <p class="md:text-base text-sm">Mengasah kemampuan Anda dan terhubung dengan berbagai kasus</p>
                         </div>
                         <div class="flex flex-col gap-2 items-center text-center md:w-[195px]">
-                            <NuxtImg
+                            <img
                                 class="sm:w-[75px] sm:h-[75px] w-14 h-14"
                                 src="/image/login-advocate/icon-4.svg" />
                             <p class="md:text-xl text-base font-semibold">Memperluas Koneksi</p><p class="md:text-base text-sm">Advokat Perqara terhubung dan terkoneksi dari seluruh Indonesia</p>
@@ -130,7 +130,7 @@
             <div class="bg-[linear-gradient(89.79deg,#1C2E7F_21.98%,#0A50A3_81.66%)] mt-20">
                 <div class="container max-w-[1280px] xl:px-40 mx-auto sm:py-6 p-4 flex sm:flex-row flex-col items-center justify-between gap-y-8 sm:text-left text-center">
                     <div>
-                        <NuxtImg
+                        <img
                             class="w-32 mx-auto sm:mx-0"
                             src="/image/logo-perqara-advocate-white.svg" />
 
@@ -142,14 +142,14 @@
                         <span>Unduh Perqara Advokat</span>
                         <div class="flex items-center gap-4 mt-2">
                             <a href="https://play.google.com/store/apps/details?id=com.limaindonesia.lawyers" rel="noopener noreferrer" target="_blank">
-                                <NuxtImg
+                                <img
                                     alt="android-logo"
                                     class="sm:w-36 w-full"
                                     src="/image/landing-page/google-logo.png" />
 
                             </a>
                             <a href="https://apps.apple.com/id/app/perqara-for-lawyers/id1659860332" rel="noopener noreferrer" target="_blank">
-                                <NuxtImg
+                                <img
                                     alt="appstore-logo"
                                     class="sm:w-36 w-full"
                                     src="/image/landing-page/appstore-logo.png" />

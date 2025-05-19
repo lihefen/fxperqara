@@ -18,7 +18,7 @@ export default defineNuxtConfig({
         "~/assets/css/entry.css",
         "@fortawesome/fontawesome-svg-core/styles.css",
     ],
-    modules: ["@nuxt/eslint", "@nuxt/image", "@nuxt/ui",'@element-plus/nuxt'],
+    modules: ["@nuxt/eslint", "@nuxt/ui",'@element-plus/nuxt'],
     vite: {
         plugins: [tailwindcss()],
     },
@@ -38,23 +38,7 @@ export default defineNuxtConfig({
         port: 5000, // 你可以选择一个未被占用的端口
         host: 'http://g.test.net'
     },
-    image: {
-        // 配置图片服务
-        provider: "ipx", // 或其他提供商
-    },
     ui: {
         fonts: false,
     },
-      // 运行时配置
-  runtimeConfig: {
-    // 在客户端也可用的公共配置
-    public: {
-      // 开发环境 API 地址
-      devApiBase: 'http://localhost:8000/api',
-      // 生产环境 API 地址
-      prodApiBase: 'https://api.yourdomain.com/api',
-      // 当前环境（可以在 Cloudflare 环境变量中设置）
-      env: 'development'
-    }
-  },
 });

@@ -15,7 +15,7 @@
             <section id="top-navigation" class="py-5 px-6 w-full md:px-10 lg:px-0 bg-transparent md:hidden">
                 <div class="flex items-center">
                     <button>
-                        <NuxtImg
+                        <img
                             alt="arrow"
                             src="/image/back-arrow.png" />
                     </button>

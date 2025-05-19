@@ -30,7 +30,7 @@
                         </div>
                         <button  class="hidden md:inline-block bg-blue-2 px-16 py-2.5 w-full md:w-fit md:text-lg text-white rounded-md shadow-gray-500 hover:bg-blue-9 transition-all ease-in-out duration-300 cursor-pointer"> Lihat Layanan </button>
                     </div>
-                    <NuxtImg
+                    <img
                         alt="img-hero-service-page"
                         src="/image/landing-page/img-hero-service-page.png" />
 
@@ -104,7 +104,7 @@
                 <div class="max-w-[1280px] mx-auto px-4 xl:px-40">
                     <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
                         <div class="relative w-full md:w-1/2">
-                            <NuxtImg
+                            <img
                             alt="img-legal-consultation"
                             class="w-full"
                             src="/image/landing-page/img-legal-consultation.png" />
@@ -151,7 +151,7 @@
                             <button  class="bg-blue-2 px-5 py-3 w-full text-center md:w-fit text-white rounded-md shadow-gray-500 hover:bg-blue-9 transition-all ease-in-out duration-300 cursor-pointer"> Ajukan Sekarang </button>
                         </div>
                         <div  class="relative w-full md:w-1/2">
-                            <NuxtImg
+                            <img
                                 alt="iimg-company-services"
                                 class="w-full"
                                 src="/image/landing-page/img-company-services.png" />
@@ -165,7 +165,7 @@
                 <div class="max-w-[1280px] mx-auto px-4 xl:px-40">
                     <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
                         <div  class="relative w-full md:w-1/2">
-                            <NuxtImg
+                            <img
                                 alt="img-document-creation"
                                 class="w-full"
                                 src="/image/landing-page/img-document-creation.png" />
@@ -215,7 +215,7 @@
                         <button  class="bg-blue-2 px-5 py-3 w-full text-center md:w-fit text-white rounded-md shadow-gray-500 hover:bg-blue-9 transition-all ease-in-out duration-300 cursor-pointer"> Daftarkan Sekarang </button>
                     </div>
                     <div  class="relative w-full md:w-1/2">
-                        <NuxtImg
+                        <img
                             alt="img-hero-service-page"
                             class="w-full"
                             src="/image/landing-page/img-haki-registration.png" />
@@ -228,7 +228,7 @@
                 <div class="max-w-[1280px] mx-auto px-4 xl:px-40">
                     <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
                         <div class="relative w-full md:w-1/2">
-                            <NuxtImg
+                            <img
                                 alt="img-tax-consultation"
                                 class="w-full"
                                 src="/image/landing-page/img-tax-consultation.png" />

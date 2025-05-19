@@ -15,20 +15,12 @@
 <script setup>
 import { ref} from "vue";
 import { info } from '~/services/info';
-const { $customAxios } = useNuxtApp()
-const {$customFetch} = useNuxtApp()
+
+
 const testRequest =  async() => {
-    const res = await $customAxios('/users',{
-    method:'GET'
-    })
-    console.log(res)
+    const res = await info()
 }
 testRequest()
-const testFetch = async() => {
-    const res = await $customFetch('/users')
-    console.log(res)
-}
-testFetch()
 const showLoginDialog = ref(false);
 const loginHandler = () => {
     console.log("loginHandler");

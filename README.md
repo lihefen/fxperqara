@@ -1,5 +1,10 @@
 # Nuxt Minimal Starter
 
+yarn generate  
+
+npx serve .output/public
+
+
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup

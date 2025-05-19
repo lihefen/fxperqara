@@ -45,7 +45,7 @@
                                     Daftarkan Badan Usaha </span></button>
                         </div>
                         <div>
-                            <NuxtImg alt="img-hero" class="w-full" src="/image/notary/img-hero.png" />
+                            <img alt="img-hero" class="w-full" src="/image/notary/img-hero.png" />
                         </div>
                         <button type="button"
                             class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 w-full flex justify-center items-center px-4.5 py-2.5 md:text-lg bg-blue-2 text-white hover:bg-blue-9 rounded-lg lg:hidden font-semibold"><span>
@@ -388,8 +388,8 @@
                 <section id="faqs" class="py-6 md:py-12 bg-[#E5F6FF]">
                     <div class="relative z-10 max-w-[1280px] mx-auto px-4 xl:px-40">
                         <div class="flex items-center justify-center gap-4">
-                            <NuxtImg alt="img-faq" class="w-1/3 lg:w-[35%] md:block hidden"
-                                src="image/notary/img-faq.png" />
+                            <img alt="img-faq" class="w-1/3 lg:w-[35%] md:block hidden"
+                                src="/image/notary/img-faq.png" />
                             <div class="space-y-4">
                                 <h6 class="font-bold text-xl md:text-3xl text-center"> Masih Ada Pertanyaan? </h6>
                                 <div class="space-y-4">

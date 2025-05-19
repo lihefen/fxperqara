@@ -14,10 +14,10 @@
           class="relative rounded-lg p-3 bg-gradient-to-r from-white to-[#D9F5FF] font-semibold flex gap-2 items-center"
         >
           <div class="flex items-center gap-2 flex-1">
-            <NuxtImg
+            <img
               alt="logo"
               class="w-12 h-12"
-              src="image/FindYourLawyer/logo-banner.png"
+              src="/image/FindYourLawyer/logo-banner.png"
             />
             <div>
               <p

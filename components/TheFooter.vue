@@ -12,7 +12,7 @@
                 href="https://apps.apple.com/id/app/perqara/id6443946589"
                 rel="noopener noreferrer"
                 target="_blank"
-                ><NuxtImg
+                ><img
                   alt="appstore-logo"
                   class="w-36"
                   src="/image/landing-page/appstore-logo.png" /></a
@@ -20,7 +20,7 @@
                 href="https://play.google.com/store/apps/details?id=com.limaindonesia.perqara"
                 rel="noopener noreferrer"
                 target="_blank"
-                ><NuxtImg
+                ><img
                   alt="android-logo"
                   class="w-36"
                   src="/image/footer/google-logo.png"
@@ -30,15 +30,15 @@
               Mitra Kami
             </p>
             <div class="grid grid-cols-3 gap-2 mt-3">
-              <NuxtImg
+              <img
                 class="w-32"
                 src="/image/peradi-footer.png"
                 alt="peradi-footer"
-              /><NuxtImg
+              /><img
                 class="w-32"
                 src="/image/ylc-footer.png"
                 alt="peradi-footer"
-              /><NuxtImg
+              /><img
                 class="w-32"
                 src="/image/pbh-footer.png"
                 alt="peradi-footer"
@@ -199,7 +199,7 @@
                   </p>
                   <div class="flex justify-center lg:justify-start">
                     <a href="/login/advokat" class="mt-2 w-1/2"
-                      ><NuxtImg
+                      ><img
                         class=""
                         src="/image/registerLawyer-logo.png"
                         alt="register-lawyer"
@@ -325,7 +325,7 @@
             </p>
             <div class="flex justify-center">
               <a href="/login/advokat" class="mt-2 w-1/2"
-                ><NuxtImg
+                ><img
                   class=""
                   src="/image/registerLawyer-logo.png"
                   alt="register-lawyer"

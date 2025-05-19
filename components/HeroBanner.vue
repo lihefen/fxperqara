@@ -4,7 +4,7 @@
     <div class="max-w-[1280px] px-4 xl:px-40 mx-auto relative z-10">
       <div class="flex md:flex-row flex-col justify-between">
         <div class="mt-16">
-          <NuxtImg
+          <img
             sizes="(max-width: 768px) 276px, 384px"
             class="mx-auto"
             src="/image/landing-page/hero-bebas-konsultasi.png"
@@ -62,7 +62,7 @@
           </div>
         </div>
         <div class="md:mx-0 mx-auto md:mt-16 mt-6">
-          <NuxtImg
+          <img
             sizes="(max-width: 640px) 248px, 525px"
             src="/image/landing-page/hero-picture-video-call.png"
           />

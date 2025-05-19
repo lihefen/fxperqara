@@ -10,18 +10,18 @@
 <template>
     <section class="xl:px-32">
         <div class="bg-linear-gradient px-8 lg:py-8 -mt-10 rounded-3xl lg:rounded-[51px] relative">
-            <NuxtImg class="absolute -top-40 -left-10 md:w-3/5 xl:-top-52 md:-left-24" src="/image/about-us/ornament-founder-left.png" alt="left-ornament" />
+            <img class="absolute -top-40 -left-10 md:w-3/5 xl:-top-52 md:-left-24" src="/image/about-us/ornament-founder-left.png" alt="left-ornament" />
     
-            <NuxtImg class="absolute hidden md:block md:w-1/2 md:-top-32 md:right-8 xl:right-32" src="/image/about-us/ornament-founder-right.png" alt="right-ornament" />
-            <NuxtImg class="absolute hidden md:block md:top-36 md:right-8 md:w-2/3" src="/image/about-us/rectangle-founder.png" alt="rectangle-ornament" />
-            <NuxtImg class="absolute top-80 right-0 md:hidden" src="/image/about-us/rectangle-founder-mobile.svg" alt="rectangle-ornament" />
-            <NuxtImg class="absolute bottom-0 left-0 hidden md:block md:w-1/3" src="/image/about-us/ornament-founder-bottom.svg" alt="ornament-bottom"  />
+            <img class="absolute hidden md:block md:w-1/2 md:-top-32 md:right-8 xl:right-32" src="/image/about-us/ornament-founder-right.png" alt="right-ornament" />
+            <img class="absolute hidden md:block md:top-36 md:right-8 md:w-2/3" src="/image/about-us/rectangle-founder.png" alt="rectangle-ornament" />
+            <img class="absolute top-80 right-0 md:hidden" src="/image/about-us/rectangle-founder-mobile.svg" alt="rectangle-ornament" />
+            <img class="absolute bottom-0 left-0 hidden md:block md:w-1/3" src="/image/about-us/ornament-founder-bottom.svg" alt="ornament-bottom"  />
             <div  class="relative z-10">
                 <div id="founder-coFounder" class="mt-10 md:flex md:justify-around md:gap-4">
                     <div id="founder-coFounder1">
                         <div  class="flex flex-col">
                             <div  id="wrap-image" class="flex justify-center">
-                                <NuxtImg class="w-32 md:w-44" src="/image/about-us/founder.svg" alt="0" />
+                                <img class="w-32 md:w-44" src="/image/about-us/founder.svg" alt="0" />
                             </div>
                             <p class="font-dm-sans font-bold antialiased text-center mt-2">Yakup Hasibuan</p>
                             <p class="font-dm-sans antialiased text-center text-[#737373] text-sm md:text-base mt-1">Founder &amp; CEO Perqara</p>
@@ -32,7 +32,7 @@
                     </div>
                     <div id="founder-coFounder2">
                         <div  class="flex flex-col"><div  id="wrap-image" class="flex justify-center">
-                            <NuxtImg class="w-32 md:w-44" src="/image/about-us/co-founder.svg" alt="1" />
+                            <img class="w-32 md:w-44" src="/image/about-us/co-founder.svg" alt="1" />
                         </div>
                         <p class="font-dm-sans font-bold antialiased text-center mt-2">Sebastian Simanjuntak</p><p class="font-dm-sans antialiased text-center text-[#737373] text-sm md:text-base mt-1">Co-Founder &amp; COO Perqara</p>
                         <div class="flex justify-center"><p  class="font-dm-sans text-gray-700 text-xs md:text-sm antialiased mt-2 md:w-72">Dengan berbagai pengalaman dan jenjang karir baik di Indonesia maupun Eropa, Sebastian telah sukses memimpin Perqara sejak awal didirikan. Ia merupakan seorang profesional dengan pengalaman yang signifikan di bidang keuangan, Supply Chain Management (SCM), dan teknologi.</p>
@@ -47,7 +47,7 @@
 
                 <div id="career" class="mt-14">
                     <div  class="gradient-box rounded-lg relative h-auto md:hidden">
-                        <NuxtImg  class="rounded-lg w-full" src="/image/about-us/ornament-career.png" alt="ornament" />
+                        <img  class="rounded-lg w-full" src="/image/about-us/ornament-career.png" alt="ornament" />
                         
                         <div class="font-dm-sans antialiased absolute pl-6 pr-7 py-3 top-0">
                             <p  class="text-2xl text-white font-bold"> Bergabung Bersama Kami! </p>
@@ -57,7 +57,7 @@
                     </div>
                 
                     <div class="gradient-box rounded-2xl relative h-auto hidden md:block w-full">
-                        <NuxtImg class="rounded-2xl object-cover w-full" src="/image/about-us/ornament-career-laptop.png" alt="ornament-laptop" />
+                        <img class="rounded-2xl object-cover w-full" src="/image/about-us/ornament-career-laptop.png" alt="ornament-laptop" />
                         <div class="font-dm-sans flex justify-between items-center w-full antialiased absolute pl-6 pr-7 top-0 xl:mt-3">
                             <div class="mt-5">
                                 <p class="text-2xl text-white font-bold"> Bergabung Bersama Kami! </p>

@@ -36,7 +36,7 @@
         href="https://play.google.com/store/apps/details?id=com.limaindonesia.perqara"
         rel="noopener noreferrer"
         target="_blank"
-        ><NuxtImg
+        ><img
           alt="android-logo"
           class="w-36"
           src="/image/landing-page/google-logo.png" /></a
@@ -44,7 +44,7 @@
         href="https://apps.apple.com/id/app/perqara/id6443946589"
         rel="noopener noreferrer"
         target="_blank"
-        ><NuxtImg
+        ><img
           alt="appstore-logo"
           class="w-36"
           src="/image/landing-page/appstore-logo.png"
