@@ -5,7 +5,7 @@
         class="bg-[linear-gradient(180deg,#F3FBFF_-8.4%,#52BEE7_131.35%)] shadow p-3 md:p-6 rounded-xl flex flex-col items-center gap-3 md:gap-6"
       >
         <h5 class="text-2xl lg:text-3xl font-bold text-center">
-          Layanan Hukum Perqara
+          Layanan Hukum LawOnGo
         </h5>
         <div
           class="flex md:flex-row md:flex-wrap flex-col gap-4 md:gap-6 w-full cursor-pointer"
@@ -24,7 +24,7 @@
               </p>
             </div>
             <p class="text-xs sm:text-sm text-[#647387]">
-              Perqara bermitra dengan Advokat-advokat terbaik yang telah
+              LawOnGo bermitra dengan Advokat-advokat terbaik yang telah
               disumpah.
             </p></a
           ><a

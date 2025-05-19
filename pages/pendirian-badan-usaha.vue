@@ -21,7 +21,7 @@
                             </li>
                             <li class="text-xs xs:text-sm !leading-5 p-2 cursor-pointer text-blue-2 transition-all duration-100"
                                 @click="scrollToId('why-choose-us')">
-                                Keunggulan Perqara </li>
+                                Keunggulan LawOnGo </li>
                             <li class="text-xs xs:text-sm !leading-5 p-2 cursor-pointer text-blue-2 transition-all duration-100"
                                 @click="scrollToId('faqs')">
                                 FAQ </li>
@@ -164,7 +164,7 @@
                 <div id="why-choose-us" class="relative z-10 max-w-[1280px] mx-auto px-4 xl:px-40">
                     <section class="space-y-3 md:space-y-8">
                         <h5 class="font-bold text-xl md:text-3xl text-center mb-6"> Mengapa mendirikan badan usaha
-                            melalui Perqara? </h5>
+                            melalui LawOnGo? </h5>
                         <div class="grid grid-cols-4 md:grid-cols-5 gap-3 md:gap-8">
                             <div
                                 class="relative bg-[linear-gradient(180deg,#012749_0%,#025DAF_100%)] overflow-hidden px-4 py-5 md:px-10 md:py-12 rounded-2xl h-full col-span-4 md:col-span-3">
@@ -172,7 +172,7 @@
                                     <br><span class="md:text-3xl">Berpengalaman</span>
                                 </h6>
                                 <p class="font-light text-white text-sm sm:text-base !leading-[18px] mt-5 w-1/2">
-                                    Perqara berkomitmen untuk memberikan layanan terbaik untuk Anda. Semua praktisi
+                                    LawOnGo berkomitmen untuk memberikan layanan terbaik untuk Anda. Semua praktisi
                                     hukum kami adalah praktisi hukum terpercaya dan berpengalaman di bidangnya. </p>
                                 <img src="/image/notary/img-experienced-legal-practitioner.png"
                                     alt="img-experienced-legal-practitioner" class="absolute right-0 bottom-0 w-1/2">
@@ -188,7 +188,7 @@
                                 <div
                                     class="p-3 md:pl-6 md:pr-10 md:pb-9 font-light text-white mt-auto text-sm relative z-10">
                                     <p>Dengan sistem OSS (Online Single Submission), pendirian badan usaha di
-                                        Perqara selesai 3x lebih cepat dari pembuatan badan usaha secara manual.</p>
+                                        LawOnGo selesai 3x lebih cepat dari pembuatan badan usaha secara manual.</p>
                                 </div>
                                 <div
                                     class="bg-white/10 rounded-[50%] w-[482px] h-[252px] absolute -bottom-20 left-1/2 -translate-x-1/2">
@@ -203,7 +203,7 @@
                                 </div>
                                 <div class="px-3 md:px-6 pb-3 md:pb-5 relative z-10 flex items-center mt-auto">
                                     <div class="font-light text-white text-sm">
-                                        <p>Dengan proses yang transparan dan biaya yang terjangkau, Perqara
+                                        <p>Dengan proses yang transparan dan biaya yang terjangkau, LawOnGo
                                             menawarkan layanan hukum yang efisien dari segi biaya maupun waktu. </p>
                                     </div>
                                     <img src="/image/notary/img-services-transparent.png" alt="img-services-transparent"
@@ -221,7 +221,7 @@
                                             class="hidden md:block"><span class="md:text-5xl">Gratis</span></h6>
                                     <p class="font-light text-sm md:text-base text-white mt-4 w-4/5"> Untuk membantu
                                         Anda dalam menganalisa kebutuhan usaha, kami menyediakan konsultasi gratis
-                                        bersama dengan Tim Perqara sebelum dan sesudah pemesanan jasa. </p>
+                                        bersama dengan Tim LawOnGo sebelum dan sesudah pemesanan jasa. </p>
                                     <img src="/image/notary/img-chat.png" alt="img-chat"
                                         class="absolute right-0 md:right-12 top-0 md:-top-4 w-20 md:w-40">
                                 </div>
@@ -248,7 +248,7 @@
                 <div id="process-notary" class="relative z-10 max-w-[1280px] mx-auto px-4 xl:px-40">
                     <section class="space-y-8">
                         <h5 class="font-bold text-xl md:text-3xl text-center"> Proses Pendirian Badan Usaha di
-                            Perqara </h5>
+                            LawOnGo </h5>
                         <div class="flex lg:flex-wrap lg:justify-center gap-6 pb-2 overflow-x-auto">
                             <div class="rounded-xl shadow-sm bg-white min-w-[220px] max-w-[304px] overflow-hidden">
                                 <div class="relative bg-[#33B1FF] overflow-hidden">
@@ -447,11 +447,11 @@ const faqList = [
     },
     {
         question: 'Bagaimana jika saya tidak tahu jenis badan usaha yang saya butuhkan?',
-        answer: `<p>Tenang saja, Sobat! Tim Perqara dapat membantu kamu dalam menentukan jenis badan usaha yang dibutuhkan. Klik <a href="https://wa.me/+6285210070904">di sini</a> untuk berbicara langsung dengan kami.</p>`
+        answer: `<p>Tenang saja, Sobat! Tim LawOnGo dapat membantu kamu dalam menentukan jenis badan usaha yang dibutuhkan. Klik <a href="https://wa.me/+6285210070904">di sini</a> untuk berbicara langsung dengan kami.</p>`
     },
     {
         question: 'Bagaimana jika saya salah mengisi informasi pada formulir pengajuan?',
-        answer: `<p>Tidak usah khawatir, Sobat! Tim Perqara akan menghubungi Anda untuk memvalidasi semua informasi yang telah diberikan pada formulir pengajuan. Tim kami akan membimbing dan mendampingi Anda sampai proses selesai.</p>`
+        answer: `<p>Tidak usah khawatir, Sobat! Tim LawOnGo akan menghubungi Anda untuk memvalidasi semua informasi yang telah diberikan pada formulir pengajuan. Tim kami akan membimbing dan mendampingi Anda sampai proses selesai.</p>`
     }
 ]
 

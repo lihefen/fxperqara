@@ -10,6 +10,6 @@
 import { useHead } from "#imports";
 
 useHead({
-  title: "Perqara",
+  title: "LawOnGo",
 });
 </script>

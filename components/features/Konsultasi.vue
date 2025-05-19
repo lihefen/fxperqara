@@ -1,11 +1,11 @@
 <template>
   <div class="space-y-3 text-white text-center md:px-20">
     <h1 class="md:text-3xl text-2xl font-semibold">
-      Kenapa Konsultasi Hukum di Perqara?
+      Kenapa Konsultasi Hukum di LawOnGo?
     </h1>
     <p>
       Didukung dengan berbagai fitur yang memudahkan, ayo #BebasKonsultasi
-      bersama Perqara sebagai langkah pertama bebas dari masalah hukum.
+      bersama LawOnGo sebagai langkah pertama bebas dari masalah hukum.
     </p>
   </div>
   <div class="md:hidden mx-auto mb-16">
@@ -85,7 +85,7 @@
       </h2>
       <p>
         Lacak semua proses dan transaksi layanan hukum yang Anda pesan di
-        Perqara.
+        LawOnGo.
       </p>
     </div>
   </div>

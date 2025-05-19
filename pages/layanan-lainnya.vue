@@ -73,7 +73,7 @@
                     <div class="absolute top-0 left-0 w-full">
                         <img src="/image/landing-page/bg-card-service-page.svg" alt=""></div>
                         <div class="py-6 md:py-12 px-4 flex flex-col gap-4 md:gap-8">
-                            <h2 class="text-2xl lg:text-3xl font-semibold text-center xl:px-64"> Mengapa harus menggunakan layanan hukum di <span class="text-[#0A50A3]">Perqara</span>? </h2>
+                            <h2 class="text-2xl lg:text-3xl font-semibold text-center xl:px-64"> Mengapa harus menggunakan layanan hukum di <span class="text-[#0A50A3]">LawOnGo</span>? </h2>
                             <div class="md:px-20 px-4 grid md:grid-cols-4 grid-cols-2 md:gap-6 gap-x-4 gap-y-8" d>
                                 <div class="flex flex-col items-center gap-3 md:gap-6"><img src="/image/landing-page/icon-accurate-service.svg" alt="" class="w-fit">
                                 <div class="flex flex-col text-center gap-2"><span class="md:text-xl font-semibold" d>Biaya yang Transparan</span><span class="text-sm text-[#556987]" d>Dapatkan penawaran harga lengkap di awal tanpa khawatir penambahan biaya lain-lain</span></div>
@@ -92,7 +92,7 @@
                             </div>
                             <div class="flex flex-col items-center gap-3 md:gap-6">
                                 <img src="/image/landing-page/icon-team-professional.svg" alt="" class="w-fit">
-                                <div class="flex flex-col text-center gap-2"><span class="md:text-xl font-semibold">Tim Ahli Profesional</span><span class="text-sm text-[#556987]">Semua layanan di Perqara ditangani oleh tim yang tersertifikasi dan ahli di bidangnya</span>
+                                <div class="flex flex-col text-center gap-2"><span class="md:text-xl font-semibold">Tim Ahli Profesional</span><span class="text-sm text-[#556987]">Semua layanan di LawOnGo ditangani oleh tim yang tersertifikasi dan ahli di bidangnya</span>
                                 </div>
                             </div>
                         </div>
@@ -256,7 +256,7 @@
                                 <span class="absolute -top-6 left-1/2 transform -translate-x-1/2 shadow-[0_0_0_7px] rounded-full bg-steelBlue flex items-center justify-center text-white text-xl font-semibold w-12 h-12" >1</span><span class="text-lg md:text-2xl font-bold" >Kirim Formulir Penawaran</span><span class="text-[#556987] font-light text-left" >Jelaskan detail kebutuhan legal Anda dengan mengisi formulir penawaran.</span>
                             </div>
                             <div class="relative bg-lightblue-1 rounded-xl p-4 pt-6 md:p-6 md:pt-8 flex flex-col gap-2 md:gap-4" >
-                                <span class="absolute -top-6 left-1/2 transform -translate-x-1/2 shadow-[0_0_0_7px] rounded-full bg-steelBlue flex items-center justify-center text-white text-xl font-semibold w-12 h-12" >2</span><span class="text-lg md:text-2xl font-bold" >Konsultasikan Kebutuhan Anda</span><span class="text-[#556987] font-light text-left" >Tim Perqara akan menghubungi Anda dalam waktu maksimal 24 jam.</span>
+                                <span class="absolute -top-6 left-1/2 transform -translate-x-1/2 shadow-[0_0_0_7px] rounded-full bg-steelBlue flex items-center justify-center text-white text-xl font-semibold w-12 h-12" >2</span><span class="text-lg md:text-2xl font-bold" >Konsultasikan Kebutuhan Anda</span><span class="text-[#556987] font-light text-left" >Tim LawOnGo akan menghubungi Anda dalam waktu maksimal 24 jam.</span>
                             </div>
                             <div class="relative bg-lightblue-1 rounded-xl p-4 pt-6 md:p-6 md:pt-8 flex flex-col gap-2 md:gap-4" >
                                 <span class="absolute -top-6 left-1/2 transform -translate-x-1/2 shadow-[0_0_0_7px] rounded-full bg-steelBlue flex items-center justify-center text-white text-xl font-semibold w-12 h-12" >3</span><span class="text-lg md:text-2xl font-bold" >Proses yang Transparan</span><span class="text-[#556987] font-light text-left" >Tim profesional kami akan mengabarkan proses pengerjaan secara berkala hingga selesai.</span>
@@ -327,7 +327,7 @@
                                 </div>
                             </div>
                             <div  class="rounded-lg px-3 py-2 flex items-center gap-2 bg-[#F5FBFD] text-[#344052] text-sm">
-                                <svg  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path  d="M9 12.7506L11.25 15.0006L15 9.75058M12 2.71484C9.8495 4.75147 6.94563 6.00059 3.75 6.00059C3.69922 6.00059 3.64852 6.00028 3.59789 5.99965C3.2099 7.17976 3 8.44069 3 9.75064C3 15.3422 6.82432 20.0405 12 21.3726C17.1757 20.0405 21 15.3422 21 9.75064C21 8.44069 20.7901 7.17976 20.4021 5.99965C20.3515 6.00028 20.3008 6.00059 20.25 6.00059C17.0544 6.00059 14.1505 4.75147 12 2.71484Z" stroke="#2072B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg><span  class="flex-1">Keamanan data Anda adalah prioritas utama kami, data ini akan digunakan secara eksklusif dalam layanan Perqara.</span>
+                                <svg  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path  d="M9 12.7506L11.25 15.0006L15 9.75058M12 2.71484C9.8495 4.75147 6.94563 6.00059 3.75 6.00059C3.69922 6.00059 3.64852 6.00028 3.59789 5.99965C3.2099 7.17976 3 8.44069 3 9.75064C3 15.3422 6.82432 20.0405 12 21.3726C17.1757 20.0405 21 15.3422 21 9.75064C21 8.44069 20.7901 7.17976 20.4021 5.99965C20.3515 6.00028 20.3008 6.00059 20.25 6.00059C17.0544 6.00059 14.1505 4.75147 12 2.71484Z" stroke="#2072B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg><span  class="flex-1">Keamanan data Anda adalah prioritas utama kami, data ini akan digunakan secara eksklusif dalam layanan LawOnGo.</span>
                             </div>
                             <button  class="text-center bg-blue-2 px-7 py-2.5 w-full text-lg text-white rounded-md shadow-gray-500 hover:bg-blue-9 transition-all ease-in-out duration-300 cursor-pointer"> Kirim </button>
                         </div>
@@ -345,12 +345,12 @@
                                     <template #title="{ isActive }">
                                     <div :class="['title-wrapper', { 'is-active': isActive }]">
                                         <div class="space-y-2 flex-1">
-                                            <p class="font-semibold leading-5" >Apa itu layanan hukum on-demand Perqara?</p>
+                                            <p class="font-semibold leading-5" >Apa itu layanan hukum on-demand LawOnGo?</p>
                                         </div>
                                     </div>
                                     </template>
                                     <div>
-                                        <p class="font-light text-[#737373] leading-6 group-data-[active=false]:hidden" >Layanan hukum on-demand Perqara memungkinkan Anda mendapatkan bantuan hukum sesuai kebutuhan. Anda bisa mengurus perizinan usaha, registrasi hak cipta, konsultasi pajak hingga membuat dokumen hukum kapan saja dengan biaya transparan.</p>
+                                        <p class="font-light text-[#737373] leading-6 group-data-[active=false]:hidden" >Layanan hukum on-demand LawOnGo memungkinkan Anda mendapatkan bantuan hukum sesuai kebutuhan. Anda bisa mengurus perizinan usaha, registrasi hak cipta, konsultasi pajak hingga membuat dokumen hukum kapan saja dengan biaya transparan.</p>
                                     </div>
                                 </el-collapse-item>
                             </el-collapse>
@@ -361,12 +361,12 @@
                                     <template #title="{ isActive }">
                                     <div :class="['title-wrapper', { 'is-active': isActive }]">
                                         <div class="space-y-2 flex-1">
-                                            <p class="font-semibold leading-5" >Apa itu layanan hukum on-demand Perqara?</p>
+                                            <p class="font-semibold leading-5" >Apa itu layanan hukum on-demand LawOnGo?</p>
                                         </div>
                                     </div>
                                     </template>
                                     <div>
-                                        <p class="font-light text-[#737373] leading-6 group-data-[active=false]:hidden" >Layanan hukum on-demand Perqara memungkinkan Anda mendapatkan bantuan hukum sesuai kebutuhan. Anda bisa mengurus perizinan usaha, registrasi hak cipta, konsultasi pajak hingga membuat dokumen hukum kapan saja dengan biaya transparan.</p>
+                                        <p class="font-light text-[#737373] leading-6 group-data-[active=false]:hidden" >Layanan hukum on-demand LawOnGo memungkinkan Anda mendapatkan bantuan hukum sesuai kebutuhan. Anda bisa mengurus perizinan usaha, registrasi hak cipta, konsultasi pajak hingga membuat dokumen hukum kapan saja dengan biaya transparan.</p>
                                     </div>
                                 </el-collapse-item>
                             </el-collapse>
@@ -377,12 +377,12 @@
                                     <template #title="{ isActive }">
                                     <div :class="['title-wrapper', { 'is-active': isActive }]">
                                         <div class="space-y-2 flex-1">
-                                            <p class="font-semibold leading-5" >Apa itu layanan hukum on-demand Perqara?</p>
+                                            <p class="font-semibold leading-5" >Apa itu layanan hukum on-demand LawOnGo?</p>
                                         </div>
                                     </div>
                                     </template>
                                     <div>
-                                        <p class="font-light text-[#737373] leading-6 group-data-[active=false]:hidden" >Layanan hukum on-demand Perqara memungkinkan Anda mendapatkan bantuan hukum sesuai kebutuhan. Anda bisa mengurus perizinan usaha, registrasi hak cipta, konsultasi pajak hingga membuat dokumen hukum kapan saja dengan biaya transparan.</p>
+                                        <p class="font-light text-[#737373] leading-6 group-data-[active=false]:hidden" >Layanan hukum on-demand LawOnGo memungkinkan Anda mendapatkan bantuan hukum sesuai kebutuhan. Anda bisa mengurus perizinan usaha, registrasi hak cipta, konsultasi pajak hingga membuat dokumen hukum kapan saja dengan biaya transparan.</p>
                                     </div>
                                 </el-collapse-item>
                             </el-collapse>
@@ -393,12 +393,12 @@
                                     <template #title="{ isActive }">
                                     <div :class="['title-wrapper', { 'is-active': isActive }]">
                                         <div class="space-y-2 flex-1">
-                                            <p class="font-semibold leading-5" >Apa itu layanan hukum on-demand Perqara?</p>
+                                            <p class="font-semibold leading-5" >Apa itu layanan hukum on-demand LawOnGo?</p>
                                         </div>
                                     </div>
                                     </template>
                                     <div>
-                                        <p class="font-light text-[#737373] leading-6 group-data-[active=false]:hidden" >Layanan hukum on-demand Perqara memungkinkan Anda mendapatkan bantuan hukum sesuai kebutuhan. Anda bisa mengurus perizinan usaha, registrasi hak cipta, konsultasi pajak hingga membuat dokumen hukum kapan saja dengan biaya transparan.</p>
+                                        <p class="font-light text-[#737373] leading-6 group-data-[active=false]:hidden" >Layanan hukum on-demand LawOnGo memungkinkan Anda mendapatkan bantuan hukum sesuai kebutuhan. Anda bisa mengurus perizinan usaha, registrasi hak cipta, konsultasi pajak hingga membuat dokumen hukum kapan saja dengan biaya transparan.</p>
                                     </div>
                                 </el-collapse-item>
                             </el-collapse>

@@ -89,7 +89,7 @@ const items = ref([
   {
     id: 1,
     name: "Bayu",
-    quote: "Saran advokat di aplikasi ini sangat membantu masyarakat kecil seperti saya. Semoga Perqara dapat terus menjadi jembatan untuk mendapatkan kesetaraan keadilan secara hukum.",
+    quote: "Saran advokat di aplikasi ini sangat membantu masyarakat kecil seperti saya. Semoga LawOnGo dapat terus menjadi jembatan untuk mendapatkan kesetaraan keadilan secara hukum.",
   },
   {
     id: 2,
@@ -99,7 +99,7 @@ const items = ref([
   {
     id: 3,
     name: "Siska",
-    quote: "Pelayanan di Perqara bagus, ini sudah konsultasi kedua saya. Advokat benar-benar menjelaskan secara detail dan sabar untuk saya yang tidak mengerti hukum",
+    quote: "Pelayanan di LawOnGo bagus, ini sudah konsultasi kedua saya. Advokat benar-benar menjelaskan secara detail dan sabar untuk saya yang tidak mengerti hukum",
   },
 ]);
 

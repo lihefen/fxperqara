@@ -24,7 +24,7 @@
                                 <img class="w-32 md:w-44" src="/image/about-us/founder.svg" alt="0" />
                             </div>
                             <p class="font-dm-sans font-bold antialiased text-center mt-2">Yakup Hasibuan</p>
-                            <p class="font-dm-sans antialiased text-center text-[#737373] text-sm md:text-base mt-1">Founder &amp; CEO Perqara</p>
+                            <p class="font-dm-sans antialiased text-center text-[#737373] text-sm md:text-base mt-1">Founder &amp; CEO LawOnGo</p>
                             <div class="flex justify-center">
                                 <p  class="font-dm-sans text-gray-700 text-xs md:text-sm antialiased mt-2 md:w-72">Sebagai seorang advokat muda, Yakup ikut berperan aktif dalam berbagai organisasi advokat seperti Young Lawyers Committee.  Pengalamannya sebagai advokat   membuatnya memiliki gambaran yang jelas mengenai berbagai tantangan dalam memajukan industri hukum di Indonesia.</p>
                             </div>
@@ -34,15 +34,15 @@
                         <div  class="flex flex-col"><div  id="wrap-image" class="flex justify-center">
                             <img class="w-32 md:w-44" src="/image/about-us/co-founder.svg" alt="1" />
                         </div>
-                        <p class="font-dm-sans font-bold antialiased text-center mt-2">Sebastian Simanjuntak</p><p class="font-dm-sans antialiased text-center text-[#737373] text-sm md:text-base mt-1">Co-Founder &amp; COO Perqara</p>
-                        <div class="flex justify-center"><p  class="font-dm-sans text-gray-700 text-xs md:text-sm antialiased mt-2 md:w-72">Dengan berbagai pengalaman dan jenjang karir baik di Indonesia maupun Eropa, Sebastian telah sukses memimpin Perqara sejak awal didirikan. Ia merupakan seorang profesional dengan pengalaman yang signifikan di bidang keuangan, Supply Chain Management (SCM), dan teknologi.</p>
+                        <p class="font-dm-sans font-bold antialiased text-center mt-2">Sebastian Simanjuntak</p><p class="font-dm-sans antialiased text-center text-[#737373] text-sm md:text-base mt-1">Co-Founder &amp; COO LawOnGo</p>
+                        <div class="flex justify-center"><p  class="font-dm-sans text-gray-700 text-xs md:text-sm antialiased mt-2 md:w-72">Dengan berbagai pengalaman dan jenjang karir baik di Indonesia maupun Eropa, Sebastian telah sukses memimpin LawOnGo sejak awal didirikan. Ia merupakan seorang profesional dengan pengalaman yang signifikan di bidang keuangan, Supply Chain Management (SCM), dan teknologi.</p>
                         </div>
                     </div>
                     </div>
                 </div>
                 
                 <div id="life-at-perqara">
-                    <p class="font-dm-sans font-bold antialiased text-2xl text-center mb-8"> Life at <span class="text-[#2072B8]">Perqara</span></p>
+                    <p class="font-dm-sans font-bold antialiased text-2xl text-center mb-8"> Life at <span class="text-[#2072B8]">LawOnGo</span></p>
                 </div>
 
                 <div id="career" class="mt-14">
@@ -51,7 +51,7 @@
                         
                         <div class="font-dm-sans antialiased absolute pl-6 pr-7 py-3 top-0">
                             <p  class="text-2xl text-white font-bold"> Bergabung Bersama Kami! </p>
-                            <p  class="text-base text-white mt-2"> Temukan karir impianmu di Perqara </p>
+                            <p  class="text-base text-white mt-2"> Temukan karir impianmu di LawOnGo </p>
                             <button  class="font-bold text-[#333333] bg-white w-full rounded py-2 mt-6"> Lihat Karir </button>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                         <div class="font-dm-sans flex justify-between items-center w-full antialiased absolute pl-6 pr-7 top-0 xl:mt-3">
                             <div class="mt-5">
                                 <p class="text-2xl text-white font-bold"> Bergabung Bersama Kami! </p>
-                                <p class="text-base text-white mt-2"> Temukan karir impianmu di Perqara </p>
+                                <p class="text-base text-white mt-2"> Temukan karir impianmu di LawOnGo </p>
                             </div>
                             <button  class="font-bold text-[#333333] bg-white w-fit px-8 rounded py-3 mt-5 xl:mt-3"> Lihat Karir </button>
                         </div>

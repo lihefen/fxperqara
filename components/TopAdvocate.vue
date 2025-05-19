@@ -6,7 +6,7 @@
     <div class="relative max-w-[1280px] xl:px-40 mx-auto px-4 z-10">
       <div class="flex justify-between md:items-center my-4 md:px-6">
         <p class="text-white text-2xl md:text-3xl font-bold">
-          Mereka yang telah memberi pelayanan terbaik di Perqara.
+          Mereka yang telah memberi pelayanan terbaik di LawOnGo.
         </p>
         <img alt="top-medal" class="w-20 md:w-40 h-20 md:h-40" src="/image/top-advokat/medal.png" />
       </div>

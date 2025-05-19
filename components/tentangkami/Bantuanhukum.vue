@@ -41,8 +41,8 @@
                     </div>
                     <div  class="flex-1 flex flex-col text-left">
                         <span class="font-dm-sans font-bold md:text-[32px] text-gray-700 antialiased">2020</span>
-                        <pre class="font-dm-sans text-sm wrap text-pretty text-gray-500 antialiased mt-2 max-w-[300px] md:leading-6">                              Perqara lahir sebagai harapan untuk menjadi sebuah solusi inovatif terhadap minimnya akses ke bantuan hukum di Indonesia.
-                        Founder dan CEO Perqara, Yakup Putra Hasibuan, memulai Perqara dengan tujuan ingin menjadi platform hukum pertama yang menyediakan layanan konsultasi hukum gratis atau pro bono.
+                        <pre class="font-dm-sans text-sm wrap text-pretty text-gray-500 antialiased mt-2 max-w-[300px] md:leading-6">                              LawOnGo lahir sebagai harapan untuk menjadi sebuah solusi inovatif terhadap minimnya akses ke bantuan hukum di Indonesia.
+                        Founder dan CEO LawOnGo, Yakup Putra Hasibuan, memulai LawOnGo dengan tujuan ingin menjadi platform hukum pertama yang menyediakan layanan konsultasi hukum gratis atau pro bono.
                         </pre>
                     </div>
                 </div>
@@ -76,8 +76,8 @@
             </div>
 
             <div>
-                <div class="flex justify-center gap-4 max-w-[880px] w-full mx-auto items-start flex-row-reverse"><div class="mt-5 flex-1"><img  class="w-[280px] md:w-[410px] mr-auto" src="/image/about-us/story-2023.svg" alt="story-2023" /></div><div  class="flex flex-col"><div  class="relative w-4 h-4 md:w-7 md:h-7 rounded-full flex items-center justify-center mt-1 bg-red-600"><div  class="w-2 h-2 md:w-4 md:h-4 bg-white rounded-full flex items-center justify-center"></div></div><!----></div><div  class="flex-1 flex flex-col text-right items-end"><span  class="font-dm-sans font-bold md:text-[32px] text-gray-700 antialiased">2023</span><pre  class="font-dm-sans text-sm wrap text-pretty text-gray-500 antialiased mt-2 max-w-[300px] md:leading-6">                              Perqara berhasil merilis secara resmi aplikasi konsultasi hukum yang mengakselerasikan pengalaman berkonsultasi hukum yang mudah dan efisien. 
-                Menjangkau lebih dari 120 kota di Indonesia, Perqara hadir sebagai sebuah platform yang memungkinan siapa pun dapat mengakses layanan hukum kapan pun dan di mana pun.
+                <div class="flex justify-center gap-4 max-w-[880px] w-full mx-auto items-start flex-row-reverse"><div class="mt-5 flex-1"><img  class="w-[280px] md:w-[410px] mr-auto" src="/image/about-us/story-2023.svg" alt="story-2023" /></div><div  class="flex flex-col"><div  class="relative w-4 h-4 md:w-7 md:h-7 rounded-full flex items-center justify-center mt-1 bg-red-600"><div  class="w-2 h-2 md:w-4 md:h-4 bg-white rounded-full flex items-center justify-center"></div></div><!----></div><div  class="flex-1 flex flex-col text-right items-end"><span  class="font-dm-sans font-bold md:text-[32px] text-gray-700 antialiased">2023</span><pre  class="font-dm-sans text-sm wrap text-pretty text-gray-500 antialiased mt-2 max-w-[300px] md:leading-6">                              LawOnGo berhasil merilis secara resmi aplikasi konsultasi hukum yang mengakselerasikan pengalaman berkonsultasi hukum yang mudah dan efisien. 
+                Menjangkau lebih dari 120 kota di Indonesia, LawOnGo hadir sebagai sebuah platform yang memungkinan siapa pun dapat mengakses layanan hukum kapan pun dan di mana pun.
                 </pre></div></div>
             </div>
         </div>

@@ -5,7 +5,7 @@
         Ingin Konsultasi Hukum Apa?
       </h2>
       <p>
-        Advokat di Perqara siap mendengarkan dan membantu mengatasi masalah
+        Advokat di LawOnGo siap mendengarkan dan membantu mengatasi masalah
         seputar:
       </p>
     </div>

@@ -16,8 +16,8 @@
                     <section id="life-at-perqara">
                         <div class="container max-w-[1280px] p-4 xl:px-40 mx-auto">
                             <div class="md:pt-32 sm:pt-24 pt-14 text-center">
-                                <h1 class="text-[#1C232D] text-2xl sm:text-4xl font-semibold mb-4" > Life at <span class="text-steelBlue" >Perqara</span></h1>
-                                <p class="text-sm text-[#3A475B] sm:inline-block hidden" > Temukan karir impianmu di Perqara! </p>
+                                <h1 class="text-[#1C232D] text-2xl sm:text-4xl font-semibold mb-4" > Life at <span class="text-steelBlue" >LawOnGo</span></h1>
+                                <p class="text-sm text-[#3A475B] sm:inline-block hidden" > Temukan karir impianmu di LawOnGo! </p>
                             </div>
                             <img
                                 alt="header"
@@ -26,7 +26,7 @@
                             <div class="flex sm:flex-row flex-col gap-4.5 justify-between items-start sm:mt-9 mt-4.5" >
                                 <div class="relative" >
                                     <img src="/image/career-page/quotation-mark.svg" alt="" class="absolute z-[-1] -left-5 -top-1" >
-                                    <p class="md:w-1/2 sm:text-base text-sm" ><b >Perqara</b> menawarkan lingkungan yang dinamis di mana setiap orang dapat terlibat dan berkontribusi pada setiap proyek. Kami percaya bahwa setiap opini, eksperimen, bahkan kegagalan adalah bagian dari proses pembelajaran yang pada akhirnya mengarah pada pengembangan produk dan layanan yang lebih baik. </p>
+                                    <p class="md:w-1/2 sm:text-base text-sm" ><b >LawOnGo</b> menawarkan lingkungan yang dinamis di mana setiap orang dapat terlibat dan berkontribusi pada setiap proyek. Kami percaya bahwa setiap opini, eksperimen, bahkan kegagalan adalah bagian dari proses pembelajaran yang pada akhirnya mengarah pada pengembangan produk dan layanan yang lebih baik. </p>
                                 </div>
                                 <button type="button" class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 px-4.5 py-2.5 md:text-lg bg-blue-2 text-white hover:bg-blue-9 rounded-lg !px-7" >
                                     <span><!--[--> Lihat Karir <!--]--></span>
@@ -232,7 +232,7 @@
                                     <img src="/image/career-page/bg-form-career.svg" alt="" class="absolute inset-0 rounded-2xl z-0 w-full h-full" data-v-63014e6b="">
                                     <div class="relative text-cultured flex flex-col gap-2" data-v-63014e6b="">
                                         <h4 class="text-xl sm:text-2xl font-semibold" data-v-63014e6b=""> Tidak menemukan Karir yang anda cari? </h4>
-                                        <p data-v-63014e6b="">Temukan karir impianmu di Perqara</p>
+                                        <p data-v-63014e6b="">Temukan karir impianmu di LawOnGo</p>
                                     </div>
                                     <button type="button" class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 px-4.5 py-2.5 md:text-lg bg-white text-lightblack-1 hover:bg-cultured rounded-lg !px-10 sm:self-center relative font-semibold" data-v-63014e6b=""><span><!--[--> Isi Form Karir <!--]--></span></button>
                                 </div>
@@ -250,7 +250,7 @@
                                 <div class="flex lg:flex-row flex-col lg:items-center lg:gap-8 gap-3 lg:mb-0 md:mb-4">
                                     <div class="flex flex-col gap-2.5 text-cultured flex-1 md:text-left text-center">
                                         <h1 class="text-2xl font-semibold"> Konsultasikan masalah hukum Anda sekarang! </h1>
-                                        <p>Bersama Perqara, siapa pun bisa konsultasi hukum kapan pun dan di mana pun.</p>
+                                        <p>Bersama LawOnGo, siapa pun bisa konsultasi hukum kapan pun dan di mana pun.</p>
                                     </div>
                                     <div class="flex items-center md:justify-start justify-center gap-2">
                                         <a href="https://apps.apple.com/id/app/perqara/id6443946589" rel="noopener noreferrer" target="_blank">

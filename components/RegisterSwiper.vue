@@ -57,7 +57,7 @@
                   stroke-linejoin="round"
                 ></path>
               </svg>
-              <span>Klien Perqara</span>
+              <span>Klien LawOnGo</span>
             </div>
           </div>
         </div>

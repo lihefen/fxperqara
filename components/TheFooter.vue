@@ -87,7 +87,7 @@
               <div class="mt-2 hidden lg:block">
                 <div class="flex justify-center lg:justify-start">
                   <a
-                    href="https://www.facebook.com/PerqaraID/"
+                    href="https://www.facebook.com/LawOnGoID/"
                     rel="noopener noreferrer"
                     target="_blank"
                     ><svg
@@ -112,7 +112,7 @@
                         fill="white"
                       ></path></svg></a
                   ><a
-                    href="https://twitter.com/Perqara"
+                    href="https://twitter.com/LawOnGo"
                     rel="noopener noreferrer"
                     target="_blank"
                     ><svg
@@ -213,7 +213,7 @@
         <div class="mt-8 lg:hidden">
           <div class="flex justify-center mt-8 lg:justify-end lg:pr-12">
             <a
-              href="https://www.facebook.com/PerqaraID/"
+              href="https://www.facebook.com/LawOnGoID/"
               rel="noopener noreferrer"
               target="_blank"
               ><svg
@@ -238,7 +238,7 @@
                   fill="white"
                 ></path></svg></a
             ><a
-              href="https://twitter.com/Perqara"
+              href="https://twitter.com/LawOnGo"
               rel="noopener noreferrer"
               target="_blank"
               ><svg
@@ -337,7 +337,7 @@
     </div>
     <div class="w-full text-white text-center mt-10 pb-10 text-xs lg:text-base">
       <p>Jakarta, Indonesia</p>
-      <p>2025 Perqara. Hak Cipta Dilindungi</p>
+      <p>2025 LawOnGo. Hak Cipta Dilindungi</p>
     </div>
   </div>
 </template>

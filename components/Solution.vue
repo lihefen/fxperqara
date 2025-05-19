@@ -17,7 +17,7 @@
                 fill="#F6F9FD"></path>
             </svg>
           </div>
-          <span class="text-lightgrey-5 text-xs sm:text-sm">Perqara bermitra dengan Advokat-advokat terbaik yang telah
+          <span class="text-lightgrey-5 text-xs sm:text-sm">LawOnGo bermitra dengan Advokat-advokat terbaik yang telah
             disumpah.</span>
         </div>
       </a><a href="/pendirian-badan-usaha"

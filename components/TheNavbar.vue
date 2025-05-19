@@ -48,7 +48,7 @@
             <img
               src="/image/logo-perqara.svg"
               width="140"
-              alt="Perqara Logo"
+              alt="LawOnGo Logo"
             />
           </router-link>
 
@@ -250,7 +250,7 @@ const serviceItems = [
   {
     id: 1,
     title: "Konsultasi Hukum",
-    description: "Konsultasi hukum langsung bersama advokat Perqara.",
+    description: "Konsultasi hukum langsung bersama advokat LawOnGo.",
     icon: "/image/navbar/icon-legal-consultation.svg",
     path:'cari-advokat'
   },

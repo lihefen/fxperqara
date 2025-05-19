@@ -28,7 +28,7 @@
               <p
                 class="text-dm-sans text-[#3A475B] text-xs md:text-sm font-normal"
               >
-                Gunakan panduan Perqara dan temukan advokat yang tepat
+                Gunakan panduan LawOnGo dan temukan advokat yang tepat
               </p>
             </div>
           </div>

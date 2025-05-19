@@ -13,7 +13,7 @@
         <div class="bg-cultured">
             <div class="px-6 md:px-10 lg:px-10 xl:px-36 2xl:px-72 h-auto pt-4 md:pt-8 container mx-auto">
                 <h1 class="font-dm-sans text-black font-bold text-xl antialiased"> Frequently Asked Questions </h1>
-                <h2 class="font-dm-sans text-black font-medium text-xl antialiased pt-8"> Tentang Perqara </h2>
+                <h2 class="font-dm-sans text-black font-medium text-xl antialiased pt-8"> Tentang LawOnGo </h2>
 
                 <section class="flex flex-col md:flex-row mt-4">
                     <div class="w-full">
@@ -23,11 +23,11 @@
                                     <el-collapse-item title="Consistency" name="1">
                                         <template #title="{ isActive }">
                                         <div :class="['title-wrapper', { 'is-active': isActive }]">
-                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Apa itu Perqara?</h4>
+                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Apa itu LawOnGo?</h4>
                                         </div>
                                         </template>
                                         <div>
-                                            <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose">Perqara adalah <i>all-in-one</i> online platform yang dapat menghubungkan Anda dengan berbagai macam profesional hukum terbaik di Indonesia. Melalui Perqara, Anda dapat mengakses berbagai layanan hukum kapanpun dan dimanapun. Layanan tersebut meliputi konsultasi hukum, layanan perusahaan, pembuatan dokumen, pendaftaran HAKI, dan konsultasi pajak.</div>
+                                            <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose">LawOnGo adalah <i>all-in-one</i> online platform yang dapat menghubungkan Anda dengan berbagai macam profesional hukum terbaik di Indonesia. Melalui LawOnGo, Anda dapat mengakses berbagai layanan hukum kapanpun dan dimanapun. Layanan tersebut meliputi konsultasi hukum, layanan perusahaan, pembuatan dokumen, pendaftaran HAKI, dan konsultasi pajak.</div>
                                         </div>
                                     </el-collapse-item>
                                 </el-collapse>
@@ -40,11 +40,11 @@
                                     <el-collapse-item title="Consistency" name="1">
                                         <template #title="{ isActive }">
                                         <div :class="['title-wrapper', { 'is-active': isActive }]">
-                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Apa saja jenis layanan yang tersedia di Perqara?</h4>
+                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Apa saja jenis layanan yang tersedia di LawOnGo?</h4>
                                         </div>
                                         </template>
                                         <div>
-                                            <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose">Perqara menyediakan layanan hukum sebagai berikut:<br><ol><li>Konsultasi Hukum</li><ul><li>Konsultasi hukum langsung bersama Mitra Advokat Perqara melalui chat, voice call, maupun video call.</li></ul><li>Layanan Perusahaan</li><ul><li>Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.</li></ul><li>Pembuatan Dokumen</li><ul><li>Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.</li></ul><li>Pendaftaran HAKI</li><ul><li>Layanan pendaftaran Merek, Hak Cipta, dll.</li></ul><li>Konsultasi Pajak</li><ul><li>Konsultasi pelaporan pajak perusahaan maupun individu.</li></ul></ol></div>
+                                            <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose">LawOnGo menyediakan layanan hukum sebagai berikut:<br><ol><li>Konsultasi Hukum</li><ul><li>Konsultasi hukum langsung bersama Mitra Advokat LawOnGo melalui chat, voice call, maupun video call.</li></ul><li>Layanan Perusahaan</li><ul><li>Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.</li></ul><li>Pembuatan Dokumen</li><ul><li>Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.</li></ul><li>Pendaftaran HAKI</li><ul><li>Layanan pendaftaran Merek, Hak Cipta, dll.</li></ul><li>Konsultasi Pajak</li><ul><li>Konsultasi pelaporan pajak perusahaan maupun individu.</li></ul></ol></div>
                                         </div>
                                     </el-collapse-item>
                                 </el-collapse>
@@ -61,7 +61,7 @@
                                     <el-collapse-item title="Consistency" name="1">
                                         <template #title="{ isActive }">
                                         <div :class="['title-wrapper', { 'is-active': isActive }]">
-                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Bagaimana cara membuat akun di Perqara?</h4>
+                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Bagaimana cara membuat akun di LawOnGo?</h4>
                                         </div>
                                         </template>
                                         <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose"><ol><li>Klik daftar</li><li>Isi semua informasi yang diwajibkan termasuk email dan nomor telepon Anda (pastikan nomor Anda terdaftar di WhatsApp)</li><li>Lakukan verifikasi dengan mengisi kode verifikasi yang dikirimkan ke email atau nomor WhatsApp Anda</li><li>Jangan bagikan kode verifikasi Anda ke pihak mana pun</li></ol></div>
@@ -76,48 +76,11 @@
                                     <el-collapse-item title="Consistency" name="1">
                                         <template #title="{ isActive }">
                                         <div :class="['title-wrapper', { 'is-active': isActive }]">
-                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Apa saja jenis layanan yang tersedia di Perqara?</h4>
+                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Apa saja jenis layanan yang tersedia di LawOnGo?</h4>
                                         </div>
                                         </template>
                                         <div>
-                                            <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose">Perqara menyediakan layanan hukum sebagai berikut:<br><ol><li>Konsultasi Hukum</li><ul><li>Konsultasi hukum langsung bersama Mitra Advokat Perqara melalui chat, voice call, maupun video call.</li></ul><li>Layanan Perusahaan</li><ul><li>Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.</li></ul><li>Pembuatan Dokumen</li><ul><li>Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.</li></ul><li>Pendaftaran HAKI</li><ul><li>Layanan pendaftaran Merek, Hak Cipta, dll.</li></ul><li>Konsultasi Pajak</li><ul><li>Konsultasi pelaporan pajak perusahaan maupun individu.</li></ul></ol></div>
-                                        </div>
-                                    </el-collapse-item>
-                                </el-collapse>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <h1 class="font-dm-sans text-black font-medium text-xl antialiased mt-8"> Profil &amp; Keamanan Akun </h1>
-                <section class="flex flex-col md:flex-row mt-4">
-                    <div class="w-full">
-                        <div>
-                            <div class="bg-white rounded-lg shadow-lg p-4 mb-5">
-                                <el-collapse  @change="handleChange">
-                                    <el-collapse-item title="Consistency" name="1">
-                                        <template #title="{ isActive }">
-                                        <div :class="['title-wrapper', { 'is-active': isActive }]">
-                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Bagaimana cara membuat akun di Perqara?</h4>
-                                        </div>
-                                        </template>
-                                        <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose"><ol><li>Klik daftar</li><li>Isi semua informasi yang diwajibkan termasuk email dan nomor telepon Anda (pastikan nomor Anda terdaftar di WhatsApp)</li><li>Lakukan verifikasi dengan mengisi kode verifikasi yang dikirimkan ke email atau nomor WhatsApp Anda</li><li>Jangan bagikan kode verifikasi Anda ke pihak mana pun</li></ol></div>
-                                    </el-collapse-item>
-                                </el-collapse>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="bg-white rounded-lg shadow-lg p-4 mb-5">
-                                <el-collapse  @change="handleChange">
-                                    <el-collapse-item title="Consistency" name="1">
-                                        <template #title="{ isActive }">
-                                        <div :class="['title-wrapper', { 'is-active': isActive }]">
-                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Apa saja jenis layanan yang tersedia di Perqara?</h4>
-                                        </div>
-                                        </template>
-                                        <div>
-                                            <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose">Perqara menyediakan layanan hukum sebagai berikut:<br><ol><li>Konsultasi Hukum</li><ul><li>Konsultasi hukum langsung bersama Mitra Advokat Perqara melalui chat, voice call, maupun video call.</li></ul><li>Layanan Perusahaan</li><ul><li>Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.</li></ul><li>Pembuatan Dokumen</li><ul><li>Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.</li></ul><li>Pendaftaran HAKI</li><ul><li>Layanan pendaftaran Merek, Hak Cipta, dll.</li></ul><li>Konsultasi Pajak</li><ul><li>Konsultasi pelaporan pajak perusahaan maupun individu.</li></ul></ol></div>
+                                            <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose">LawOnGo menyediakan layanan hukum sebagai berikut:<br><ol><li>Konsultasi Hukum</li><ul><li>Konsultasi hukum langsung bersama Mitra Advokat LawOnGo melalui chat, voice call, maupun video call.</li></ul><li>Layanan Perusahaan</li><ul><li>Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.</li></ul><li>Pembuatan Dokumen</li><ul><li>Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.</li></ul><li>Pendaftaran HAKI</li><ul><li>Layanan pendaftaran Merek, Hak Cipta, dll.</li></ul><li>Konsultasi Pajak</li><ul><li>Konsultasi pelaporan pajak perusahaan maupun individu.</li></ul></ol></div>
                                         </div>
                                     </el-collapse-item>
                                 </el-collapse>
@@ -135,7 +98,7 @@
                                     <el-collapse-item title="Consistency" name="1">
                                         <template #title="{ isActive }">
                                         <div :class="['title-wrapper', { 'is-active': isActive }]">
-                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Bagaimana cara membuat akun di Perqara?</h4>
+                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Bagaimana cara membuat akun di LawOnGo?</h4>
                                         </div>
                                         </template>
                                         <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose"><ol><li>Klik daftar</li><li>Isi semua informasi yang diwajibkan termasuk email dan nomor telepon Anda (pastikan nomor Anda terdaftar di WhatsApp)</li><li>Lakukan verifikasi dengan mengisi kode verifikasi yang dikirimkan ke email atau nomor WhatsApp Anda</li><li>Jangan bagikan kode verifikasi Anda ke pihak mana pun</li></ol></div>
@@ -150,11 +113,11 @@
                                     <el-collapse-item title="Consistency" name="1">
                                         <template #title="{ isActive }">
                                         <div :class="['title-wrapper', { 'is-active': isActive }]">
-                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Apa saja jenis layanan yang tersedia di Perqara?</h4>
+                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Apa saja jenis layanan yang tersedia di LawOnGo?</h4>
                                         </div>
                                         </template>
                                         <div>
-                                            <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose">Perqara menyediakan layanan hukum sebagai berikut:<br><ol><li>Konsultasi Hukum</li><ul><li>Konsultasi hukum langsung bersama Mitra Advokat Perqara melalui chat, voice call, maupun video call.</li></ul><li>Layanan Perusahaan</li><ul><li>Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.</li></ul><li>Pembuatan Dokumen</li><ul><li>Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.</li></ul><li>Pendaftaran HAKI</li><ul><li>Layanan pendaftaran Merek, Hak Cipta, dll.</li></ul><li>Konsultasi Pajak</li><ul><li>Konsultasi pelaporan pajak perusahaan maupun individu.</li></ul></ol></div>
+                                            <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose">LawOnGo menyediakan layanan hukum sebagai berikut:<br><ol><li>Konsultasi Hukum</li><ul><li>Konsultasi hukum langsung bersama Mitra Advokat LawOnGo melalui chat, voice call, maupun video call.</li></ul><li>Layanan Perusahaan</li><ul><li>Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.</li></ul><li>Pembuatan Dokumen</li><ul><li>Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.</li></ul><li>Pendaftaran HAKI</li><ul><li>Layanan pendaftaran Merek, Hak Cipta, dll.</li></ul><li>Konsultasi Pajak</li><ul><li>Konsultasi pelaporan pajak perusahaan maupun individu.</li></ul></ol></div>
                                         </div>
                                     </el-collapse-item>
                                 </el-collapse>
@@ -172,7 +135,7 @@
                                     <el-collapse-item title="Consistency" name="1">
                                         <template #title="{ isActive }">
                                         <div :class="['title-wrapper', { 'is-active': isActive }]">
-                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Bagaimana cara membuat akun di Perqara?</h4>
+                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Bagaimana cara membuat akun di LawOnGo?</h4>
                                         </div>
                                         </template>
                                         <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose"><ol><li>Klik daftar</li><li>Isi semua informasi yang diwajibkan termasuk email dan nomor telepon Anda (pastikan nomor Anda terdaftar di WhatsApp)</li><li>Lakukan verifikasi dengan mengisi kode verifikasi yang dikirimkan ke email atau nomor WhatsApp Anda</li><li>Jangan bagikan kode verifikasi Anda ke pihak mana pun</li></ol></div>
@@ -187,11 +150,11 @@
                                     <el-collapse-item title="Consistency" name="1">
                                         <template #title="{ isActive }">
                                         <div :class="['title-wrapper', { 'is-active': isActive }]">
-                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Apa saja jenis layanan yang tersedia di Perqara?</h4>
+                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Apa saja jenis layanan yang tersedia di LawOnGo?</h4>
                                         </div>
                                         </template>
                                         <div>
-                                            <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose">Perqara menyediakan layanan hukum sebagai berikut:<br><ol><li>Konsultasi Hukum</li><ul><li>Konsultasi hukum langsung bersama Mitra Advokat Perqara melalui chat, voice call, maupun video call.</li></ul><li>Layanan Perusahaan</li><ul><li>Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.</li></ul><li>Pembuatan Dokumen</li><ul><li>Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.</li></ul><li>Pendaftaran HAKI</li><ul><li>Layanan pendaftaran Merek, Hak Cipta, dll.</li></ul><li>Konsultasi Pajak</li><ul><li>Konsultasi pelaporan pajak perusahaan maupun individu.</li></ul></ol></div>
+                                            <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose">LawOnGo menyediakan layanan hukum sebagai berikut:<br><ol><li>Konsultasi Hukum</li><ul><li>Konsultasi hukum langsung bersama Mitra Advokat LawOnGo melalui chat, voice call, maupun video call.</li></ul><li>Layanan Perusahaan</li><ul><li>Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.</li></ul><li>Pembuatan Dokumen</li><ul><li>Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.</li></ul><li>Pendaftaran HAKI</li><ul><li>Layanan pendaftaran Merek, Hak Cipta, dll.</li></ul><li>Konsultasi Pajak</li><ul><li>Konsultasi pelaporan pajak perusahaan maupun individu.</li></ul></ol></div>
                                         </div>
                                     </el-collapse-item>
                                 </el-collapse>
@@ -199,7 +162,6 @@
                         </div>
                     </div>
                 </section>
-
 
                 <h1 class="font-dm-sans text-black font-medium text-xl antialiased mt-8"> Profil &amp; Keamanan Akun </h1>
                 <section class="flex flex-col md:flex-row mt-4">
@@ -210,7 +172,7 @@
                                     <el-collapse-item title="Consistency" name="1">
                                         <template #title="{ isActive }">
                                         <div :class="['title-wrapper', { 'is-active': isActive }]">
-                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Bagaimana cara membuat akun di Perqara?</h4>
+                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Bagaimana cara membuat akun di LawOnGo?</h4>
                                         </div>
                                         </template>
                                         <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose"><ol><li>Klik daftar</li><li>Isi semua informasi yang diwajibkan termasuk email dan nomor telepon Anda (pastikan nomor Anda terdaftar di WhatsApp)</li><li>Lakukan verifikasi dengan mengisi kode verifikasi yang dikirimkan ke email atau nomor WhatsApp Anda</li><li>Jangan bagikan kode verifikasi Anda ke pihak mana pun</li></ol></div>
@@ -225,11 +187,11 @@
                                     <el-collapse-item title="Consistency" name="1">
                                         <template #title="{ isActive }">
                                         <div :class="['title-wrapper', { 'is-active': isActive }]">
-                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Apa saja jenis layanan yang tersedia di Perqara?</h4>
+                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Apa saja jenis layanan yang tersedia di LawOnGo?</h4>
                                         </div>
                                         </template>
                                         <div>
-                                            <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose">Perqara menyediakan layanan hukum sebagai berikut:<br><ol><li>Konsultasi Hukum</li><ul><li>Konsultasi hukum langsung bersama Mitra Advokat Perqara melalui chat, voice call, maupun video call.</li></ul><li>Layanan Perusahaan</li><ul><li>Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.</li></ul><li>Pembuatan Dokumen</li><ul><li>Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.</li></ul><li>Pendaftaran HAKI</li><ul><li>Layanan pendaftaran Merek, Hak Cipta, dll.</li></ul><li>Konsultasi Pajak</li><ul><li>Konsultasi pelaporan pajak perusahaan maupun individu.</li></ul></ol></div>
+                                            <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose">LawOnGo menyediakan layanan hukum sebagai berikut:<br><ol><li>Konsultasi Hukum</li><ul><li>Konsultasi hukum langsung bersama Mitra Advokat LawOnGo melalui chat, voice call, maupun video call.</li></ul><li>Layanan Perusahaan</li><ul><li>Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.</li></ul><li>Pembuatan Dokumen</li><ul><li>Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.</li></ul><li>Pendaftaran HAKI</li><ul><li>Layanan pendaftaran Merek, Hak Cipta, dll.</li></ul><li>Konsultasi Pajak</li><ul><li>Konsultasi pelaporan pajak perusahaan maupun individu.</li></ul></ol></div>
                                         </div>
                                     </el-collapse-item>
                                 </el-collapse>
@@ -248,7 +210,7 @@
                                     <el-collapse-item title="Consistency" name="1">
                                         <template #title="{ isActive }">
                                         <div :class="['title-wrapper', { 'is-active': isActive }]">
-                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Bagaimana cara membuat akun di Perqara?</h4>
+                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Bagaimana cara membuat akun di LawOnGo?</h4>
                                         </div>
                                         </template>
                                         <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose"><ol><li>Klik daftar</li><li>Isi semua informasi yang diwajibkan termasuk email dan nomor telepon Anda (pastikan nomor Anda terdaftar di WhatsApp)</li><li>Lakukan verifikasi dengan mengisi kode verifikasi yang dikirimkan ke email atau nomor WhatsApp Anda</li><li>Jangan bagikan kode verifikasi Anda ke pihak mana pun</li></ol></div>
@@ -263,11 +225,11 @@
                                     <el-collapse-item title="Consistency" name="1">
                                         <template #title="{ isActive }">
                                         <div :class="['title-wrapper', { 'is-active': isActive }]">
-                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Apa saja jenis layanan yang tersedia di Perqara?</h4>
+                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Apa saja jenis layanan yang tersedia di LawOnGo?</h4>
                                         </div>
                                         </template>
                                         <div>
-                                            <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose">Perqara menyediakan layanan hukum sebagai berikut:<br><ol><li>Konsultasi Hukum</li><ul><li>Konsultasi hukum langsung bersama Mitra Advokat Perqara melalui chat, voice call, maupun video call.</li></ul><li>Layanan Perusahaan</li><ul><li>Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.</li></ul><li>Pembuatan Dokumen</li><ul><li>Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.</li></ul><li>Pendaftaran HAKI</li><ul><li>Layanan pendaftaran Merek, Hak Cipta, dll.</li></ul><li>Konsultasi Pajak</li><ul><li>Konsultasi pelaporan pajak perusahaan maupun individu.</li></ul></ol></div>
+                                            <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose">LawOnGo menyediakan layanan hukum sebagai berikut:<br><ol><li>Konsultasi Hukum</li><ul><li>Konsultasi hukum langsung bersama Mitra Advokat LawOnGo melalui chat, voice call, maupun video call.</li></ul><li>Layanan Perusahaan</li><ul><li>Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.</li></ul><li>Pembuatan Dokumen</li><ul><li>Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.</li></ul><li>Pendaftaran HAKI</li><ul><li>Layanan pendaftaran Merek, Hak Cipta, dll.</li></ul><li>Konsultasi Pajak</li><ul><li>Konsultasi pelaporan pajak perusahaan maupun individu.</li></ul></ol></div>
                                         </div>
                                     </el-collapse-item>
                                 </el-collapse>
@@ -286,7 +248,7 @@
                                     <el-collapse-item title="Consistency" name="1">
                                         <template #title="{ isActive }">
                                         <div :class="['title-wrapper', { 'is-active': isActive }]">
-                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Bagaimana cara membuat akun di Perqara?</h4>
+                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Bagaimana cara membuat akun di LawOnGo?</h4>
                                         </div>
                                         </template>
                                         <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose"><ol><li>Klik daftar</li><li>Isi semua informasi yang diwajibkan termasuk email dan nomor telepon Anda (pastikan nomor Anda terdaftar di WhatsApp)</li><li>Lakukan verifikasi dengan mengisi kode verifikasi yang dikirimkan ke email atau nomor WhatsApp Anda</li><li>Jangan bagikan kode verifikasi Anda ke pihak mana pun</li></ol></div>
@@ -301,11 +263,11 @@
                                     <el-collapse-item title="Consistency" name="1">
                                         <template #title="{ isActive }">
                                         <div :class="['title-wrapper', { 'is-active': isActive }]">
-                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Apa saja jenis layanan yang tersedia di Perqara?</h4>
+                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Apa saja jenis layanan yang tersedia di LawOnGo?</h4>
                                         </div>
                                         </template>
                                         <div>
-                                            <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose">Perqara menyediakan layanan hukum sebagai berikut:<br><ol><li>Konsultasi Hukum</li><ul><li>Konsultasi hukum langsung bersama Mitra Advokat Perqara melalui chat, voice call, maupun video call.</li></ul><li>Layanan Perusahaan</li><ul><li>Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.</li></ul><li>Pembuatan Dokumen</li><ul><li>Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.</li></ul><li>Pendaftaran HAKI</li><ul><li>Layanan pendaftaran Merek, Hak Cipta, dll.</li></ul><li>Konsultasi Pajak</li><ul><li>Konsultasi pelaporan pajak perusahaan maupun individu.</li></ul></ol></div>
+                                            <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose">LawOnGo menyediakan layanan hukum sebagai berikut:<br><ol><li>Konsultasi Hukum</li><ul><li>Konsultasi hukum langsung bersama Mitra Advokat LawOnGo melalui chat, voice call, maupun video call.</li></ul><li>Layanan Perusahaan</li><ul><li>Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.</li></ul><li>Pembuatan Dokumen</li><ul><li>Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.</li></ul><li>Pendaftaran HAKI</li><ul><li>Layanan pendaftaran Merek, Hak Cipta, dll.</li></ul><li>Konsultasi Pajak</li><ul><li>Konsultasi pelaporan pajak perusahaan maupun individu.</li></ul></ol></div>
                                         </div>
                                     </el-collapse-item>
                                 </el-collapse>
@@ -324,7 +286,7 @@
                                     <el-collapse-item title="Consistency" name="1">
                                         <template #title="{ isActive }">
                                         <div :class="['title-wrapper', { 'is-active': isActive }]">
-                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Bagaimana cara membuat akun di Perqara?</h4>
+                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Bagaimana cara membuat akun di LawOnGo?</h4>
                                         </div>
                                         </template>
                                         <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose"><ol><li>Klik daftar</li><li>Isi semua informasi yang diwajibkan termasuk email dan nomor telepon Anda (pastikan nomor Anda terdaftar di WhatsApp)</li><li>Lakukan verifikasi dengan mengisi kode verifikasi yang dikirimkan ke email atau nomor WhatsApp Anda</li><li>Jangan bagikan kode verifikasi Anda ke pihak mana pun</li></ol></div>
@@ -339,11 +301,49 @@
                                     <el-collapse-item title="Consistency" name="1">
                                         <template #title="{ isActive }">
                                         <div :class="['title-wrapper', { 'is-active': isActive }]">
-                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Apa saja jenis layanan yang tersedia di Perqara?</h4>
+                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Apa saja jenis layanan yang tersedia di LawOnGo?</h4>
                                         </div>
                                         </template>
                                         <div>
-                                            <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose">Perqara menyediakan layanan hukum sebagai berikut:<br><ol><li>Konsultasi Hukum</li><ul><li>Konsultasi hukum langsung bersama Mitra Advokat Perqara melalui chat, voice call, maupun video call.</li></ul><li>Layanan Perusahaan</li><ul><li>Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.</li></ul><li>Pembuatan Dokumen</li><ul><li>Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.</li></ul><li>Pendaftaran HAKI</li><ul><li>Layanan pendaftaran Merek, Hak Cipta, dll.</li></ul><li>Konsultasi Pajak</li><ul><li>Konsultasi pelaporan pajak perusahaan maupun individu.</li></ul></ol></div>
+                                            <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose">LawOnGo menyediakan layanan hukum sebagai berikut:<br><ol><li>Konsultasi Hukum</li><ul><li>Konsultasi hukum langsung bersama Mitra Advokat LawOnGo melalui chat, voice call, maupun video call.</li></ul><li>Layanan Perusahaan</li><ul><li>Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.</li></ul><li>Pembuatan Dokumen</li><ul><li>Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.</li></ul><li>Pendaftaran HAKI</li><ul><li>Layanan pendaftaran Merek, Hak Cipta, dll.</li></ul><li>Konsultasi Pajak</li><ul><li>Konsultasi pelaporan pajak perusahaan maupun individu.</li></ul></ol></div>
+                                        </div>
+                                    </el-collapse-item>
+                                </el-collapse>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <h1 class="font-dm-sans text-black font-medium text-xl antialiased mt-8"> Profil &amp; Keamanan Akun </h1>
+                <section class="flex flex-col md:flex-row mt-4">
+                    <div class="w-full">
+                        <div>
+                            <div class="bg-white rounded-lg shadow-lg p-4 mb-5">
+                                <el-collapse  @change="handleChange">
+                                    <el-collapse-item title="Consistency" name="1">
+                                        <template #title="{ isActive }">
+                                        <div :class="['title-wrapper', { 'is-active': isActive }]">
+                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Bagaimana cara membuat akun di LawOnGo?</h4>
+                                        </div>
+                                        </template>
+                                        <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose"><ol><li>Klik daftar</li><li>Isi semua informasi yang diwajibkan termasuk email dan nomor telepon Anda (pastikan nomor Anda terdaftar di WhatsApp)</li><li>Lakukan verifikasi dengan mengisi kode verifikasi yang dikirimkan ke email atau nomor WhatsApp Anda</li><li>Jangan bagikan kode verifikasi Anda ke pihak mana pun</li></ol></div>
+                                    </el-collapse-item>
+                                </el-collapse>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="bg-white rounded-lg shadow-lg p-4 mb-5">
+                                <el-collapse  @change="handleChange">
+                                    <el-collapse-item title="Consistency" name="1">
+                                        <template #title="{ isActive }">
+                                        <div :class="['title-wrapper', { 'is-active': isActive }]">
+                                            <h4 class="font-dm-sans text-black text-base font-medium antialiased">Apa saja jenis layanan yang tersedia di LawOnGo?</h4>
+                                        </div>
+                                        </template>
+                                        <div>
+                                            <div class="mt-2 text-base font-dm-sans text-slate-500 font-normal antialiased prose">LawOnGo menyediakan layanan hukum sebagai berikut:<br><ol><li>Konsultasi Hukum</li><ul><li>Konsultasi hukum langsung bersama Mitra Advokat LawOnGo melalui chat, voice call, maupun video call.</li></ul><li>Layanan Perusahaan</li><ul><li>Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.</li></ul><li>Pembuatan Dokumen</li><ul><li>Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.</li></ul><li>Pendaftaran HAKI</li><ul><li>Layanan pendaftaran Merek, Hak Cipta, dll.</li></ul><li>Konsultasi Pajak</li><ul><li>Konsultasi pelaporan pajak perusahaan maupun individu.</li></ul></ol></div>
                                         </div>
                                     </el-collapse-item>
                                 </el-collapse>

@@ -26,7 +26,7 @@
               Konsultasikan masalah hukum Anda sekarang!
             </h1>
             <p>
-              Bersama Perqara, siapa pun bisa konsultasi hukum kapan pun dan di
+              Bersama LawOnGo, siapa pun bisa konsultasi hukum kapan pun dan di
               mana pun.
             </p>
           </div>
