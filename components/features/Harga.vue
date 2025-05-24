@@ -61,7 +61,7 @@
           <div class="flex justify-between sm:justify-center items-center">
             <div id="wrap-title" class="flex sm:flex-col gap-2 items-center">
               <img src="/image/utils/icon-chat-payment.png" alt="icon" class="w-8 sm:w-14" />
-              <p class="font-bold antialiased sm:text-xl">Chat Saja</p>
+              <p class="font-bold antialiased sm:text-xl">Just Chat</p>
             </div>
             <div class="lg:hidden">
               <font-awesome-icon icon="fa-solid fa-chevron-down" size="xl"
@@ -70,12 +70,12 @@
             </div>
           </div>
           <div class="bg-[#E5F6FF] rounded-xl p-2 flex flex-col justify-center items-center w-full my-2">
-            <p class="font-bold relative">
+            <p class="font-bold relative text-[#00673A]">
               <span class="absolute top-0 left-0">Rp</span>
               <span class="text-2xl sm:text-[32px] ml-6">40.000</span>
             </p>
             <p class="text-[#8896AB] font-semibold antialiased">
-              Konsultasi <span class="text-[#0072C3]">40 Menit</span>
+               <span class="text-[#00673A]">60 Minutes Consultat</span>
             </p>
           </div>
           <p class="text-xs sm:text-sm text-[#556987] leading-4 font-light h-14">
@@ -113,7 +113,7 @@
         </div>
       </div>
       <div
-        class="bg-[linear-gradient(2.28deg,#FFFFFF_34.51%,#87DEFF_98.09%)] bg-white rounded-xl p-3 mt-4 w-[328px] h-auto flex-1 relative">
+        class="bg-[linear-gradient(2.28deg,#C7FBE6_34.51%,#8DFFBD_98.09%)] bg-white rounded-xl p-3 mt-4 w-[328px] h-auto flex-1 relative">
         <div
           class="bg-[linear-gradient(317.9deg,#2886F7_-145.55%,#F64F55_104.76%)] absolute -top-2 left-0 flex items-center justify-center rounded-tl-xl rounded-r-xl shadow-lg py-1 px-[6px]">
           <div class="flex items-center space-x-2">
@@ -142,12 +142,12 @@
               <span class="absolute top-0 left-0">Rp</span>
               <span class="text-2xl sm:text-[32px] ml-6">50.000</span>
             </p>
-            <p class="text-[#8896AB] font-semibold antialiased">
-              Konsultasi <span class="text-[#0072C3]">60 Menit</span>
+            <p class="text-[#333333] font-semibold antialiased">
+               <span class="text-[#333333]">60 Minutes Consultat</span>
             </p>
           </div>
           <p class="text-xs sm:text-sm text-[#556987] leading-4 font-light h-14">
-            Waktu lebih leluasa untuk membahas masalah hukum secara mendalam.
+            More time to discuss legal issues in depth.
           </p>
         </div>
         <div v-show="isOpen3">
@@ -176,7 +176,7 @@
           </ul> -->
           <button type="button"
             class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 px-4.5 py-2.5 md:text-lg bg-[linear-gradient(90deg,#00D075_0%,#069456_100%)]  text-white hover:bg-blue-9 rounded-lg w-full text-center mt-4">
-            <span>Konsultasi Sekarang</span>
+            <span>Consult Now</span>
           </button>
         </div>
       </div>
