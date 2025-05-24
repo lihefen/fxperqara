@@ -224,22 +224,22 @@ const router = useRouter()
 const menuItems = [
   {
     id: 1,
-    title: "Layanan Hukum",
+    title: "Legal Services",
     path: "#",
     hasDropdown: true,
   },
   {
     id: 2,
-    title: "Tentang Kami",
+    title: "About Us",
     path: "tentang-kami",
   },
+//   {
+//     id: 3,
+//     title: "Artikel Hukum",
+//     path: "#",
+//   },
   {
     id: 3,
-    title: "Artikel Hukum",
-    path: "#",
-  },
-  {
-    id: 4,
     title: "FAQ",
     path: "faq",
   },
