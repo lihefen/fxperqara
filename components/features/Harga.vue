@@ -1,12 +1,12 @@
 <template>
   <div class="font-lexend antialiased">
-    <p class="text-2xl font-bold text-white text-center">Harga Konsultasi</p>
+    <p class="text-2xl font-bold text-white text-center">Consultation Price</p>
     <section class="justify-center items-center flex-col flex lg:flex-row lg:gap-8">
       <div class="bg-white rounded-xl p-3 mt-4 w-[328px] h-auto flex-1 relative">
         <div id="content-payment">
           <div class="flex justify-between sm:justify-center items-center">
             <div id="wrap-title" class="flex sm:flex-col gap-2 items-center">
-              <img src="/image/utils/icon-probono-payment.svg" alt="icon" class="w-8 sm:w-14" />
+              <img src="/image/utils/icon-probono-payment.png" alt="icon" class="w-8 sm:w-14" />
               <p class="font-bold antialiased sm:text-xl">Pro Bono</p>
             </div>
             <div class="lg:hidden">
@@ -17,18 +17,17 @@
             </div>
           </div>
           <div class="bg-[#E5F6FF] rounded-xl p-2 flex flex-col justify-center items-center w-full my-2">
-            <p class="text-2xl font-bold">GRATIS</p>
-            <p class="text-[#8896AB] font-semibold antialiased">
-              Konsultasi <span class="text-[#0072C3]">20 Menit</span>
+            <p class="text-2xl font-bold text-[#00673A]">FREE</p>
+            <p class="text-[#00673A] font-semibold antialiased">
+                30 Minutes Consultat
             </p>
           </div>
           <p class="text-xs sm:text-sm text-[#556987] leading-4 font-light h-14">
-            Dapatkan konsultasi hukum Gratis dengan syarat mengunggah Kartu
-            Identitas (KTP).
+            Get free legal consultation by uploading your Identity Card (KTP).
           </p>
         </div>
         <div v-show="isOpen1">
-          <ul class="mt-4 space-y-2 text-[#556987] text-sm">
+          <!-- <ul class="mt-4 space-y-2 text-[#556987] text-sm">
             <div id="border-solid" class="h-1 border-t border-solid border-[#9EADBF] my-3"></div>
             <li class="flex gap-2 items-center">
               <img src="/image/utils/icon-checkbox.svg" alt="checkbox" /> Chat
@@ -50,10 +49,10 @@
               <img src="/image/utils/icon-close-checkbox.svg" alt="close-checkbox" width="26" />
               <span class="line-through">Video Call</span>
             </li>
-          </ul>
+          </ul> -->
           <button type="button"
-            class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 px-4.5 py-2.5 md:text-lg bg-blue-2 text-white hover:bg-blue-9 rounded-lg w-full text-center mt-4">
-            <span>Ajukan Pro Bono</span>
+            class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 px-4.5 py-2.5 md:text-lg bg-[linear-gradient(90deg,#00D075_0%,#069456_100%)] text-white hover:bg-blue-9 rounded-lg w-full text-center mt-4">
+            <span>Apply pro Bono</span>
           </button>
         </div>
       </div>
@@ -61,7 +60,7 @@
         <div id="content-payment">
           <div class="flex justify-between sm:justify-center items-center">
             <div id="wrap-title" class="flex sm:flex-col gap-2 items-center">
-              <img src="/image/utils/icon-chat-payment.svg" alt="icon" class="w-8 sm:w-14" />
+              <img src="/image/utils/icon-chat-payment.png" alt="icon" class="w-8 sm:w-14" />
               <p class="font-bold antialiased sm:text-xl">Chat Saja</p>
             </div>
             <div class="lg:hidden">
@@ -80,12 +79,11 @@
             </p>
           </div>
           <p class="text-xs sm:text-sm text-[#556987] leading-4 font-light h-14">
-            Solusi ideal untuk kebutuhan hukum mendesak dan diskusi yang lebih
-            ringkas.
+            The ideal solution for urgent legal needs and more concise discussions.
           </p>
         </div>
         <div v-show="isOpen2">
-          <ul class="mt-4 space-y-2 text-[#556987] text-sm">
+          <!-- <ul class="mt-4 space-y-2 text-[#556987] text-sm">
             <div id="border-solid" class="h-1 border-t border-solid border-[#9EADBF] my-3"></div>
             <li class="flex gap-2 items-center">
               <img src="/image/utils/icon-checkbox.svg" alt="checkbox" /> Chat
@@ -107,10 +105,10 @@
               <img src="/image/utils/icon-close-checkbox.svg" alt="close-checkbox" width="26" />
               <span class="line-through">Video Call</span>
             </li>
-          </ul>
+          </ul> -->
           <button type="button"
-            class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 px-4.5 py-2.5 md:text-lg bg-blue-2 text-white hover:bg-blue-9 rounded-lg w-full text-center mt-4">
-            <span>Konsultasi Sekarang</span>
+            class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 px-4.5 py-2.5 md:text-lg bg-[linear-gradient(90deg,#00D075_0%,#069456_100%)]  text-white hover:bg-blue-9 rounded-lg w-full text-center mt-4">
+            <span>Consult Now</span>
           </button>
         </div>
       </div>
@@ -128,7 +126,7 @@
         <div id="content-payment">
           <div class="flex justify-between sm:justify-center items-center">
             <div id="wrap-title" class="flex sm:flex-col gap-2 items-center">
-              <img src="/image/utils/icon-fullpackage-payment.svg" alt="icon" class="w-8 sm:w-14" />
+              <img src="/image/utils/icon-fullpackage-payment.png" alt="icon" class="w-8 sm:w-14" />
               <p class="font-bold antialiased sm:text-xl">
                 Chat + Voice + Video Call
               </p>
@@ -153,7 +151,7 @@
           </p>
         </div>
         <div v-show="isOpen3">
-          <ul class="mt-4 space-y-2 text-[#556987] text-sm">
+          <!-- <ul class="mt-4 space-y-2 text-[#556987] text-sm">
             <div id="border-solid" class="h-1 border-t border-solid border-[#9EADBF] my-3"></div>
             <li class="flex gap-2 items-center">
               <img src="/image/utils/icon-checkbox.svg" alt="checkbox" /> Chat
@@ -175,9 +173,9 @@
               <img src="/image/utils/icon-checkbox.svg" alt="checkbox" />
               Video Call
             </li>
-          </ul>
+          </ul> -->
           <button type="button"
-            class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 px-4.5 py-2.5 md:text-lg bg-blue-2 text-white hover:bg-blue-9 rounded-lg w-full text-center mt-4">
+            class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 px-4.5 py-2.5 md:text-lg bg-[linear-gradient(90deg,#00D075_0%,#069456_100%)]  text-white hover:bg-blue-9 rounded-lg w-full text-center mt-4">
             <span>Konsultasi Sekarang</span>
           </button>
         </div>
