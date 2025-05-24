@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h2 class="text-xl lg:text-3xl font-semibold">
-      Seperti Mereka, Siapa Pun Bisa Menemukan Solusi!
+    <h2 class="text-xl lg:text-3xl text-center font-semibold">
+        Like Them, Anyone Can Find A Solution!
     </h2>
     <div class="xl:flex xl:justify-center">
       <div id="wrapper-carousel" class="max-w-[1280px] xl:px-40">
@@ -9,7 +9,7 @@
           class="flex flex-row overflow-x-auto scrollbar-hide scroll-smooth gap-6 pt-6 pb-2 px-2">
           <UCarousel ref="carousel" v-slot="{ item }" :items="items" :ui="{ item: 'basis-auto' }"
             class="inline-flex gap-4 md:gap-6 w-full" @select="onSelect">
-            <div class="w-52 pt-4 h-auto md:w-60 lg:w-[290px] xl:w-[320px] bg-white rounded-md shadow">
+            <div class="w-52 pt-4 h-auto md:w-60 lg:w-[290px] xl:w-[320px] bg-[linear-gradient(91.47deg,#CDFFE9_-13.62%,#FFFFFF_56.52%)] rounded-md shadow">
               <div class="px-4 pb-4 overflow-auto h-44 md:h-32 scrollbar-hide">
                 <blockquote class="pt-2 text-sm antialiased text-slate-500">
                   {{ item.quote }}
@@ -88,18 +88,18 @@ import { ref } from "vue";
 const items = ref([
   {
     id: 1,
-    name: "Bayu",
-    quote: "Saran advokat di aplikasi ini sangat membantu masyarakat kecil seperti saya. Semoga LawOnGo dapat terus menjadi jembatan untuk mendapatkan kesetaraan keadilan secara hukum.",
+    name: "Siska",
+    quote: "Advocate advice in this application is very helpful for small communities like me. ",
   },
   {
     id: 2,
-    name: "Anto",
-    quote: "Advokat sangat informatif, dan berusaha memahami konteks permasalahan saya. Penyampaiannya simple, lugas, dan firm walaupun notobene saya berkonsultasi tanpa biaya.",
+    name: "Siska",
+    quote: "Advocate advice in this application is very helpful for small communities like me. ",
   },
   {
     id: 3,
     name: "Siska",
-    quote: "Pelayanan di LawOnGo bagus, ini sudah konsultasi kedua saya. Advokat benar-benar menjelaskan secara detail dan sabar untuk saya yang tidak mengerti hukum",
+    quote: "Advocate advice in this application is very helpful for small communities like me. ",
   },
 ]);
 
