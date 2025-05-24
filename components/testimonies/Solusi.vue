@@ -10,20 +10,15 @@
           <UCarousel ref="carousel" v-slot="{ item }" :items="items" :ui="{ item: 'basis-auto' }"
             class="inline-flex gap-4 md:gap-6 w-full" @select="onSelect">
             <div class="w-52 pt-4 h-auto md:w-60 lg:w-[290px] xl:w-[320px] bg-[linear-gradient(91.47deg,#CDFFE9_-13.62%,#FFFFFF_56.52%)] rounded-md shadow">
-              <div class="px-4 pb-4 overflow-auto h-44 md:h-32 scrollbar-hide">
+              <div class="px-4 pb-4 overflow-auto scrollbar-hide">
                 <blockquote class="pt-2 text-sm antialiased text-slate-500">
                   {{ item.quote }}
                 </blockquote>
               </div>
               <div class="flex justify-between">
-                <div class="flex items-center pl-4 py-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="none" class="w-4 h-4 md:w-6 md:h-6 fill-blue-2 stroke-blue-2">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z">
-                    </path>
-                  </svg>
-                  <label class="text-black bottom-0 pl-2">{{ item.name }}</label>
+                <div class="flex  pl-4 py-2">
+                   <div><img src="/image/utils/icon_person.png" /></div>
+                    <label class="text-black bottom-0 pl-2">{{ item.name }}</label>
                 </div>
                 <div>
                   <img src="/image/card-testimoni.png" alt="kutip" />
