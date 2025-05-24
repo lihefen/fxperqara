@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-gradient-to-r from-[#1c2e7f] to-[#0a50a3]">
+  <div class="w-full bg-gradient-to-r from-[#005F38] to-[#005F38]">
     <div class="flex justify-center max-w-[1280px] p-4 xl:px-40 mx-auto">
       <div class="max-w-mobile md:max-w-tablet lg:max-w-full">
         <div class="lg:flex w-full">

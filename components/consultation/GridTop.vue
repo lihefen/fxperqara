@@ -2,11 +2,10 @@
   <div class="px-4 xl:px-40">
     <div class="space-y-2 mb-5 text-white">
       <h2 class="md:text-3xl font-semibold md:leading-[56px] text-xl">
-        Ingin Konsultasi Hukum Apa?
+        What Legal Consultation Do You Want?
       </h2>
       <p>
-        Advokat di LawOnGo siap mendengarkan dan membantu mengatasi masalah
-        seputar:
+        Advocates at Perqara are ready to listen and help resolve issues related to:
       </p>
     </div>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-2">
@@ -25,7 +24,7 @@
                 <p
                   class="sm:leading-6 text-center lg:text-left text-xs text-neutral-800 font-dm-sans font-bold"
                 >
-                  Kepailitan &amp; PKPU
+                Bankruptcy & PKPU
                 </p>
               </div>
             </div>
@@ -47,7 +46,7 @@
                 <p
                   class="sm:leading-6 text-center lg:text-left text-xs text-neutral-800 font-dm-sans font-bold"
                 >
-                  Ketenagakerjaan
+                Employment
                 </p>
                 <div
                   class="flex justify-center lg:justify-start items-center gap-1"
@@ -59,13 +58,13 @@
                       <div
                         class="text-sky-700 text-[10px] font-normal font-dm-sans truncate text-center"
                       >
-                        Sengekta hubungan industrial
+                      Industrial relations dis…
                       </div>
                     </div>
                   </div>
-                  <p class="text-black text-[10px] font-normal font-dm-sans">
+                  <!-- <p class="text-black text-[10px] font-normal font-dm-sans">
                     +7
-                  </p>
+                  </p> -->
                 </div>
               </div>
             </div>
@@ -87,7 +86,7 @@
                 <p
                   class="sm:leading-6 text-center lg:text-left text-xs text-neutral-800 font-dm-sans font-bold"
                 >
-                  Perkawinan &amp; Perceraian
+                Marriage & Divorce
                 </p>
                 <div
                   class="flex justify-center lg:justify-start items-center gap-1"
@@ -99,13 +98,13 @@
                       <div
                         class="text-sky-700 text-[10px] font-normal font-dm-sans truncate text-center"
                       >
-                        Perkawinan dan perceraian umum
+                      General marriage and…
                       </div>
                     </div>
                   </div>
-                  <p class="text-black text-[10px] font-normal font-dm-sans">
+                  <!-- <p class="text-black text-[10px] font-normal font-dm-sans">
                     +7
-                  </p>
+                  </p> -->
                 </div>
               </div>
             </div>
@@ -127,7 +126,7 @@
                 <p
                   class="sm:leading-6 text-center lg:text-left text-xs text-neutral-800 font-dm-sans font-bold"
                 >
-                  Pertanahan
+                Land
                 </p>
                 <div
                   class="flex justify-center lg:justify-start items-center gap-1"
@@ -139,13 +138,13 @@
                       <div
                         class="text-sky-700 text-[10px] font-normal font-dm-sans truncate text-center"
                       >
-                        Pidana penyerobotan
+                      Criminal trespass
                       </div>
                     </div>
                   </div>
-                  <p class="text-black text-[10px] font-normal font-dm-sans">
+                  <!-- <p class="text-black text-[10px] font-normal font-dm-sans">
                     +5
-                  </p>
+                  </p> -->
                 </div>
               </div>
             </div>
@@ -167,7 +166,7 @@
                 <p
                   class="sm:leading-6 text-center lg:text-left text-xs text-neutral-800 font-dm-sans font-bold"
                 >
-                  Pidana
+                Criminal
                 </p>
                 <div
                   class="flex justify-center lg:justify-start items-center gap-1"
@@ -179,13 +178,13 @@
                       <div
                         class="text-sky-700 text-[10px] font-normal font-dm-sans truncate text-center"
                       >
-                        Penganiayaan dan pengeroyokan
+                      Abuse and mob violen
                       </div>
                     </div>
                   </div>
-                  <p class="text-black text-[10px] font-normal font-dm-sans">
+                  <!-- <p class="text-black text-[10px] font-normal font-dm-sans">
                     +22
-                  </p>
+                  </p> -->
                 </div>
               </div>
             </div>
@@ -207,7 +206,7 @@
                 <p
                   class="sm:leading-6 text-center lg:text-left text-xs text-neutral-800 font-dm-sans font-bold"
                 >
-                  Perdata
+                Civil
                 </p>
                 <div
                   class="flex justify-center lg:justify-start items-center gap-1"
@@ -219,13 +218,13 @@
                       <div
                         class="text-sky-700 text-[10px] font-normal font-dm-sans truncate text-center"
                       >
-                        Perdata umum
+                      General civil law
                       </div>
                     </div>
                   </div>
-                  <p class="text-black text-[10px] font-normal font-dm-sans">
+                  <!-- <p class="text-black text-[10px] font-normal font-dm-sans">
                     +13
-                  </p>
+                  </p> -->
                 </div>
               </div>
             </div>
@@ -247,7 +246,7 @@
                 <p
                   class="sm:leading-6 text-center lg:text-left text-xs text-neutral-800 font-dm-sans font-bold"
                 >
-                  Pajak Perusahaan
+                Corporate
                 </p>
               </div>
             </div>
@@ -269,7 +268,7 @@
                 <p
                   class="sm:leading-6 text-center lg:text-left text-xs text-neutral-800 font-dm-sans font-bold"
                 >
-                  Pajak Pribadi
+                Personal Tax
                 </p>
               </div>
             </div>

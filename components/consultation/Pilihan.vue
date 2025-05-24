@@ -11,18 +11,23 @@
         />
         <div class="md:py-2 space-y-2 relative">
           <h2 class="md:text-3xl font-semibold text-xl text-black">
-            Pilihan Advokat
+            Advocate Choice
           </h2>
           <p
             class="text-sm md:text-xs lg:text-base font-dm-sans font-normal antialiased text-neutral-900 mb-6"
           >
-            Advokat online untuk kebutuhan hukum Anda. Ingin mengajukan layanan
-            <span
+          Online advocate for your legal needs. Want to apply for Pro bono services ? 
+            
+            <!-- <span
               class="text-transparent bg-gradient-to-r from-blue-2 to-blue-3 bg-clip-text font-bold"
               >Pro bono</span
-            >? Klik di
+            > -->
+            
             <a href="/probono" class="cursor-pointer text-blue-5 underline">
-              sini
+                Click <span
+              class="font-bold text-[#007B45]"
+              >here</span
+            >
             </a>
           </p>
         </div>

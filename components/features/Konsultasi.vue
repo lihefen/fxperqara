@@ -1,12 +1,12 @@
 <template>
   <div class="space-y-3 text-white text-center md:px-20">
     <h1 class="md:text-3xl text-2xl font-semibold">
-      Kenapa Konsultasi Hukum di LawOnGo?
+        Why Legal Consultation at LawOnGo?
     </h1>
-    <p>
+    <!-- <p>
       Didukung dengan berbagai fitur yang memudahkan, ayo #BebasKonsultasi
       bersama LawOnGo sebagai langkah pertama bebas dari masalah hukum.
-    </p>
+    </p> -->
   </div>
   <div class="md:hidden mx-auto mb-16">
     <UCarousel v-slot="{ item }" loop dots :items="items">
@@ -17,28 +17,28 @@
     class="grid grid-rows-2 grid-cols-2 md:grid-cols-3 grid-flow-col md:gap-x-10 md:gap-y-6 gap-4"
   >
     <div
-      class="bg-[#F5FBFD] rounded-xl p-3 text-[#4D5B6A] font-light md:text-base text-sm space-y-1"
+      class="bg-[#54F9AB] rounded-xl p-3 text-[#4D5B6A] font-light md:text-base text-sm space-y-1"
     >
-      <img
+      <!-- <img
         width="80"
         class="mix-blend-multiply"
         src="/image/landing-page/icon-feature-1.webp"
-      />
+      /> -->
       <h2 class="md:text-xl text-base font-semibold text-[#1D3743]">
-        Konsultasi Instan
+        Instant Consultation
       </h2>
-      <p>Konsultasi hukum online sekarang tanpa perlu buat janji temu.</p>
+      <p>Online legal consultation now without the need to make an appointment.</p>
     </div>
     <div
       class="bg-[#F5FBFD] rounded-xl p-3 text-[#4D5B6A] font-light md:text-base text-sm space-y-1"
     >
-      <img
+      <!-- <img
         width="80"
         class="mix-blend-multiply"
         src="/image/landing-page/icon-feature-2.webp"
-      />
+      /> -->
       <h2 class="md:text-xl text-base font-semibold text-[#1D3743]">
-        Advokat Terpercaya
+        Trusted Advocate
       </h2>
       <p>
         Percayakan masalah hukum Anda kepada Advokat profesional yang terbaik di
@@ -59,33 +59,31 @@
     <div
       class="bg-[#F5FBFD] rounded-xl p-3 text-[#4D5B6A] font-light md:text-base text-sm space-y-1"
     >
-      <img
+      <!-- <img
         width="80"
         class="mix-blend-multiply"
         src="/image/landing-page/icon-feature-3.webp"
-      />
+      /> -->
       <h2 class="md:text-xl text-base font-semibold text-[#1D3743]">
-        Satu Harga untuk Semua
+        One Price for All
       </h2>
       <p>
-        Bebas konsultasi hukum via chat, voice call atau video call hanya dengan
-        membayar satu harga
+        Entrust your legal problems to the best professional advocates in their fields.
       </p>
     </div>
     <div
       class="bg-[#F5FBFD] rounded-xl p-3 text-[#4D5B6A] font-light md:text-base text-sm space-y-1"
     >
-      <img
+      <!-- <img
         width="80"
         class="mix-blend-multiply"
         src="/image/landing-page/icon-feature-4.webp"
-      />
+      /> -->
       <h2 class="md:text-xl text-base font-semibold text-[#1D3743]">
-        Proses Aman &amp; Transparan
+        Safe & Transparent Process
       </h2>
       <p>
-        Lacak semua proses dan transaksi layanan hukum yang Anda pesan di
-        LawOnGo.
+        Track all processes and transactions of legal services you order at Perqara.
       </p>
     </div>
   </div>
@@ -165,7 +163,7 @@
 </template>
 <script setup>
 const items = [
-  "/image/landing-page/phone-first.webp",
-  "/image/landing-page/phone-secondary.webp",
+  "/image/landing-page/phone-first.png",
+  "/image/landing-page/phone-first.png",
 ];
 </script>

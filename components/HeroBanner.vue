@@ -63,7 +63,7 @@
         </div>
         <div class="md:mx-0 mx-auto md:mt-16 mt-6">
           <img
-            sizes="(max-width: 640px) 248px, 525px"
+            sizes="(max-width: 640px) 466px, 466px"
             src="/image/landing-page/hero-picture-video-call.png"
           />
         </div>

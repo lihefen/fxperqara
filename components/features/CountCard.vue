@@ -1,3 +1,11 @@
+<!--
+ * @Description: 
+ * @version: 
+ * @Author: hean
+ * @Date: 2025-05-18 18:45:48
+ * @LastEditors: hean
+ * @LastEditTime: 2025-05-24 13:37:13
+-->
 <template>
   <div
     class="flex flex-col sm:gap-6 gap-3 bg-[#F3FBFF] rounded-xl sm:py-6 p-3 md:px-20 sm:px-10 md:w-fit mx-auto"
@@ -6,16 +14,12 @@
       class="px-3 py-2 flex justify-center items-center md:gap-9 sm:gap-6 gap-2"
     >
       <div class="text-center">
-        <p class="text-[#181E23] sm:text-2xl font-semibold">27.000+</p>
-        <p class="text-[#39424D] sm:text-sm text-xs">Konsultasi Selesai</p>
+        <p class="text-[#181E23] sm:text-2xl font-semibold">170000+</p>
+        <p class="text-[#39424D] sm:text-sm text-xs">Clients Enrolled</p>
       </div>
       <div class="text-center">
         <p class="text-[#181E23] sm:text-2xl font-semibold">500+</p>
-        <p class="text-[#39424D] sm:text-sm text-xs">Advokat Terdaftar</p>
-      </div>
-      <div class="text-center">
-        <p class="text-[#181E23] sm:text-2xl font-semibold">130+</p>
-        <p class="text-[#39424D] sm:text-sm text-xs">Kota Dijangkau</p>
+        <p class="text-[#39424D] sm:text-sm text-xs">Dedicated Team</p>
       </div>
       <div class="text-center">
         <p
@@ -25,9 +29,9 @@
             src="/image/landing-page/icon-star.svg"
             alt=""
             class="w-4 sm:w-6 h-4.5 sm:h-8"
-          /><span>4,9/5</span>
+          /><span>4.9</span>
         </p>
-        <p class="text-[#39424D] sm:text-sm text-xs">Kepuasan Klien</p>
+        <p class="text-[#39424D] sm:text-sm text-xs">Excellent rating</p>
       </div>
     </div>
     <div class="border-t border-[#C6CEDC]"></div>

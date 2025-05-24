@@ -46,8 +46,8 @@
           </button>
           <router-link to="/" class="flex-shrink-0">
             <img
-              src="/image/logo-perqara.svg"
-              width="140"
+              src="/image/logo-perqara.png"
+              width="152"
               alt="LawOnGo Logo"
             />
           </router-link>
@@ -131,16 +131,16 @@
           >
             <button
                @click="navigateToRegister"
-              class="border-2 bg-white border-[#0a50a3] text-[#0a50a3] py-1.5 px-3 rounded-lg leading-5"
+              class="border-2 bg-white border-[#04A45E] text-[#04A45E] py-1.5 px-3 rounded-lg leading-5"
             >
-              Daftar
+              Log On
             </button>
           </div>
           <button
             @click="loginHandler"
-            class="border-2 border-[#0a50a3] bg-[#0a50a3] text-white py-1.5 px-3 rounded-lg leading-5"
+            class="border-2 border-[#04A45E] bg-[#04A45E] text-white py-1.5 px-3 rounded-lg leading-5"
           >
-            Masuk
+            Register
           </button>
         </div>
       </div>

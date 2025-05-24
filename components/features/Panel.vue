@@ -5,7 +5,7 @@
         class="bg-[linear-gradient(180deg,#F3FBFF_-8.4%,#52BEE7_131.35%)] shadow p-3 md:p-6 rounded-xl flex flex-col items-center gap-3 md:gap-6"
       >
         <h5 class="text-2xl lg:text-3xl font-bold text-center">
-          Layanan Hukum LawOnGo
+            LawOnGo Legal Services
         </h5>
         <div
           class="flex md:flex-row md:flex-wrap flex-col gap-4 md:gap-6 w-full cursor-pointer"
@@ -15,17 +15,16 @@
             class="bg-white shadow-md p-3 space-y-2 md:space-y-4 rounded-xl md:flex-1"
             ><div class="flex gap-2 items-center">
               <img
-                src="/image/landing-page/icon-legal-consultation-colored.svg"
+                src="/image/landing-page/icon-legal-consultation-colored.png"
                 alt="icon-legal-consultation"
-                class="w-12 md:w-14 lg:w-[72px]"
+                class="w-12 md:w-14 lg:w-[110px]"
               />
               <p class="font-bold text-xl lg:text-2xl flex-1">
-                Konsultasi Hukum Online
+                Debt <br/>Consolidation
               </p>
             </div>
             <p class="text-xs sm:text-sm text-[#647387]">
-              LawOnGo bermitra dengan Advokat-advokat terbaik yang telah
-              disumpah.
+                AI+Legal Consultation
             </p></a
           ><a
             href="/pendirian-badan-usaha"
@@ -37,17 +36,16 @@
             </div>
             <div class="flex gap-2 items-center !mt-0">
               <img
-                src="/image/navbar/icon-company-establishment.svg"
+                src="/image/navbar/icon-company-establishment.png"
                 alt="icon-company-establishment"
-                class="w-12 md:w-14 lg:w-[72px]"
+                class="w-12 md:w-14 lg:w-[110px]"
               />
               <p class="font-bold text-xl lg:text-2xl flex-1">
-                Pendirian Badan Usaha
+                Debt Relief
               </p>
             </div>
             <p class="text-xs sm:text-sm text-[#647387]">
-              Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta,
-              dan waarmerking.
+                Debt relief solution
             </p></a
           ><a
             href="/layanan-lainnya"
@@ -79,10 +77,10 @@
                   fill="#0072C3"
                 ></path>
               </svg>
-              <p class="font-bold text-xl lg:text-2xl flex-1">Lainnya</p>
+              <p class="font-bold text-xl lg:text-2xl flex-1">Other</p>
             </div>
             <p class="text-xs sm:text-sm text-[#647387]">
-              Pembuatan Dokumen Hukum, Pendaftaran- HAKI, Konsultasi Pajak
+                Rapid debt reduction
             </p></a
           >
         </div>
