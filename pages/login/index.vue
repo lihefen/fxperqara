@@ -20,8 +20,9 @@
                         </div>
                     </div>
 
-                    <div flex lg:flex-row flex-col gap-6>
+                    <div class="flex lg:flex-row flex-col gap-6">
                         <div class="lg:bg-[#E3F4FD]/80 lg:rounded-2xl lg:px-20 sm:px-0 px-4 lg:max-h-[800px] overflow-hidden flex-1">
+                            <RegisterSwiper />
                         </div>
 
                         <div class="flex flex-col justify-between w-full h-[532px] md:h-[640px] lg:w-[386px] p-4 md:p-6 rounded-2xl bg-white md:shadow-[0_20px_50px_0_rgba(0,0,0,0.13)]">
@@ -79,6 +80,8 @@
 <script setup>
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
+import RegisterSwiper from '@/components/RegisterSwiper.vue'
+
 const router = useRouter()
 const inputEmail = ref('');
 const inputPassword = ref('');

@@ -124,7 +124,7 @@
                                 </div>
                             </div>
                             <div class="md:px-6 py-3 px-4 rounded-2xl bg-white">
-                                <p class="font-semibold text-center mb-4"> Join to Become an Ad</p><a href="/register/advokat" class=""><img class="w-full cursor-pointer" src="/image/lawyer/login/banner-login-advokat.png" alt="banner-advokat"></a>
+                                <p class="font-semibold text-center mb-4"> Gabung Menjadi Advokat </p><a href="/register/advokat" class=""><img class="w-full cursor-pointer" src="/image/lawyer/login/banner-login-advokat.png" alt="banner-advokat"></a>
                             </div>
                         </div>
                     </div>
