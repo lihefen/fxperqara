@@ -15,8 +15,8 @@
                 <div>
                     <div class="flex items-center justify-between py-2 px-4 sm:px-0 mb-3">
                         <button><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.707 18.3102C11.0975 18.7008 11.0975 19.3339 10.707 19.7244C10.3164 20.115 9.68327 20.115 9.29274 19.7244L3.49985 13.9315C2.7188 13.1505 2.7188 11.8842 3.49985 11.1031L9.29274 5.31023C9.68327 4.9197 10.3164 4.9197 10.707 5.31023C11.0975 5.70075 11.0975 6.33392 10.707 6.72444L5.91406 11.5173H19.9998C20.5521 11.5173 20.9998 11.965 20.9998 12.5173C20.9998 13.0696 20.5521 13.5173 19.9998 13.5173H5.91406L10.707 18.3102Z" fill="#262E35"></path></svg></button>
-                        <div class="font-semibold sm:text-base text-sm"> Belum punya akun LawOnGo? 
-                            <button @click="navigateToRegister" class="ml-2 sm:h-10 h-8 bg-[#F3FBFF] rounded-md sm:px-4 px-3 sm:text-sm text-xs font-semibold text-blue-2 hover:bg-white hover:text-[#1192E8] transition-colors"> Daftar </button>
+                        <div class="font-semibold sm:text-base text-sm"> Don’t have a LawOnGo
+                            <button @click="navigateToRegister" class="ml-2 h-7 bg-[#F3FBFF] border-1 text-[#333333]  rounded-[18px] sm:px-4 px-3 sm:text-sm text-xs font-semibold  hover:bg-white hover:text-[#1192E8] transition-colors"> Login </button>
                         </div>
                     </div>
 
@@ -27,7 +27,7 @@
                         <div class="flex flex-col justify-between w-full h-[532px] md:h-[640px] lg:w-[386px] p-4 md:p-6 rounded-2xl bg-white md:shadow-[0_20px_50px_0_rgba(0,0,0,0.13)]">
                             <div>
                                 <div class="flex flex-col gap-6">
-                                    <p class="text-2xl text-neutral-800 text-center font-bold"> Masuk Akun </p>
+                                    <p class="text-2xl text-neutral-800 text-center font-bold"> Login</p>
                                     <div class="flex flex-col gap-3">
                                         <div>
                                             <p  class="font-medium font-dm-sans antialiased mb-2 text-black text-base">Nomor Ponsel atau Email</p>

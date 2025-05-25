@@ -61,19 +61,19 @@
                                     </div>
 
                                     <div class="space-y-2">
-                                        <label class="text-slate-700 text-xs">Email</label>
+                                        <label class="text-slate-700 text-xs">E-mail</label>
                                         <div>
-                                            <el-input v-model="inputEmail" type="email" placeholder="Tuliskan email aktif Anda"></el-input>
+                                            <el-input v-model="inputEmail" type="email" placeholder="Write your active email"></el-input>
                                         </div>
                                     </div>
 
                                     <div class="space-y-2">
-                                        <label class="text-slate-700 text-xs">Tanggal Lahir</label>
+                                        <label class="text-slate-700 text-xs">Date of birth</label>
                                         <div>
                                             <el-date-picker
                                                 v-model="inputDate"
                                                 type="date"
-                                                placeholder="年/月/日"
+                                                placeholder="Year / Month / Day"
                                                 size="large"
                                                 class="w-full"
                                             />
@@ -82,13 +82,13 @@
 
                                     <!-- 性别 -->
                                     <div class="space-y-2">
-                                        <label for="kelamin" class="text-xs text-slate-700">Jenis Kelamin</label>
+                                        <label for="kelamin" class="text-xs text-slate-700">Gender</label>
                                         <div>
                                             <div class="flex w-full">
                                                 <!-- 女性 -->
                                                 <el-radio-group v-model="inputGender" size="large">
                                                     <el-radio-button label="Laki - Laki" value="Laki - Laki" />
-                                                    <el-radio-button label="Perempuan" value="Perempuan" />
+                                                    <el-radio-button label="Permpuan" value="Permpuan" />
                                                 </el-radio-group>
 
 
@@ -97,13 +97,13 @@
                                     </div>
                                     <!-- 城市 & 地区 -->
                                     <div class="space-y-2">
-                                        <p class="text-slate-700 text-xs"> Kota </p>
+                                        <p class="text-slate-700 text-xs"> City </p>
                                         <div>
                                             <div class="mt-2 w-full rounded-lg text-black">
                                                 <div class="multiselect">
                                                     <el-select
                                                         v-model="inputCity"
-                                                        placeholder="Select"
+                                                        placeholder="Select City"
                                                         size="large"
                                                         >
                                                         <el-option
@@ -118,12 +118,13 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <p class="text-neutral-800 text-sm text-center"> Dengan mendaftar, saya menyetujui <a href="/syarat-ketentuan" class="text-steelBlue"> Syarat dan Ketentuan </a> serta <a href="/kebijakan-privasi" class="text-steelBlue"> Kebijakan Privasi </a> LawOnGo. </p>
-                                    <button type="button" class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 w-full flex justify-center items-center px-4.5 py-2.5 md:text-lg bg-blue-2 text-white hover:bg-blue-9 rounded-lg font-medium"><span> Daftar </span></button>
+                                    <p class="text-neutral-800 text-sm text-center"> By registering, I agree to LawOnGo’s<a href="#" class="text-[#04A45E]"> Terms and 
+                                        Conditions</a> and <a href="#" class="text-[#04A45E]">Privacy Policy</a>.</p>
+                                    <button type="button" class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 w-full flex justify-center items-center px-4.5 py-2.5 md:text-lg bg-[#04A45E] text-white hover:bg-[#04A45E] rounded-lg font-medium"><span> List </span></button>
                                 </div>
                             </div>
                             <div class="md:px-6 py-3 px-4 rounded-2xl bg-white">
-                                <p class="font-semibold text-center mb-4"> Gabung Menjadi Advokat </p><a href="/register/advokat" class=""><img class="w-full cursor-pointer" src="/image/lawyer/login/banner-login-advokat.png" alt="banner-advokat"></a>
+                                <p class="font-semibold text-center mb-4"> Join to Become an Ad</p><a href="/register/advokat" class=""><img class="w-full cursor-pointer" src="/image/lawyer/login/banner-login-advokat.png" alt="banner-advokat"></a>
                             </div>
                         </div>
                     </div>
