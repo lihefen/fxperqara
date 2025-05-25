@@ -12,6 +12,7 @@ export default defineNuxtPlugin((NuxtApp) => {
         withCredentials: true,
         headers: {
             'Cache-Control': 'no-cache',
+            'Content-Type': 'application/json', // 设置默认 Content-Type 为 JSON
         },
     });
 
@@ -29,7 +30,7 @@ export default defineNuxtPlugin((NuxtApp) => {
     // 请求拦截器
     request.interceptors.request.use(
         config => {
-            setRequestType(config);
+            // setRequestType(config);
             let { showLoading } = config;
             if (showLoading) {
                 config.loadingHandler = loading.show();
