@@ -1,8 +1,7 @@
 <template>
-  <section id="features" class="pt-10 md:pt-20 pb-10 font-lexend antialiased">
-    <Panel />
-    <img src="/image/landing-page/bg-wave.svg" alt="bg-wave" class="w-full" />
-    <div class="relative bg-[linear-gradient(180deg,#2B72C6_0%,#FFFFFF_100%)] pt-60 lg:pt-32 xl:pt-20 -mt-2">
+  <section id="features" class="pt-10 md:p-20 pb-10">
+    <Panel class="pb-20" />
+    <div class="relative lg:pt-32 xl:pt-20 -mt-2">
       <div class="max-w-[1280px] px-4 xl:px-40 mx-auto space-y-8">
         <Advokat />
         <Harga />

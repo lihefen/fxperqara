@@ -45,11 +45,7 @@
             </svg>
           </button>
           <router-link to="/" class="flex-shrink-0">
-            <img
-              src="/image/logo-perqara.png"
-              width="152"
-              alt="LawOnGo Logo"
-            />
+            <img src="/image/topbar_logo.svg" width="152" alt="LawOnGo Logo" />
           </router-link>
 
           <!-- Desktop Navigation Menu -->
@@ -126,19 +122,17 @@
 
         <!-- Login/Register Buttons -->
         <div class="flex items-center gap-3">
-          <div
-            class="flex rounded-lg bg-gradient-to-r from-[#4F46E5] to-[#46A7E2] w-full items-center"
-          >
+          <div class="flex rounded-lg w-full items-center">
             <button
-               @click="navigateToRegister"
-              class="border-2 bg-white border-[#04A45E] text-[#04A45E] py-1.5 px-3 rounded-lg leading-5"
+              class="border-2 bg-white border-[#04A45E] text-[#04A45E] py-1.5 px-3 rounded-full leading-5"
+              @click="navigateToRegister"
             >
               Log On
             </button>
           </div>
           <button
+            class="border-2 border-[#04A45E] bg-[#04A45E] text-white py-1.5 px-3 rounded-full leading-5"
             @click="loginHandler"
-            class="border-2 border-[#04A45E] bg-[#04A45E] text-white py-1.5 px-3 rounded-lg leading-5"
           >
             Register
           </button>
@@ -216,10 +210,10 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
-import { useRouter } from 'vue-router'
+import { useRouter } from "vue-router";
 import NewBadge from "./NewBadge.vue";
 import ChevronDown from "./ChevronDown.vue";
-const router = useRouter()
+const router = useRouter();
 // Menu items data
 const menuItems = [
   {
@@ -252,7 +246,7 @@ const serviceItems = [
     title: "Konsultasi Hukum",
     description: "Konsultasi hukum langsung bersama advokat LawOnGo.",
     icon: "/image/navbar/icon-legal-consultation.svg",
-    path:'cari-advokat'
+    path: "cari-advokat",
   },
   {
     id: 2,
@@ -261,7 +255,7 @@ const serviceItems = [
       "Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.",
     icon: "/image/navbar/icon-company-establishment.svg",
     isNew: true,
-     path:'pendirian-badan-usaha'
+    path: "pendirian-badan-usaha",
   },
   {
     id: 3,
@@ -270,7 +264,7 @@ const serviceItems = [
       "Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.",
     icon: "/image/navbar/icon-document-creation.svg",
     isNew: true,
-     path:'layanan-lainnya'
+    path: "layanan-lainnya",
   },
   {
     id: 4,
@@ -278,7 +272,7 @@ const serviceItems = [
     description: "Layanan pendaftaran Merek, Paten, Hak Cipta, dll.",
     icon: "/image/navbar/icon-haki-registration.svg",
     isNew: true,
-     path:'/pendirian-badan-usaha'
+    path: "/pendirian-badan-usaha",
   },
   {
     id: 5,
@@ -286,7 +280,7 @@ const serviceItems = [
     description: "Konsultasi pelaporan pajak perusahaan maupun individu.",
     icon: "/image/navbar/icon-tax-consultation.svg",
     isNew: true,
-    path:'layanan-lainnya'
+    path: "layanan-lainnya",
   },
 ];
 
@@ -319,13 +313,13 @@ const checkMobile = () => {
 };
 
 const navigateToRegister = () => {
-    router.push('/register')
+  router.push("/register");
 };
 const loginHandler = () => {
-    emit('loginHandler');
+  emit("loginHandler");
 };
 
-const emit = defineEmits(['loginHandler']);
+const emit = defineEmits(["loginHandler"]);
 
 // Lifecycle hooks
 onMounted(() => {
