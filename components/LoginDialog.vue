@@ -9,8 +9,6 @@
 <template>
    
     <div id="wrap-login" v-if="state.active">
-        <!-- <el-dialog v-model="state.active">
-        </el-dialog> -->
         <div class="grid place-items-center fixed overflow-auto bg-white top-0 left-0 h-full w-full md:bg-black md:bg-opacity-50 z-50 xl:px-36">
             <section id="top-navigation" class="py-5 px-6 w-full md:px-10 lg:px-0 bg-transparent md:hidden">
                 <div class="flex items-center">
@@ -32,20 +30,20 @@
                         </button></div></div>
                         <div class="md:px-8 px-6">
                             <div class="pt-8 lg:pt-10">
-                                <p class="font-medium font-dm-sans antialiased mb-2 text-black text-base">Nomor Ponsel atau Email</p>
+                                <p class="font-medium font-dm-sans antialiased mb-2 text-black text-base">Mobile Number or Ema</p>
                                 <div class="relative w-full ">
-                                    <el-input v-model="inputEmail" type="text" size="large" placeholder="email@email.com atau 0813302938***" ></el-input>
+                                    <el-input v-model="inputEmail" type="text" size="large" placeholder="email@email.com or 08313302938***" ></el-input>
                                 </div>
                             </div>
 
                             <div class="mt-6">
                                 <div>
-                                    <p class="font-medium font-dm-sans antialiased mb-2 text-black text-base">Kata Sandi</p>
+                                    <p class="font-medium font-dm-sans antialiased mb-2 text-black text-base">Password</p>
                                     <div class="relative w-full">
                                         <el-input
                                             v-model="inputPassword"
                                             type="password"
-                                            placeholder="Contoh: Abc1*"
+                                            placeholder="Example: Abc1*"
                                             show-password
                                             size="large" 
                                         />
@@ -54,8 +52,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="mt-1.5 flex justify-end"><button class="text-sm text-blue-2 text-right cursor-pointer"> Lupa kata sandi Anda? </button></div>
-                            <button class="mt-4 py-2 w-full text-white text-bold text-lg rounded-md bg-blue-2"> Masuk </button>
+                            <div class="mt-1.5 flex justify-end"><button class="text-sm text-[#04A45E] text-right cursor-pointer"> Forgot your password? </button></div>
+                            <button class="mt-4 py-2 w-full bg-[#04A45E] text-[#ffffff] text-bold text-lg rounded-md "> Login </button>
                             <div class="mt-6 px-3 py-2 lg:px-2 w-full"><p class="text-black text-center text-base"> Belum punya akun perqara? <span class="text-blue-2 lg:contents"><button>Daftar disini</button></span></p></div>
                             <div id="border-line" class="my-4"><div class="border border-[#CED1D6]"></div></div>
                             <div id="login-advokat"><p class="antialiased font-bold mb-2"> Anda Advokat LawOnGo? </p><a href="/login/advokat" class=""><img class="w-full cursor-pointer" src="/image/lawyer/login/banner-login-advokat.png" alt="banner-advokat"></a></div>
