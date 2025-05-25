@@ -4,16 +4,16 @@
       Consultation Price
     </p>
     <section
-      class="justify-center items-center flex-col flex lg:flex-row lg:gap-6"
+      class="justify-center items-center flex-col flex lg:flex-row lg:gap-8"
     >
       <div
-        class="bg-linear-[180deg,#D2FFEB,#E2FFEF] rounded-[24px] p-4 mt-4 w-[340px] h-auto flex-1 relative overflow-visible"
+        class="bg-linear-[180deg,#D2FFEB,#E2FFEF] rounded-[24px] p-8 mt-4 w-[340px] h-auto flex-1 relative overflow-visible"
       >
         <div id="content-payment">
           <div class="flex justify-between sm:justify-center items-center">
             <div
               id="wrap-title"
-              class="flex sm:flex-col gap-2 items-center -mt-10"
+              class="flex sm:flex-col gap-2 items-center -mt-12"
             >
               <img
                 src="/image/utils/icon-probono-payment.png"
@@ -26,13 +26,13 @@
           <div
             class="bg-white shadow-[0px_-1px_1px_1px_#00B267] rounded-full p-2 flex flex-col justify-center items-center w-full my-2"
           >
-            <p class="text-2xl font-bold text-[#00673A]">FREE</p>
+            <p class="text-2xl font-bold text-[#00673A] sm:text-[32px]">FREE</p>
             <p class="text-[#00673A] font-semibold antialiased">
               30 Minutes Consultat
             </p>
           </div>
           <p
-            class="text-xs sm:text-sm text-[#556987] leading-4 font-light h-14"
+            class="text-xs sm:text-base text-[#666666] leading-4 font-light h-18"
           >
             Get free legal consultation by uploading your Identity Card (KTP).
           </p>
@@ -45,13 +45,13 @@
         </button>
       </div>
       <div
-        class="bg-linear-[180deg,#D2FFEB,#E2FFEF] rounded-[24px] p-4 mt-4 w-[340px] h-auto flex-1 relative overflow-visible"
+        class="bg-linear-[180deg,#D2FFEB,#E2FFEF] rounded-[24px] p-8 mt-4 w-[340px] h-auto flex-1 relative overflow-visible"
       >
         <div id="content-payment">
           <div class="flex justify-between sm:justify-center items-center">
             <div
               id="wrap-title"
-              class="flex sm:flex-col gap-2 items-center -mt-10"
+              class="flex sm:flex-col gap-2 items-center -mt-12"
             >
               <img
                 src="/image/utils/icon-chat-payment.png"
@@ -73,7 +73,7 @@
             </p>
           </div>
           <p
-            class="text-xs sm:text-sm text-[#556987] leading-4 font-light h-14"
+            class="text-xs sm:text-base text-[#666666] leading-4 font-light h-18"
           >
             The ideal solution for urgent legal needs and more concise
             discussions.
@@ -87,7 +87,7 @@
         </button>
       </div>
       <div
-        class="bg-linear-[180deg,#D2FFEB,#E2FFEF] rounded-[24px] p-4 mt-4 w-[340px] h-auto flex-1 relative overflow-visible"
+        class="three-card-bg rounded-[24px] p-8 mt-4 w-[340px] h-auto flex-1 relative overflow-visible"
       >
         <!-- <div
           class="bg-[linear-gradient(317.9deg,#2886F7_-145.55%,#F64F55_104.76%)] absolute -top-2 left-0 flex items-center justify-center rounded-tl-xl rounded-r-xl shadow-lg py-1 px-[6px]"
@@ -107,7 +107,7 @@
           <div class="flex justify-between sm:justify-center items-center">
             <div
               id="wrap-title"
-              class="flex sm:flex-col gap-2 items-center -mt-10"
+              class="flex sm:flex-col gap-2 items-center -mt-12"
             >
               <img
                 src="/image/utils/icon-fullpackage-payment.png"
@@ -131,7 +131,7 @@
             </p>
           </div>
           <p
-            class="text-xs sm:text-sm text-[#556987] leading-4 font-light h-14"
+            class="text-xs sm:text-base text-[#556987] leading-4 font-light h-18"
           >
             Waktu lebih leluasa untuk membahas masalah hukum secara mendalam.
           </p>
@@ -172,3 +172,9 @@ onMounted(() => {
   window.addEventListener("resize", handleResize);
 });
 </script>
+
+<style scoped>
+.three-card-bg {
+  background: url("/image/features/card-bg.png") no-repeat center center;
+}
+</style>
