@@ -21,15 +21,6 @@
         <div
           class="bg-white rounded-xl lg:px-8 lg:pt-6 p-3 h-full shadow-[0_7px_25px_0_rgba(0,0,0,0.09)] flex lg:flex-col lg:gap-3.5 gap-2"
         >
-          <img
-            :src="item.image"
-            alt="Yakup Putra Hasibuan, S.H., LL.M"
-            class="lg:mx-auto lg:w-[176px] w-[88px] self-start"
-          />
-          <div class="space-y-2 flex-1">
-            <p class="font-semibold text-sm lg:text-center">{{ item.name }}</p>
-            <div class="border-t border-lightgrey-5"></div>
-            <p class="text-xs font-light">"{{ item.description }}"</p>
             <div class="text-[10px] flex items-center gap-1">
               <svg
                 width="16"
@@ -59,7 +50,16 @@
               </svg>
               <span>Klien LawOnGo</span>
             </div>
-          </div>
+            <img
+                :src="item.image"
+                alt="Yakup Putra Hasibuan, S.H., LL.M"
+                class="lg:mx-auto lg:w-[472px] w-[158px] self-start"
+            />
+            <div class="space-y-2 flex-1">
+                <p class="font-semibold text-sm lg:text-center">{{ item.name }}</p>
+                <div class="border-t border-lightgrey-5"></div>
+                <p class="text-xs font-light">"{{ item.description }}"</p>
+            </div>
         </div>
         <!--]--><!---->
       </SwiperSlide>
@@ -76,31 +76,31 @@ import "swiper/css";
 const isMobile = ref(false);
 const items = ref([
   {
-    name: "Yakup Putra Hasibuan, S.H., LL.M",
+    name: "Rima Gravianty Baskoro",
     image: "/image/testimonial/testimonial-3.png",
     description:
-      "Advokat sangat membantu saya dalam menemukan solusi dan langkah hukum yang harus saya lakukan terhadap masalah saya.",
+      "“The lawyer really helped me in finding solutions and legal steps that I had to take regarding my problem.”",
   },
   {
-    name: "Ricky Rachmat Yuniardi, S.H., M.H., C.L.A.",
-    image: "/image/testimonial/testimonial-3.png",
-    description:
-      "Saya cukup puas selama konsultasi, karena insight yang diberikan cukup baik dan jujur sehingga saya bisa menentukan keputusan apa yang sekiranya mungkin saya ambil.",
-  },
-  {
-    name: "Chairunnisa Ratu Salma, S.H.",
+    name: "Rima Gravianty Baskoro",
     image: "/image/testimonial/testimonial-3.png",
     description:
       "Saya cukup puas selama konsultasi, karena insight yang diberikan cukup baik dan jujur sehingga saya bisa menentukan keputusan apa yang sekiranya mungkin saya ambil.",
   },
   {
-    name: "Alvin Afriansyah, S.H., M.H.",
+    name: "Rima Gravianty Baskoro",
     image: "/image/testimonial/testimonial-3.png",
     description:
       "Saya cukup puas selama konsultasi, karena insight yang diberikan cukup baik dan jujur sehingga saya bisa menentukan keputusan apa yang sekiranya mungkin saya ambil.",
   },
   {
-    name: "Desi Permatasari, S.H., M.H.",
+    name: "Rima Gravianty Baskoro",
+    image: "/image/testimonial/testimonial-3.png",
+    description:
+      "Saya cukup puas selama konsultasi, karena insight yang diberikan cukup baik dan jujur sehingga saya bisa menentukan keputusan apa yang sekiranya mungkin saya ambil.",
+  },
+  {
+    name: "Rima Gravianty Baskoro",
     image: "/image/testimonial/testimonial-3.png",
     description:
       "Saya cukup puas selama konsultasi, karena insight yang diberikan cukup baik dan jujur sehingga saya bisa menentukan keputusan apa yang sekiranya mungkin saya ambil.",
