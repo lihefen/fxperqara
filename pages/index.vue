@@ -21,14 +21,17 @@
         <TheFooter />
       </div>
     </main>
-    <LoginDialog :show.sync="showLoginDialog" @hide="showLoginDialog = false" ></LoginDialog>
+    <LoginDialog
+      v-model:show="showLoginDialog"
+      @hide="showLoginDialog = false"
+    ></LoginDialog>
   </div>
 </template>
 <script setup>
-import { ref ,defineEmits} from "vue";
+import { ref, defineEmits } from "vue";
 const showLoginDialog = ref(false);
 const loginHandler = () => {
-    console.log("loginHandler");
-    showLoginDialog.value = true;
+  console.log("loginHandler");
+  showLoginDialog.value = true;
 };
 </script>
