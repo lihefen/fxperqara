@@ -13,6 +13,7 @@
       <div class="bg-white font-lexend -mt-16">
         <HeroBanner />
         <Features />
+        <Why />
         <Consultation />
         <Solution />
         <TopAdvocate />

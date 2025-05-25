@@ -1,14 +1,14 @@
 <template>
   <ClientOnly>
-    <div class="sm:px-4 xl:px-20">
+    <div class="sm:px-4 xl:px-24 -mt-90">
       <div
-        class="relative overflow-hidden xl:px-20 bg-[#CCDBEC] md:rounded-[32px] rounded-2xl md:py-6 py-4 px-4 space-y-2"
+        class="relative overflow-hidden xl:px-14 bg-card md:rounded-[32px] md:py-6 py-4 px-4 space-y-2"
       >
-        <img
+        <!-- <img
           class="absolute bottom-0 left-0 w-full z-0"
           src="/image/landing-page/shape-wave-advokat.webp"
           alt=""
-        />
+        /> -->
         <div class="md:py-2 space-y-2 relative">
           <h2 class="md:text-3xl font-semibold text-xl text-black">
             Advocate Choice
@@ -16,18 +16,16 @@
           <p
             class="text-sm md:text-xs lg:text-base font-dm-sans font-normal antialiased text-neutral-900 mb-6"
           >
-          Online advocate for your legal needs. Want to apply for Pro bono services ? 
-            
+            Online advocate for your legal needs. Want to apply for Pro bono
+            services ?
+
             <!-- <span
               class="text-transparent bg-gradient-to-r from-blue-2 to-blue-3 bg-clip-text font-bold"
               >Pro bono</span
             > -->
-            
+
             <a href="/probono" class="cursor-pointer text-blue-5 underline">
-                Click <span
-              class="font-bold text-[#007B45]"
-              >here</span
-            >
+              Click <span class="font-bold text-[#007B45]">here</span>
             </a>
           </p>
         </div>
@@ -70,7 +68,7 @@
                       <div
                         v-if="item.video"
                         id="tagging-video-voice-call"
-                        class="absolute bottom-0 bg-gradient-to-r from-[#52BEE7] to-[#1C2E7F] min-w-[62px] w-[62px] flex items-center justify-center gap-1 py-1 px-2 rounded-md"
+                        class="absolute bottom-0 bg-gradient-to-r from-[#54F9AB] to-[#04A45E] min-w-[62px] w-[62px] flex items-center justify-center gap-1 py-1 px-2 rounded-md"
                       >
                         <img
                           alt="video-icon"
@@ -88,75 +86,53 @@
                       <div class="flex items-center h-[40px]">
                         <span
                           class="text-base font-bold line-clamp-2 leading-5 text-black"
-                          >{{ item.name }}</span
                         >
+                          {{ item.name }}
+                        </span>
                       </div>
                       <div class="flex gap-1 text-xs items-center">
                         <div class="flex gap-1 items-center">
-                          <img
-                            alt="location"
-                            class="w-4 h-4"
-                            src="/image/landing-page/icon-location.png"
-                          /><span class="text-[#4D5B6A] capitalize">{{
-                            item.location
-                          }}</span>
+                          <font-awesome-icon
+                            :icon="['fas', 'location-dot']"
+                            class="size-4 text-[#04A45E]"
+                          />
+                          <span class="text-black capitalize">
+                            {{ item.location }}
+                          </span>
                         </div>
                         <div class="border-l h-2/3 border-gray-500"></div>
                         <div class="flex gap-1 flex-1">
-                          <img
-                            class="w-4 h-4"
-                            src="/image/landing-page/icon-medal-star.png"
-                            alt="medal-star"
+                          <font-awesome-icon
+                            :icon="['fas', 'medal']"
+                            class="size-4 text-[#04A45E]"
                           />
-                          <span class="text-[#0072C3] truncate"
+                          <span class="text-black truncate"
                             >Terverifikasi oleh Peradi</span
                           >
                         </div>
                       </div>
                       <div class="flex items-center">
                         <p
-                          class="text-xs antialiased text-[#344052] my-auto flex gap-1 items-center"
+                          class="text-xs antialiased text-black my-auto flex gap-1 items-center"
                         >
-                          <svg
-                            width="14"
-                            height="14"
-                            viewBox="0 0 14 14"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M12.3026 4.07139C11.8068 3.52306 10.9784 3.24889 9.77677 3.24889H9.63677V3.22556C9.63677 2.24556 9.63677 1.03223 7.44344 1.03223H6.55677C4.36344 1.03223 4.36344 2.25139 4.36344 3.22556V3.25473H4.22344C3.01594 3.25473 2.19344 3.52889 1.6976 4.07723C1.1201 4.71889 1.1376 5.58223 1.19594 6.17139L1.20177 6.21223L1.24695 6.68664C1.25527 6.77401 1.30233 6.85293 1.37576 6.90098C1.51565 6.99252 1.74977 7.14343 1.8901 7.22139C1.97177 7.27389 2.05927 7.32056 2.14677 7.36723C3.14427 7.91556 4.24094 8.28306 5.3551 8.46389C5.4076 9.01223 5.64677 9.65389 6.92427 9.65389C8.20177 9.65389 8.4526 9.01806 8.49344 8.45223C9.68344 8.25973 10.8326 7.84556 11.8709 7.23889C11.9059 7.22139 11.9293 7.20389 11.9584 7.18639C12.1899 7.05559 12.4299 6.89442 12.6488 6.73655C12.7147 6.68899 12.7569 6.61546 12.7659 6.53466L12.7751 6.45139L12.8043 6.17723C12.8101 6.14223 12.8101 6.11306 12.8159 6.07223C12.8626 5.48306 12.8509 4.67806 12.3026 4.07139ZM7.63594 8.06723C7.63594 8.68556 7.63594 8.77889 6.91844 8.77889C6.20094 8.77889 6.20094 8.66806 6.20094 8.07306V7.33806H7.63594V8.06723ZM5.1976 3.24889V3.22556C5.1976 2.23389 5.1976 1.86639 6.55677 1.86639H7.44344C8.8026 1.86639 8.8026 2.23973 8.8026 3.22556V3.25473H5.1976V3.24889Z"
-                              fill="#0072C3"
-                            ></path>
-                            <path
-                              d="M12.1759 8.01136C12.3822 7.91321 12.6198 8.0767 12.5991 8.30419L12.3897 10.6106C12.2672 11.7773 11.7889 12.9673 9.22225 12.9673H4.77725C2.21058 12.9673 1.73225 11.7773 1.60975 10.6164L1.411 8.43019C1.39056 8.20534 1.6227 8.04203 1.8284 8.13509C2.49306 8.43581 3.71989 8.96932 4.47774 9.16781C4.57359 9.19292 4.65111 9.26152 4.69308 9.35127C5.04715 10.1085 5.81506 10.5114 6.92391 10.5114C8.02181 10.5114 8.79942 10.093 9.15466 9.33389C9.19669 9.24408 9.27429 9.1755 9.37019 9.15026C10.1749 8.93851 11.4808 8.34215 12.1759 8.01136Z"
-                              fill="#0072C3"
-                            ></path>
-                          </svg>
-                          {{ item.experience }} Tahun
+                          <font-awesome-icon
+                            :icon="['fas', 'clock']"
+                            class="size-4 text-[#04A45E]"
+                          />
+                          {{ item.experience }} years
                         </p>
                         <div class="flex items-center">
                           <div class="h-2 border-l border-gray-400 mx-2"></div>
-                          <svg
-                            width="14"
-                            height="14"
-                            viewBox="0 0 14 14"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
-                              d="M6.29311 1.87199C6.55464 1.24319 7.44541 1.24319 7.70694 1.87199L8.92144 4.79199L12.0738 5.04472C12.7527 5.09914 13.0279 5.94631 12.5107 6.38935L10.1089 8.44674L10.8427 11.5229C11.0007 12.1854 10.2801 12.7089 9.69891 12.354L7.00003 10.7055L4.30115 12.354C3.71996 12.7089 2.99931 12.1854 3.15733 11.5229L3.89111 8.44674L1.48933 6.38935C0.972122 5.94631 1.24738 5.09914 1.92623 5.04472L5.07861 4.79199L6.29311 1.87199Z"
-                              fill="#FEAF27"
-                            ></path>
-                          </svg>
-                          <label class="my-auto ml-0.5 text-xs text-black">{{
-                            item.rating
-                          }}</label>
+                          <font-awesome-icon
+                            :icon="['fas', 'star']"
+                            class="size-3 text-[#FEAF27]"
+                          />
+                          <label class="my-auto ml-0.5 text-xs text-black">
+                            {{ item.rating }}
+                          </label>
                         </div>
                         <span class="text-xs text-[#757E8C] ml-1"
-                          >({{ item.count }} Konsultasi)</span
+                          >({{ item.count }} consultations)</span
                         >
                       </div>
                       <div class="flex items-center justify-between gap-1">
@@ -165,7 +141,7 @@
                             <span
                               v-for="category in item.categories"
                               :key="category"
-                              class="text-blue-2 bg-lightblue-3 text-xs leading-3 w-auto rounded px-1 py-0.5 max-w-[100px] truncate"
+                              class="text-[#04A45E] bg-[#CBFFE8] text-xs leading-3 w-auto rounded px-1 py-0.5 max-w-[100px] truncate"
                             >
                               {{ category }}
                             </span>
@@ -183,26 +159,26 @@
                     <div class="flex items-center gap-0.5">
                       <!----><!---->
                       <div class="flex flex-col gap-0.5 md:gap-1 rounded-lg">
-                        <div class="text-xs text-[#757E8C]">Mulai dari</div>
+                        <div class="text-sm text-[#333333]">Mulai dari</div>
                         <div class="flex gap-1 items-center">
                           <p
-                            class="text-blue-2 font-semibold !leading-5 text-sm"
+                            class="text-[#04A45E] font-semibold !leading-5 text-sm"
                           >
                             Rp{{ item.price }}
                           </p>
-                          <p class="text-xs line-through text-slate-400">
+                          <p class="text-xs line-through text-[#9B9B9B]">
                             Rp{{ item.oldPrice }}
                           </p>
-                          <div
+                          <!-- <div
                             class="flex items-center justify-center w-[15px] bg-[#FF5B5E] rounded px-1 py-0.5 text-white text-[8px] leading-[10px]"
                           >
                             %
-                          </div>
+                          </div> -->
                         </div>
                       </div>
                     </div>
                     <button
-                      class="font-medium px-4 py-2.5 rounded-md text-xs bg-blue-2 text-white"
+                      class="font-medium px-4 py-2.5 rounded-xl text-xs bg-[#04A45E] text-white"
                     >
                       Konsultasi
                     </button>
@@ -347,6 +323,22 @@ const onSlideChange = () => {
 };
 </script>
 <style scoped>
+.bg-card {
+  /* background: linear-gradient(
+    180deg,
+    rgba(210, 255, 235, 0.7) 0%,
+    rgba(228, 255, 243, 0.7) 100%
+  ); */
+  overflow: hidden;
+  background-image: url("/image/features/advocate-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: center;
+  background-position: 0 0;
+  /* box-shadow: 0px 37px 27px -31px rgba(15, 169, 66, 0.15),
+    inset 0px 3px 0px 0px #ffffff; */
+  border-radius: 24px;
+  backdrop-filter: blur(5px);
+}
 .button-arrow {
   align-items: center;
   border-radius: 9999px;
@@ -392,6 +384,6 @@ const onSlideChange = () => {
 }
 
 .pagination-lawyer > .swiper-pagination-bullet-active {
-  background-color: #2072b8;
+  background-color: #54f9ab;
 }
 </style>

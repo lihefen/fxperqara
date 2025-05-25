@@ -11,7 +11,7 @@
         >
           <font-awesome-icon :icon="['fas', 'less-than']" />
         </button>
-        <div class="w-9/12 lg:w-[950px]">
+        <div class="w-9/12 lg:w-[1000px]">
           <Swiper
             slides-per-view="auto"
             :effect="'coverflow'"
@@ -31,7 +31,7 @@
             @slide-change="onSlideChange"
           >
             <swiper-slide v-for="item in items" :key="item.id" class="w-auto!">
-              <div class="w-[450px] h-[300px] py-8 relative overflow-visible">
+              <div class="w-[470px] h-[300px] py-8 relative overflow-visible">
                 <div
                   :class="
                     activeIndex === item.id - 1

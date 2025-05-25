@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <div class="max-w-[1280px] px-4 xl:px-40 mx-auto">
+    <div class="max-w-[1280px] px-4 xl:px-30 mx-auto">
       <div
         class="p-3 md:p-6 rounded-xl flex flex-col items-center gap-3 md:gap-6"
       >
