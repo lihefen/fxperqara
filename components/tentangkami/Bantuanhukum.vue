@@ -20,7 +20,7 @@
         <img class="absolute top-10 right-0 hidden md:block" src="/image/about-us/ornament-story-right.svg" alt="story-ornament-right" >
         <img class="absolute top-80 left-0 hidden md:block" src="/image/about-us/ornament-story-left.svg" alt="story-ornament-left" >
         <div class="md:flex md:justify-center md:pt-40 p-4" >
-            <p class="text-2xl md:text-3xl text-gray-900 font-bold antialiased mb-4 text-center md:w-2/3" > Tercipta karena <span class="text-blue-2" >minimnya akses</span> terhadap bantuan hukum. </p>
+            <p class="text-2xl md:text-3xl text-gray-900 font-bold antialiased mb-4 text-center md:w-2/3" > Our Development Jour</p>
         </div>
         <div id="laptop-story" class="hidden md:block md:pb-8 md:px-4 xl:pb-20 xl:px-20 relative">
             <div >
@@ -40,9 +40,10 @@
                         </div>
                     </div>
                     <div  class="flex-1 flex flex-col text-left">
-                        <span class="font-dm-sans font-bold md:text-[32px] text-gray-700 antialiased">2020</span>
-                        <pre class="font-dm-sans text-sm wrap text-pretty text-gray-500 antialiased mt-2 max-w-[300px] md:leading-6">                              LawOnGo lahir sebagai harapan untuk menjadi sebuah solusi inovatif terhadap minimnya akses ke bantuan hukum di Indonesia.
-                        Founder dan CEO LawOnGo, Yakup Putra Hasibuan, memulai LawOnGo dengan tujuan ingin menjadi platform hukum pertama yang menyediakan layanan konsultasi hukum gratis atau pro bono.
+                        <span class="font-dm-sans font-bold md:text-[32px] text-gray-700 antialiased">2023</span>
+                        <pre class="font-dm-sans text-sm wrap text-pretty text-gray-500 antialiased mt-2 max-w-[300px] md:leading-6"> 
+                            As Indonesia's fintech industry rapidly develops,an increasing number of individual users and small merchants are falling into the quagmire of multiple lending and debt collection.We have observed that a significant number of users,when confronted with debt,are left in a state of confusion,fear,and a lack of resources or viable solutions.
+                            Thus,we conceived an initial idea:to create a low-threshold,digital,and trustworthy legal platform that ensures"everyone has the right to negotiate."
                         </pre>
                     </div>
                 </div>
