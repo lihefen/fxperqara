@@ -1,5 +1,6 @@
 import axios from "axios";
 import { ElMessage } from 'element-plus';
+
 export default defineNuxtPlugin((NuxtApp) => {
     const errorHandler = error => {
         // 增加取消请求loading控制，在cancel里面植入cancel标识即不走到当前loading
@@ -25,7 +26,7 @@ export default defineNuxtPlugin((NuxtApp) => {
         }
         return config;
     };
-
+    // 请求拦截器
     request.interceptors.request.use(
         config => {
             setRequestType(config);
@@ -61,4 +62,5 @@ export default defineNuxtPlugin((NuxtApp) => {
             request
         }
     }
+
 })

@@ -25,9 +25,9 @@ export default defineNuxtConfig({
     nitro: {
         devProxy:{
             "/proxyDev":{
-                target: 'xxxx',
-                changeOrigin: true,
+                target: 'http://123.60.107.0:18080',
                 prependPath: true,
+                
             }
         }
     },
@@ -36,7 +36,7 @@ export default defineNuxtConfig({
     },
     devServer: {
         port: 5000, // 你可以选择一个未被占用的端口
-        host: 'http://g.test.net'
+        host: 'http://g.lawongo.net'
     },
     ui: {
         fonts: false,

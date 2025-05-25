@@ -14,11 +14,42 @@
 
 <script setup>
 import { ref} from "vue";
-import { info } from '~/services/info';
+import { sendCode } from '~/services/sendCode';
+// import {JSEncrypt}  from '~/utils/JSEncrypt.js';
+// console.log(JSEncrypt)
 
+import JSEncrypt from 'jsencrypt';
+import _ from 'lodash';
 
+const publicKey = 'MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIbWcnQIWROhmlba/fhdJ8XGMLjHC5GC/Mb08ZueFocHLD7WUifTfyxTo0DjTm2KpRTMuUAO5YQbofuHU2kB018CAwEAAQ==';
+const dataText = JSON.stringify({
+  channel: 'io.lawongo.app',
+  mobile: '6281134946561',
+  appName: 'LawOnGo'
+});
+
+const encryptor = new JSEncrypt();
+encryptor.setPublicKey(publicKey);
+// 分段加密函数
+function rsaEncryptLongString(str, maxChunkSize = 31) {
+  const chunks = [];
+  for (let i = 0; i < str.length; i += maxChunkSize) {
+    const chunk = str.substring(i, i + maxChunkSize);
+    const encrypted = encryptor.encrypt(chunk);
+    if (!encrypted) {
+      throw new Error('加密失败，可能是分段过长');
+    }
+    chunks.push(encrypted);
+  }
+  return chunks; // 返回加密后的 Base64 数组
+}
+
+const encryptedChunks = rsaEncryptLongString(dataText);
+console.log('Encrypted chunks:', encryptedChunks);
 const testRequest =  async() => {
-    const res = await info()
+    const res = await sendCode({
+        data:encryptedChunks
+    })
 }
 testRequest()
 const showLoginDialog = ref(false);
