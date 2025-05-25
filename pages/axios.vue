@@ -19,36 +19,30 @@ import { sendCode } from '~/services/sendCode';
 // console.log(JSEncrypt)
 
 import JSEncrypt from 'jsencrypt';
-import _ from 'lodash';
 
 const publicKey = 'MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIbWcnQIWROhmlba/fhdJ8XGMLjHC5GC/Mb08ZueFocHLD7WUifTfyxTo0DjTm2KpRTMuUAO5YQbofuHU2kB018CAwEAAQ==';
+
 const dataText = JSON.stringify({
-  channel: 'io.lawongo.app',
-  mobile: '6281134946561',
-  appName: 'LawOnGo'
+  mobile: '13867676767',
 });
+
 
 const encryptor = new JSEncrypt();
 encryptor.setPublicKey(publicKey);
-// 分段加密函数
-function rsaEncryptLongString(str, maxChunkSize = 31) {
-  const chunks = [];
-  for (let i = 0; i < str.length; i += maxChunkSize) {
-    const chunk = str.substring(i, i + maxChunkSize);
-    const encrypted = encryptor.encrypt(chunk);
-    if (!encrypted) {
-      throw new Error('加密失败，可能是分段过长');
-    }
-    chunks.push(encrypted);
-  }
-  return chunks; // 返回加密后的 Base64 数组
-}
+const encrypted = encryptor.encrypt(dataText);
+console.log('Encrypted:', encrypted);
 
-const encryptedChunks = rsaEncryptLongString(dataText);
-console.log('Encrypted chunks:', encryptedChunks);
+
+// const dataText = JSON.stringify({
+//   channel: 'io.lawongo.app',
+//   mobile: '13867676767',
+//   appName: 'LawOnGo'
+// });
+
+
 const testRequest =  async() => {
     const res = await sendCode({
-        data:encryptedChunks
+        data:encrypted
     })
 }
 testRequest()
