@@ -120,7 +120,7 @@
                                     </div>
                                     <p class="text-neutral-800 text-sm text-center"> By registering, I agree to LawOnGo’s<a href="#" class="text-[#04A45E]"> Terms and 
                                         Conditions</a> and <a href="#" class="text-[#04A45E]">Privacy Policy</a>.</p>
-                                    <button type="button" class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 w-full flex justify-center items-center px-4.5 py-2.5 md:text-lg bg-[#04A45E] text-white hover:bg-[#04A45E] rounded-lg font-medium"><span> List </span></button>
+                                    <button @click="registerHandle" type="button" class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 w-full flex justify-center items-center px-4.5 py-2.5 md:text-lg bg-[#04A45E] text-white hover:bg-[#04A45E] rounded-lg font-medium"><span> List </span></button>
                                 </div>
                             </div>
                             <div class="md:px-6 py-3 px-4 rounded-2xl bg-white">
@@ -140,14 +140,24 @@
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 import RegisterSwiper from '@/components/RegisterSwiper.vue'
+// 发送验证码
+import { sendCode } from '~/services/sendCode';
+import {encryptDataWithRSA}  from '~/utils/encryptDataWithRSA';
 
 const router = useRouter()
+// 姓名
 const inputName = ref('')
+// 电话
 const inputPhone = ref('')
+// 邮件
 const inputEmail = ref('')
+// 出生日期
 const inputDate = ref('')
+// 性别
 const inputGender = ref('Perempuan')
 const inputCity = ref('')
+// 公钥
+const publicKey = 'MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIbWcnQIWROhmlba/fhdJ8XGMLjHC5GC/Mb08ZueFocHLD7WUifTfyxTo0DjTm2KpRTMuUAO5YQbofuHU2kB018CAwEAAQ==';
 
 const options = [
   {
@@ -172,10 +182,31 @@ const options = [
   },
 ]
 
+
+const registerHandle = async () => {
+    console.log(inputPhone.value)
+    const dataText = JSON.stringify({
+        channel: 'io.lawongo.app',
+        mobile: inputPhone.value,
+        appName: 'LawOnGo'
+    });
+    const dataBody = encryptDataWithRSA(dataText,publicKey)
+    try {
+        const res = await sendCode({
+            data:dataBody
+        })
+    } catch (error) {
+        console.log(error)
+    }
+    if(inputName.value == '' || inputPhone.value == '' || inputEmail.value == '' || inputDate.value == '' || inputGender.value == '' || inputCity.value == '') {
+        // alert('请输入完整信息')
+        return
+    }
+}
 const navigateToRegister = () => {
     router.push('/login')
 };
 const onClickBack = () => {
-    router.push('/')
+    history.back();
 };
 </script>
