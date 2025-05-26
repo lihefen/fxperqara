@@ -43,7 +43,7 @@
                                     <div class="space-y-2">
                                         <label class="text-slate-700 text-xs">Mobile phone number</label>
                                         <div>
-                                            <el-input v-model="inputPhone" type="tel" placeholder="Example: 08123456789"></el-input>
+                                            <el-input v-model="inputPhone"  placeholder="Example: 08123456789"></el-input>
                                             <p class="text-[#647387] font-light mt-1 text-xs"> OTP code will be sent via Whatsapp</p>
                                         </div>
                                     </div>
