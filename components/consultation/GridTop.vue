@@ -1,5 +1,5 @@
 <template>
-  <div class="px-4 xl:px-40">
+  <div class="px-4 xl:px-30">
     <div class="bg-card p-8 relative">
       <img
         src="/image/features/bg-top-left.png"

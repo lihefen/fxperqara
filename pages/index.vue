@@ -16,7 +16,8 @@
         <Why />
         <Consultation />
         <Solution />
-        <TopAdvocate />
+        <!-- <TopAdvocate /> -->
+        <BrandStory />
         <Testimonies />
         <FootBanner />
         <TheFooter />

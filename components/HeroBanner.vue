@@ -23,15 +23,20 @@
             Feel Free
           </h1>
           <p
-            class="font-roboto text-xl sm:text-2xl lg:text-[24px] text-[#1D1F29] mt-4 md:mt-6 mb-8 md:mb-10"
+            class="font-roboto text-xl sm:text-2xl lg:text-[20px] text-[#1D1F29] mt-4 md:mt-6 mb-8 md:mb-10"
           >
-            From Debt and in Control
+            Bayar hanya jika mediasi berhasil. Privasi Anda dilindungi.
           </p>
           <button
             type="button"
-            class="font-roboto-mono font-bold text-lg sm:text-xl lg:text-[24px] text-white bg-[#04A45E] hover:bg-[#038a4c] transition-colors duration-300 py-4 px-8 sm:px-10 rounded-[24px] focus:outline-none focus:ring-2 focus:ring-[#04A45E] focus:ring-opacity-50"
+            class="font-roboto-mono font-bold text-lg sm:text-xl lg:text-[24px] text-white bg-[#04A45E] hover:bg-[#038a4c] transition-colors duration-300 py-4 px-8 sm:px-10 rounded-[24px]"
           >
-            Consult Now
+            Lihat Cara Kerjanya
+            <font-awesome-icon
+              icon="fa-solid fa-arrow-right"
+              class="ml-2"
+              style="color: #ffffff"
+            />
           </button>
         </div>
 

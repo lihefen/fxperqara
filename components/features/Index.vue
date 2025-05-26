@@ -2,7 +2,7 @@
   <section id="features" class="pt-10 md:p-20 pb-10">
     <Panel class="pb-20" />
     <div class="relative -mt-2">
-      <div class="max-w-[1280px] px-4 xl:px-30 mx-auto space-y-8">
+      <div class="max-w-[1280px] px-4 xl:px-20 mx-auto space-y-8">
         <Advokat />
         <Price />
       </div>

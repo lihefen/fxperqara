@@ -1,6 +1,6 @@
 <template>
   <ClientOnly>
-    <div class="sm:px-4 xl:px-24 -mt-90">
+    <div class="sm:px-4 xl:px-16 -mt-90">
       <div
         class="relative overflow-hidden xl:px-14 bg-card md:rounded-[32px] md:py-6 py-4 px-4 space-y-2"
       >
@@ -334,8 +334,8 @@ const onSlideChange = () => {
   background-repeat: no-repeat;
   background-size: center;
   background-position: 0 0;
-  /* box-shadow: 0px 37px 27px -31px rgba(15, 169, 66, 0.15),
-    inset 0px 3px 0px 0px #ffffff; */
+  box-shadow: 0px 37px 27px -31px rgba(15, 169, 66, 0.15),
+    inset 0px 3px 0px 0px #ffffff;
   border-radius: 24px;
   backdrop-filter: blur(5px);
 }
