@@ -50,7 +50,7 @@
           v-for="item in items"
           :key="item.title"
           :href="item.link"
-          class="relative w-full md:w-[340px] p-3 card-bg flex flex-row sm:flex-col items-start gap-2 shadow-lg overflow-hidden"
+          class="relative w-full md:w-[340px] p-3 card-bg flex flex-col items-center justify-center gap-2 shadow-lg overflow-hidden"
         >
           <img :src="item.image" alt="" />
 
