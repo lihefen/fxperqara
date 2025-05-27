@@ -124,18 +124,19 @@
         <div class="flex items-center gap-3">
           <div class="flex rounded-lg w-full items-center">
             <button
-              class="border-2 bg-white border-[#04A45E] text-[#04A45E] py-1.5 px-3 rounded-full leading-5"
-              @click="navigateToRegister"
-            >
-              Log On
-            </button>
-          </div>
-          <button
-            class="border-2 border-[#04A45E] bg-[#04A45E] text-white py-1.5 px-3 rounded-full leading-5"
+            class="border-2 border-[#04A45E] bg-white text-[#04A45E]  py-1.5 px-3 rounded-full leading-5"
             @click="loginHandler"
           >
-            Register
+            Log On
           </button>
+            
+          </div>
+          <button
+              class="border-2  bg-[#04A45E] border-[#04A45E] text-white  py-1.5 px-3 rounded-full leading-5"
+              @click="navigateToRegister"
+            >
+            Register
+            </button>
         </div>
       </div>
 
