@@ -225,13 +225,13 @@ const menuItems = [
   {
     id: 2,
     title: "About Us",
-    path: "tentang-kami",
+    path: "about",
   },
-//   {
-//     id: 3,
-//     title: "Artikel Hukum",
-//     path: "#",
-//   },
+  //   {
+  //     id: 3,
+  //     title: "Artikel Hukum",
+  //     path: "#",
+  //   },
   {
     id: 3,
     title: "FAQ",
