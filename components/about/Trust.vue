@@ -2,13 +2,8 @@
   <section class="p-4 md:-mt-60">
     <div class="relative z-10 max-w-[1280px] mx-auto mt-4 xl:px-52">
       <div
-        class="relative card-bg p-4 md:py-6 rounded-3xl text-[#333333] overflow-hidden"
+        class="card-bg p-4 md:py-6 rounded-[24px] text-[#333333] overflow-hidden"
       >
-        <!-- <img
-          src="/image/landing-page/img-acc-right-card-service-page.svg"
-          alt=""
-          class="absolute right-0 top-0 w-16 md:w-auto"
-        /> -->
         <div class="flex flex-col gap-2 md:gap-4 items-center">
           <h5 class="sm:text-2xl lg:text-3xl font-semibold">
             A Trustworthy Platform
@@ -41,14 +36,14 @@
             />
           </div>
           <div class="border-b border-white/30 w-full"></div>
-          <div class="relative px-3 py-4">
+          <div class="relative px-3 py-4 mb-8">
             <img
               src="/image/about-us/trust-adorn.svg"
-              class="absolute top-1/2 -translate-y-1/2 -left-10"
+              class="absolute top-1/2 -translate-y-1/2 left-0 md:-left-10"
             />
             <img
               src="/image/about-us/trust-adorn.svg"
-              class="absolute top-1/2 -translate-y-1/2 -right-10 rotate-y-180"
+              class="absolute top-1/2 -translate-y-1/2 right-0 md:-right-10 rotate-y-180"
             />
             <div
               class="flex items-center justify-center gap-4 md:gap-9 text-center text-[#333333]"
@@ -88,10 +83,10 @@
 <style scoped>
 .card-bg {
   background-image: url("/image/about-us/trust_bg.png");
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 0px 35px 28px -32px rgba(15, 169, 66, 0.22),
-    inset 2px 2px 0px 0px #ffffff;
+  /* box-shadow: 0px 35px 28px -32px rgba(15, 169, 66, 0.22),
+    inset 2px 2px 0px 0px #ffffff; */
 }
 </style>

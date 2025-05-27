@@ -1,7 +1,7 @@
 <template>
-  <div class="relative z-10 max-w-[1280px] mx-auto py-18 xl:px-52">
+  <div class="relative z-10 max-w-[1280px] mx-auto py-12 px-10 xl:px-42">
     <div class="mb-12">
-      <div class="grid lg:grid-cols-2 gap-12 items-center">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
         <div>
           <div class="relative mb-4">
             <div
@@ -26,7 +26,7 @@
     </div>
 
     <!-- Vision and Values Section -->
-    <div class="grid lg:grid-cols-2 gap-16">
+    <div class="grid gap-12 md:grid-cols-2">
       <!-- Vision -->
       <div>
         <div class="relative mb-4">
