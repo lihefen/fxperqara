@@ -46,20 +46,23 @@
         </div>
       </div>
       <div class="flex flex-wrap lg:flex-nowrap justify-center gap-3 md:pt-28">
-        <a
+        <div
           v-for="item in items"
           :key="item.title"
-          :href="item.link"
-          class="relative w-full md:w-[340px] p-3 card-bg flex flex-col items-center justify-center gap-2 shadow-lg overflow-hidden"
+          class="relative w-full md:w-[340px] p-5 card-bg flex flex-col items-center gap-2 shadow-lg overflow-hidden"
         >
-          <img :src="item.image" alt="" />
+          <Video
+            :video="item.video"
+            :poster="item.poster"
+            class="w-[300px] h-[143px]"
+          />
 
           <div class="w-full mt-2 px-10">
             <span class="text-lightgrey-5 text-xs sm:text-sm">
               {{ item.description }}
             </span>
           </div>
-        </a>
+        </div>
       </div>
       <div
         class="flex justify-center w-full font-lexend text-sm font-bold antialiased"
@@ -81,28 +84,29 @@
 </template>
 <script setup>
 import { ref } from "vue";
+import Video from "./Video.vue";
 
 const items = ref([
   {
     title: "Leagal Consultation",
     description:
       "LawOnGo bermitra dengan Advokat-advokat terbaik yang telah disumpah.",
-    image: "/image/features/story-placeholder.png",
-    link: "/cari-advokat",
+    video: "https://media.w3.org/2010/05/sintel/trailer.mp4",
+    poster: "/image/features/story-placeholder.png",
   },
   {
     title: "Company Establishment",
     description:
       "Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.",
-    image: "/image/features/story-placeholder.png",
-    link: "/pendirian-badan-usaha",
+    video: "https://media.w3.org/2010/05/sintel/trailer.mp4",
+    poster: "/image/features/story-placeholder.png",
   },
   {
     title: "Document Creation",
     description:
       "Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.",
-    image: "/image/features/story-placeholder.png",
-    link: "/layanan-lainnya?to=pembuatan-dokumen",
+    video: "https://media.w3.org/2010/05/sintel/trailer.mp4",
+    poster: "/image/features/story-placeholder.png",
   },
 ]);
 </script>

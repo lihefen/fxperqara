@@ -30,31 +30,31 @@
                         </button></div></div>
                         <div class="md:px-8 px-6">
                             <div class="pt-8 lg:pt-10">
-                                <p class="font-medium font-dm-sans antialiased mb-2 text-black text-base">Mobile Number or Ema</p>
+                                <p class="font-medium font-dm-sans antialiased mb-2 text-black text-base">Mobile Number</p>
                                 <div class="relative w-full ">
-                                    <el-input v-model="inputEmail" type="text" size="large" placeholder="email@email.com or 08313302938***" ></el-input>
+                                    <el-input v-model="inputPhone" type="text" size="large" placeholder="08313302938***" ></el-input>
                                 </div>
                             </div>
 
                             <div class="mt-6">
                                 <div>
-                                    <p class="font-medium font-dm-sans antialiased mb-2 text-black text-base">Password</p>
-                                    <div class="relative w-full">
+                                    <p class="font-medium font-dm-sans antialiased mb-2 text-black text-base">verification code</p>
+                                    <div class="relative w-full flex">
                                         <el-input
-                                            v-model="inputPassword"
-                                            type="password"
-                                            placeholder="Example: Abc1*"
-                                            show-password
+                                            v-model="inputCode"
+                                            type="text"
+                                            placeholder=""
                                             size="large" 
                                         />
-                                        <div class="absolute right-3 top-1/2 transform -translate-y-1/2 cursor-pointer">
-                                        </div>
+                                        <el-button class="ml-2" color="#04A45E" type="primary" size="large" @click="sendSms">send</el-button>
+                                        <!-- <div class="absolute right-3 top-1/2 transform -translate-y-1/2 cursor-pointer">
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
-                            <div class="mt-1.5 flex justify-end"><button class="text-sm text-[#04A45E] text-right cursor-pointer"> Forgot your password? </button></div>
-                            <button class="mt-4 py-2 w-full bg-[#04A45E] text-[#ffffff] text-bold text-lg rounded-md "> Login </button>
-                            <div class="mt-6 px-3 py-2 lg:px-2 w-full"><p class="text-black text-center text-base"> Belum punya akun perqara? <span class="text-blue-2 lg:contents"><button>Daftar disini</button></span></p></div>
+                            <!-- <div class="mt-1.5 flex justify-end"><button class="text-sm text-[#04A45E] text-right cursor-pointer"> Forgot your password? </button></div> -->
+                            <button class="mt-4 py-2 w-full bg-[#04A45E] text-[#ffffff] text-bold text-lg rounded-md " @click="loginRequest"> Login </button>
+                            <div class="mt-6 px-3 py-2 lg:px-2 w-full"><p class="text-black text-center text-base"> Don’t have a LawOnGo account yet? <span class="text-[#04A45E] lg:contents"><button>Register here</button></span></p></div>
                             <div id="border-line" class="my-4"><div class="border border-[#CED1D6]"></div></div>
                             <div id="login-advokat"><p class="antialiased font-bold mb-2"> Anda Advokat LawOnGo? </p><a href="/login/advokat" class=""><img class="w-full cursor-pointer" src="/image/lawyer/login/banner-login-advokat.png" alt="banner-advokat"></a></div>
                             <div class="pb-8 pt-4"><div class="flex items-start gap-1"><img class="w-3 mt-0.5" src="/image/info-icon.svg"><p class="text-xs text-slate-500 antialiased"> Untuk pengalaman lebih baik, gunakan browser <span class="font-semibold">Google Chrome</span> atau <span class="font-semibold">Firefox</span></p></div></div>
@@ -68,8 +68,13 @@
 </template>
 <script setup>
     import { reactive, ref ,watch,defineProps, defineEmits,watchEffect} from 'vue'
-    const inputEmail = ref('');
-    const inputPassword = ref('');
+    // 发送验证码
+    import { sendCode } from '~/services/sendCode';
+    import { loginCode } from '~/services/loginCode';
+    import {encryptDataWithRSA}  from '~/utils/encryptDataWithRSA';
+    const inputPhone = ref('');
+    const inputCode = ref('');
+    const publicKey = 'MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIbWcnQIWROhmlba/fhdJ8XGMLjHC5GC/Mb08ZueFocHLD7WUifTfyxTo0DjTm2KpRTMuUAO5YQbofuHU2kB018CAwEAAQ==';
     const props = defineProps({
         show: {
             type: Boolean,
@@ -101,6 +106,46 @@
         emit('update:show', false);
         emit('hide', false);
     };
+
+
+    const sendSms = async () => {
+        const dataText = JSON.stringify({
+            channel: 'io.lawongo.app',
+            mobile: inputPhone.value,
+            appName: 'LawOnGo'
+        });
+        const dataBody = encryptDataWithRSA(dataText,publicKey)
+        try {
+            const res = await sendCode({
+                data:dataBody
+            })
+        } catch (error) {
+            console.log(error)
+        }
+        if(inputName.value == '' || inputPhone.value == '' || inputEmail.value == '' || inputDate.value == '' || inputGender.value == '' || inputCity.value == '') {
+            // alert('请输入完整信息')
+            return
+        }
+    }
+
+    const loginRequest = async () => {
+
+        const dataText = JSON.stringify({
+            aesKey:'rMM+4uHIkgfbhk2qOqPxzw==',
+            appName:'LawOnGo',
+            channel:'io.lawongo.app',
+            mobile:inputPhone.value,
+            vcode: inputCode.value
+        });
+        const dataBody = encryptDataWithRSA(dataText,publicKey)
+        try {
+            const res = await loginCode({
+                data:dataBody
+            })
+        } catch (error) {
+            console.log(error)
+        }
+    }
 </script>
 <style scoped>
 

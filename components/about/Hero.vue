@@ -17,11 +17,18 @@
             medium-sized enterprises in Indonesia.
           </p>
         </div>
-        <img src="/image/features/story-placeholder.png" />
+        <Video
+          video="https://media.w3.org/2010/05/sintel/trailer.mp4"
+          poster="/image/features/story-placeholder.png"
+          class="w-[360px] h-[212px] shrink-0"
+        />
       </div>
     </div>
   </div>
 </template>
+<script setup>
+import Video from "../BrandStory/Video.vue";
+</script>
 <style scoped>
 .card-bg {
   background-image: url("/image/about-us/hero-bg.png");
