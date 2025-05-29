@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero />
+    <ViewServices />
     <Trust />
     <Company />
     <Jour />
@@ -10,7 +10,7 @@
   </div>
 </template>
 <script setup>
-import Hero from "./Hero.vue";
+import ViewServices from "./ViewServices.vue";
 import Trust from "./Trust.vue";
 import Company from "./Company.vue";
 import Jour from "./Jour.vue";
