@@ -45,7 +45,7 @@
                                 <div class="z-10 grid place-items-center fixed overflow-auto top-0 left-0 h-full w-full bg-black bg-opacity-50 lg:static lg:overflow-visible lg:place-items-baseline lg:bg-transparent lg:top-auto lg:left-0">
                                     <div class="bg-white min-w-[328px] lg:min-w-[304px] rounded-lg p-3 fixed w-full lg:relative bottom-0 font-lexend antialiased">
                                         <section id="top-filter" class="lg:bg-transparent mb-4">
-                                            <div class="flex justify-between items-center"><p class="text-black text-xl font-bold flex items-center gap-2"> Filter </p><button class="text-blue-2 font-bold text-xs hidden lg:block"> Reset </button><button class="lg:hidden"><img src="/image/exit.png" alt="arrow"></button>
+                                            <div class="flex justify-between items-center"><p class="text-black text-xl font-bold flex items-center gap-2"> Filter </p><button class="text-[#04A45E] font-bold text-xs hidden lg:block"> Reset </button><button class="lg:hidden"><img src="/image/exit.png" alt="arrow"></button>
                                             </div>
                                         </section>
                                         <div id="border-solid" class="h-1 border-t border-solid border-lightgrey-2"></div>
