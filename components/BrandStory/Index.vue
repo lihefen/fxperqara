@@ -9,6 +9,9 @@
         alt=""
         class="absolute top-0 left-0 w-[260px] h-[150px] object-cover hidden lg:block"
       />
+      <div class="text-white text-[32px] font-bold pl-[70px] pt-[38px]">
+        Brand Story
+      </div>
       <div className="w-[470px] absolute -top-2 right-20 hidden lg:block">
         <div className="relative">
           <div
@@ -45,16 +48,20 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-wrap lg:flex-nowrap justify-center gap-3 md:pt-28">
+      <div class="flex flex-wrap lg:flex-nowrap justify-center gap-3 md:pt-8">
         <div
           v-for="item in items"
           :key="item.title"
           class="relative w-full md:w-[340px] p-5 card-bg flex flex-col items-center gap-2 shadow-lg overflow-hidden"
         >
-          <Video
+          <!-- <Video
             :video="item.video"
             :poster="item.poster"
             class="w-[300px] h-[143px]"
+          /> -->
+          <iframe
+            :src="item.video"
+            class="w-[300px] h-[143px] rounded-xl shrink-0"
           />
 
           <div class="w-full mt-2 px-10">
@@ -84,28 +91,28 @@
 </template>
 <script setup>
 import { ref } from "vue";
-import Video from "./Video.vue";
+// import Video from "./Video.vue";
 
 const items = ref([
   {
     title: "Leagal Consultation",
     description:
       "LawOnGo bermitra dengan Advokat-advokat terbaik yang telah disumpah.",
-    video: "https://media.w3.org/2010/05/sintel/trailer.mp4",
+    video: "https://www.youtube.com/embed/Sy4ROOthOg4",
     poster: "/image/features/story-placeholder.png",
   },
   {
     title: "Company Establishment",
     description:
       "Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.",
-    video: "https://media.w3.org/2010/05/sintel/trailer.mp4",
+    video: "https://www.youtube.com/embed/81FNi23lrbc",
     poster: "/image/features/story-placeholder.png",
   },
   {
     title: "Document Creation",
     description:
       "Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.",
-    video: "https://media.w3.org/2010/05/sintel/trailer.mp4",
+    video: "https://www.youtube.com/embed/zq83AsGKCA0",
     poster: "/image/features/story-placeholder.png",
   },
 ]);

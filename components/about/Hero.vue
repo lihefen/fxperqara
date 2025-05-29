@@ -17,17 +17,21 @@
             medium-sized enterprises in Indonesia.
           </p>
         </div>
-        <Video
+        <!-- <Video
           video="https://media.w3.org/2010/05/sintel/trailer.mp4"
           poster="/image/features/story-placeholder.png"
           class="w-[360px] h-[212px] shrink-0"
+        /> -->
+        <iframe
+          src="https://www.youtube.com/embed/Sy4ROOthOg4"
+          class="w-[360px] h-[212px] rounded-xl shrink-0"
         />
       </div>
     </div>
   </div>
 </template>
 <script setup>
-import Video from "../BrandStory/Video.vue";
+// import Video from "../BrandStory/Video.vue";
 </script>
 <style scoped>
 .card-bg {
