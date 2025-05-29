@@ -2,17 +2,9 @@
  * @Description: 
  * @version: 
  * @Author: hean
- * @Date: 2025-05-29 22:16:32
- * @LastEditors: hean
- * @LastEditTime: 2025-05-29 22:16:32
--->
-<!--
- * @Description: 
- * @version: 
- * @Author: hean
  * @Date: 2025-05-11 10:03:08
  * @LastEditors: hean
- * @LastEditTime: 2025-05-11 16:47:47
+ * @LastEditTime: 2025-05-29 22:16:35
 -->
 <template>
     <div class="bg-cultured font-dm-sans min-h-screen">
