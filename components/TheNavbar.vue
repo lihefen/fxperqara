@@ -246,20 +246,20 @@ const serviceItems = [
     id: 1,
     title: "Konsultasi Hukum",
     description: "Konsultasi hukum langsung bersama advokat LawOnGo.",
-    icon: "/image/navbar/icon-legal-consultation.svg",
+    icon: "/image/navbar/icon-legal-consultation.png",
     path: "cari-advokat",
   },
+//   {
+//     id: 2,
+//     title: "Pendirian Badan Usaha",
+//     description:
+//       "Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.",
+//     icon: "/image/navbar/icon-company-establishment.svg",
+//     isNew: true,
+//     path: "pendirian-badan-usaha",
+//   },
   {
     id: 2,
-    title: "Pendirian Badan Usaha",
-    description:
-      "Layanan pendirian badan usaha (PT, CV, Yayasan), perubahan akta, dan waarmerking.",
-    icon: "/image/navbar/icon-company-establishment.svg",
-    isNew: true,
-    path: "pendirian-badan-usaha",
-  },
-  {
-    id: 3,
     title: "Pembuatan Dokumen",
     description:
       "Layanan pembuatan dokumen untuk individu/perusahaan seperti Perjanjian Jual Beli, Perjanjian Kerja, Surat Kuasa, dll.",
@@ -268,7 +268,7 @@ const serviceItems = [
     path: "layanan-lainnya",
   },
   {
-    id: 4,
+    id: 3,
     title: "Pendaftaran HAKI",
     description: "Layanan pendaftaran Merek, Paten, Hak Cipta, dll.",
     icon: "/image/navbar/icon-haki-registration.svg",
@@ -276,7 +276,7 @@ const serviceItems = [
     path: "/pendirian-badan-usaha",
   },
   {
-    id: 5,
+    id: 4,
     title: "Konsultasi Pajak",
     description: "Konsultasi pelaporan pajak perusahaan maupun individu.",
     icon: "/image/navbar/icon-tax-consultation.svg",
