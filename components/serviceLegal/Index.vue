@@ -1,14 +1,6 @@
-<!--
- * @Description: 
- * @version: 
- * @Author: hean
- * @Date: 2025-05-29 20:45:10
- * @LastEditors: hean
- * @LastEditTime: 2025-05-30 14:55:55
--->
 <template>
   <div>
-    <Hero />
+    <ViewServices />
     <Trust />
     <Company />
     <Jour />
@@ -18,7 +10,7 @@
   </div>
 </template>
 <script setup>
-import Hero from "./Hero.vue";
+import ViewServices from "./ViewServices.vue";
 import Trust from "./Trust.vue";
 import Company from "./Company.vue";
 import Jour from "./Jour.vue";
