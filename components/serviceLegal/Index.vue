@@ -1,11 +1,15 @@
+<!--
+ * @Description: 
+ * @version: 
+ * @Author: hean
+ * @Date: 2025-05-30 14:43:37
+ * @LastEditors: hean
+ * @LastEditTime: 2025-05-30 16:35:39
+-->
 <template>
   <div>
     <ViewServices />
     <Trust />
-    <Company />
-    <Jour />
-    <Members />
-    <Life />
     <FootBanner />
   </div>
 </template>

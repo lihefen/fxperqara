@@ -1,114 +1,185 @@
 <template>
-  <section class="p-4 md:-mt-60">
-    <div class="relative z-10 max-w-[1280px] mx-auto mt-4 xl:px-52">
-      <div
-        class="card-bg p-4 md:py-6 rounded-[24px] text-[#333333] overflow-hidden"
-      >
-        <div class="flex flex-col gap-2 md:gap-4 items-center">
-          <h5 class="sm:text-2xl lg:text-3xl font-semibold">
-            A Trustworthy Platform
-          </h5>
-          <div class="flex flex-wrap gap-4 py-2">
-            <img
-              class="w-20 md:w-36"
-              src="/image/about-us/trust-logo1.png"
-              alt="peradi-footer"
-            />
-            <img
-              class="w-20 md:w-36"
-              src="/image/about-us/trust-logo2.png"
-              alt="peradi-footer"
-            />
-            <img
-              class="w-20 md:w-36"
-              src="/image/about-us/trust-logo3.png"
-              alt="peradi-footer"
-            />
-            <img
-              class="w-20 md:w-36"
-              src="/image/about-us/trust-logo4.png"
-              alt="peradi-footer"
-            />
-            <img
-              class="w-20 md:w-36"
-              src="/image/about-us/trust-logo5.png"
-              alt="peradi-footer"
-            />
-          </div>
-          <div class="border-b border-white/30 w-full"></div>
-          <div class="relative px-3 py-4 mb-8">
-            <img
-              src="/image/about-us/trust-adorn.svg"
-              class="absolute top-1/2 -translate-y-1/2 left-0 md:-left-10"
-            />
-            <img
-              src="/image/about-us/trust-adorn.svg"
-              class="absolute top-1/2 -translate-y-1/2 right-0 md:-right-10 rotate-y-180"
-            />
+    <div>
+        <section class="p-4 md:-mt-60">
+            <div class="relative z-10 max-w-[1280px] mx-auto mt-4 xl:px-52">
             <div
-              class="flex items-center justify-center gap-4 md:gap-9 text-center text-[#333333]"
+                class="card-bg p-4 md:py-6 rounded-[24px] text-[#333333] overflow-hidden"
             >
-              <div class="flex flex-col">
-                <span class="md:text-2xl font-medium">27.000+</span>
-                <span class="text-xs md:text-sm">Konsultasi Selesai</span>
-              </div>
-              <div class="flex flex-col">
-                <span class="md:text-2xl font-medium">500+</span>
-                <span class="text-xs md:text-sm">Advokat Terdaftar</span>
-              </div>
-              <div class="flex flex-col">
-                <span class="md:text-2xl font-medium">130+</span>
-                <span class="text-xs md:text-sm">Kota Dijangkau</span>
-              </div>
-              <div class="flex flex-col">
-                <span
-                  class="md:text-2xl font-medium flex items-center justify-center gap-1 md:gap-2"
-                >
-                  <img
-                    src="/image/landing-page/icon-star.svg"
-                    alt=""
-                    class="w-4 md:w-6 h-4.5 md:h-8"
-                  />
-                  <span>4.9<span class="text-sm">/5.0</span></span>
-                </span>
-                <span class="text-xs md:text-sm">Kepuasan Klien</span>
-              </div>
+                <div class="flex flex-col gap-2 md:gap-4 items-center">
+                <h5 class="sm:text-2xl lg:text-3xl font-semibold">
+                    A Trustworthy Platform
+                </h5>
+                <div class="flex flex-wrap gap-4 py-2">
+                    <img
+                    class="w-20 md:w-36"
+                    src="/image/about-us/trust-logo1.png"
+                    alt="peradi-footer"
+                    />
+                    <img
+                    class="w-20 md:w-36"
+                    src="/image/about-us/trust-logo2.png"
+                    alt="peradi-footer"
+                    />
+                    <img
+                    class="w-20 md:w-36"
+                    src="/image/about-us/trust-logo3.png"
+                    alt="peradi-footer"
+                    />
+                    <img
+                    class="w-20 md:w-36"
+                    src="/image/about-us/trust-logo4.png"
+                    alt="peradi-footer"
+                    />
+                    <img
+                    class="w-20 md:w-36"
+                    src="/image/about-us/trust-logo5.png"
+                    alt="peradi-footer"
+                    />
+                </div>
+                <div class="border-b border-white/30 w-full"></div>
+                <div class="relative px-3 py-4 mb-8">
+                    <img
+                    src="/image/about-us/trust-adorn.svg"
+                    class="absolute top-1/2 -translate-y-1/2 left-0 md:-left-10"
+                    />
+                    <img
+                    src="/image/about-us/trust-adorn.svg"
+                    class="absolute top-1/2 -translate-y-1/2 right-0 md:-right-10 rotate-y-180"
+                    />
+                    <div
+                    class="flex items-center justify-center gap-4 md:gap-9 text-center text-[#333333]"
+                    >
+                    <div class="flex flex-col">
+                        <span class="md:text-2xl font-medium">27.000+</span>
+                        <span class="text-xs md:text-sm">Konsultasi Selesai</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="md:text-2xl font-medium">500+</span>
+                        <span class="text-xs md:text-sm">Advokat Terdaftar</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="md:text-2xl font-medium">130+</span>
+                        <span class="text-xs md:text-sm">Kota Dijangkau</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <span
+                        class="md:text-2xl font-medium flex items-center justify-center gap-1 md:gap-2"
+                        >
+                        <img
+                            src="/image/landing-page/icon-star.svg"
+                            alt=""
+                            class="w-4 md:w-6 h-4.5 md:h-8"
+                        />
+                        <span>4.9<span class="text-sm">/5.0</span></span>
+                        </span>
+                        <span class="text-xs md:text-sm">Kepuasan Klien</span>
+                    </div>
+                    </div>
+                </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
+            </div>
 
-    <div class="relative service-card  overflow-hidden xl:max-w-[1128px] xl:mx-auto -mt-32 pt-32 bg-[#F5FBFD] md:rounded-3xl">
-        <div class="py-6 md:py-12 px-4 flex flex-col gap-4 md:gap-8">
-                <h2 class="text-2xl lg:text-3xl font-semibold text-[#ffffff]  text-center xl:px-64">
-                    What should you use legal services in LawOnGo
-                </h2>
-                <div class="md:px-20 px-4 grid md:grid-cols-4 grid-cols-2 md:gap-6 gap-x-4 gap-y-8" d>
-                    <div class="flex flex-col items-center gap-3 md:gap-6"><img src="/image/landing-page/icon-accurate-service.svg" alt="" class="w-fit">
-                    <div class="flex flex-col text-center gap-2"><span class="md:text-xl font-semibold" d>Biaya yang Transparan</span><span class="text-sm text-[#556987]" d>Dapatkan penawaran harga lengkap di awal tanpa khawatir penambahan biaya lain-lain</span></div>
-                </div>
-                <div class="flex flex-col items-center gap-3 md:gap-6" >
-                    <img src="/image/landing-page/icon-fastest-process.svg" alt="" class="w-fit">
-                    <div class="flex flex-col text-center gap-2" >
-                        <span class="md:text-xl font-semibold">Hemat Waktu</span><span class="text-sm text-[#556987]">Seluruh proses dilakukan secara online untuk menghemat waktu Anda</span>
-                    </div>
-                </div>
-                <div class="flex flex-col items-center gap-3 md:gap-6">
-                    <img src="/image/landing-page/icon-flexible-packages.svg" alt="" class="w-fit">
-                    <div class="flex flex-col text-center gap-2">
-                        <span class="md:text-xl font-semibold">Hasil yang Akurat</span><span class="text-sm text-[#556987]">Tim kami akan memastikan Anda mendapatkan perizinan dan legalitas yang sesuai dengan kebutuhan</span>
-                    </div>
-                </div>
-                <div class="flex flex-col items-center gap-3 md:gap-6">
-                    <img src="/image/landing-page/icon-team-professional.svg" alt="" class="w-fit">
-                    <div class="flex flex-col text-center gap-2"><span class="md:text-xl font-semibold">Tim Ahli Profesional</span><span class="text-sm text-[#556987]">Semua layanan di LawOnGo ditangani oleh tim yang tersertifikasi dan ahli di bidangnya</span>
+            <div class="relative service-card  overflow-hidden xl:max-w-[1128px] xl:mx-auto -mt-32 pt-32 bg-[#F5FBFD] md:rounded-3xl">
+                <div class="py-6 md:py-12 px-4 flex flex-col gap-4 md:gap-8">
+                        <h2 class="text-2xl lg:text-3xl font-semibold text-[#ffffff]  text-center xl:px-64">
+                            What should you use legal services in LawOnGo
+                        </h2>
+                        <div class="md:px-20 px-4 grid md:grid-cols-4 grid-cols-2 md:gap-6 gap-x-4 gap-y-8">
+                            <div class="flex flex-col items-center gap-3 md:gap-6"><img src="/image/service-page/costs_icon.png" alt="" class="w-fit">
+                            <div class="flex flex-col text-center gap-2"><span class="md:text-xl font-semibold text-[#ffffff]" >Transparent Costs</span><span class="text-sm text-[#ffffff]" >Get a complete price quote at the beginning without worrying about the addition of other costs</span></div>
+                        </div>
+                        <div class="flex flex-col items-center gap-3 md:gap-6" >
+                            <img src="/image/service-page/save_time_icon.png" alt="" class="w-fit">
+                            <div class="flex flex-col text-center gap-2" >
+                                <span class="md:text-xl font-semibold text-[#ffffff]">Save Time</span><span class="text-sm text-[#ffffff]">The entire process is done online to save you time</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-center gap-3 md:gap-6">
+                            <img src="/image/service-page/accurate_icon.png" alt="" class="w-fit">
+                            <div class="flex flex-col text-center gap-2">
+                                <span class="md:text-xl font-semibold text-[#ffffff]">Accurate Results</span><span class="text-sm text-[#ffffff]">Our team will ensure that you obtain the necessary permits and legalities</span>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col items-center gap-3 md:gap-6">
+                            <img src="/image/service-page/team-icon.png" alt="" class="w-fit">
+                            <div class="flex flex-col text-center gap-2">
+                                <span class="md:text-xl font-semibold text-[#ffffff]">Professional Expert Team</span><span class="text-sm text-[#ffffff]">All services at Perqara are handled by a certified team and experts in their field</span>
+                            </div>
+                        </div>
+                        <!-- <div class="flex flex-col items-center gap-3 md:gap-6">
+                            <img src="/image/service-page/team_icon.png" alt="" class="w-fit">
+                            <div class="flex flex-col text-center gap-2"><span class="md:text-xl font-semibold text-[#ffffff]">Professional Expert Team</span><span class="text-sm text-[#ffffff]">All services at Perqara are handled by a certified team and experts in their field</span>
+                            </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <section id="konsultasi-hukum" class="py-6 md:py-12 relative z-10">
+            <div class="max-w-[1280px] mx-auto px-4 xl:px-40">
+                <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+                    <div class="relative w-full md:w-1/2">
+                        <img
+                        alt="img-legal-consultation"
+                        class="w-full"
+                        src="/image/service-page/img-legal-consultation.png" />
+                        <img  src="/image/service-page/icon-legal-consultation-colored.png" alt="" class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-fit md:hidden">
+                    </div>
+                    <div  class="flex flex-col gap-6 w-full md:w-1/2">
+                        <div  class="flex flex-col gap-4">
+                            <img  src="/image/service-page/icon-legal-consultation-colored.png" alt="" class="w-fit md:inline-block hidden w-[10px]" >
+                            <h2 class="relative mt-[-60px] ml-[20px] text-2xl md:text-3xl font-bold md:text-left text-center"> Legal Consultation</h2><p  class="text-[#55707A]">Entrust your legal problems to the best professional Advocate in his field online without having to make an appointment.</p>
+                        </div>
+                        <button  class="bg-[#04A45E] px-5 py-3 w-full text-center md:w-fit text-white rounded-[18px] shadow-gray-500 hover:bg-blue-9 transition-all ease-in-out duration-300 cursor-pointer"> Consult Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pendirian-badan-usaha" class="py-6 md:py-12 bg-[#F5FBFD] relative z-10">
+            <div class="max-w-[1280px] mx-auto px-4 xl:px-40">
+                <div class="flex flex-col-reverse md:flex-row gap-8 md:gap-12">
+                    <div class="flex flex-col gap-6 w-full md:w-1/2">
+                        <img src="/image/service-page/icon-company-establishment-colored.png" alt="" class="w-fit md:inline-block hidden" >
+                        <h2 class="relative mt-[-60px] ml-[20px]  text-2xl md:text-3xl font-bold md:text-left text-center" > Establishment of a Business Entity </h2>
+                        <p class="text-[#55707A]" >A simple and complete solution for establishing a business entity includes:</p>
+                        <div class="flex flex-col gap-3" >
+                            <div class="flex items-start gap-3" >
+                                <img src="/image/service-page/icon-check.png" alt="" >
+                                <div class="flex flex-col" >
+                                    <span class="md:text-xl font-bold" >Establishment of PT, CV, Foundation</span><span class="text-[#55707A]" >PT, CV, Foundation e</span>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3" >
+                                <img src="/image/service-page/icon-check.png" alt="" >
+                                <div class="flex flex-col" >
+                                    <span class="md:text-xl font-bold" >Changes to the Act</span><span class="text-[#55707A]" >Information change services related to several aspects of business under the Enterprise Act</span>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3" >
+                                <img src="/image/service-page/icon-check.png" alt="" >
+                                <div class="flex flex-col" >
+                                    <span class="md:text-xl font-bold italic" >Authentication</span><span class="text-[#55707A]" >Bookkeeping service (warmerking) on ​​letters under hand</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button  class="bg-[#04A45E] px-5 py-3 w-full text-center md:w-fit text-white rounded-[18px] shadow-gray-500 hover:bg-blue-9 transition-all ease-in-out duration-300 cursor-pointer"> Apply Now </button>
+                    </div>
+                    <div  class="relative w-full md:w-1/2">
+                        <img
+                            alt="iimg-company-services"
+                            class="w-full"
+                            src="/image/landing-page/img-company-services.png" />
+                        <img  src="/image/landing-page/icon-company-establishment-colored.svg" alt="" class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-fit md:hidden">
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </div>
-  </section>
+  
 </template>
 <style scoped>
 .card-bg {
