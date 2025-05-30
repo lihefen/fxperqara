@@ -298,6 +298,76 @@
                 </div>
             </div>
         </section>
+
+        <section id="form" class="md:py-12 relative z-10">
+                <div class="max-w-[1280px] mx-auto xl:px-56">
+                    <div class="rounded-2xl bg-white px-4 md:px-8 py-7 shadow-[0_-8px_10px_-5px_rgba(0,0,0,0.04),_0_10px_25px_-5px_rgba(0,0,0,0.10)]">
+                        <div class="flex flex-col gap-4">
+                            <h2 class="text-2xl font-semibold text-center md:w-[52%] mx-auto"> Complete your personal data so that we can immediately contact you</h2>
+                            <div class="flex flex-col sm:flex-row gap-6">
+                                <div class="w-full sm:w-1/2 flex flex-col gap-3">
+                                    <div>
+                                        <p class="font-medium font-dm-sans antialiased mb-2 text-black text-base">Full Name</p>
+                                        <div class="relative w-full text-black">
+                                            <el-input v-model="inputName" type="text"  placeholder="Write your full name" size="large" ></el-input>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <p  class="font-medium font-dm-sans antialiased mb-2 text-black text-base">Nomor Handphone (Whatsapp)</p>
+                                        <div class="relative w-full text-black">
+                                            <el-input v-model="inputPhone" type="text"  placeholder="Contoh: 08123456789" size="large" ></el-input>
+                                        </div>
+                                    </div>
+
+                                    <div >
+                                        <p  class="font-medium font-dm-sans antialiased mb-2 text-black text-base">Email</p>
+                                        <div  class="relative w-full  text-black ">
+                                            <el-input v-model="inputEmail" type="text"  placeholder="Tuliskan email aktif anda"  size="large" ></el-input>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="w-full sm:w-1/2 flex flex-col gap-3">
+                                    <div>
+                                        <label class="mb-2 block">Layanan Hukum</label>
+                                        <div class="relative z-100">
+                                            <el-select
+                                                v-model="inputHukum"
+                                                placeholder="Pilih layanan hukum"
+                                                size="large"
+                                                >
+                                                <el-option
+                                                    v-for="item in hukumOptions"
+                                                    :key="item.value"
+                                                    :label="item.label"
+                                                    :value="item.value"
+                                                />
+                                            </el-select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border-b border-[#E7ECF0]"></div>
+                            <div>
+                                <label class="mb-2 block">Detail Layanan yang Dibutuhkan</label>
+                                <el-input
+                                    v-model="textareaDibutuhkan"
+                                    :rows="5"
+                                    type="textarea"
+                                    placeholder="Contoh: saya ingin mendaftarkan merek perusahaan furnitur saya"
+                                />
+                                <div class="flex items-center justify-between gap-2 text-xs">
+                                    <span class="text-[#676767]">Minimal 10 karakter</span><span class="mr-1 transform duration-300 ease-in-out -translate-y-4 opacity-0">0</span>
+                                </div>
+                            </div>
+                            <div  class="rounded-lg px-3 py-2 flex items-center gap-2 bg-[#F5FBFD] text-[#344052] text-sm">
+                                <svg  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path  d="M9 12.7506L11.25 15.0006L15 9.75058M12 2.71484C9.8495 4.75147 6.94563 6.00059 3.75 6.00059C3.69922 6.00059 3.64852 6.00028 3.59789 5.99965C3.2099 7.17976 3 8.44069 3 9.75064C3 15.3422 6.82432 20.0405 12 21.3726C17.1757 20.0405 21 15.3422 21 9.75064C21 8.44069 20.7901 7.17976 20.4021 5.99965C20.3515 6.00028 20.3008 6.00059 20.25 6.00059C17.0544 6.00059 14.1505 4.75147 12 2.71484Z" stroke="#2072B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg><span  class="flex-1">Keamanan data Anda adalah prioritas utama kami, data ini akan digunakan secara eksklusif dalam layanan LawOnGo.</span>
+                            </div>
+                            <button  class="text-center bg-[#04A45E] px-7 py-2.5 w-full text-lg text-white rounded-md shadow-gray-500 hover:bg-[#04A45E]/80 transition-all ease-in-out duration-300 cursor-pointer"> Kirim </button>
+                        </div>
+                    </div>
+                </div>
+        </section>
     </div>
   
 </template>
