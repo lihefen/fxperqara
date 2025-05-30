@@ -132,7 +132,7 @@
                             <img  src="/image/service-page/icon-legal-consultation-colored.png" alt="" class="w-fit md:inline-block hidden w-[10px]" >
                             <h2 class="relative mt-[-60px] ml-[20px] text-2xl md:text-3xl font-bold md:text-left text-center"> Legal Consultation</h2><p  class="text-[#55707A]">Entrust your legal problems to the best professional Advocate in his field online without having to make an appointment.</p>
                         </div>
-                        <button  class="bg-[#04A45E] px-5 py-3 w-full text-center md:w-fit text-white rounded-[18px] shadow-gray-500 hover:bg-blue-9 transition-all ease-in-out duration-300 cursor-pointer"> Consult Now</button>
+                        <button  class="bg-[#04A45E] px-5 py-3 w-full text-center md:w-fit text-white rounded-[18px] shadow-gray-500 hover:bg-[#04A45E]/80  transition-all ease-in-out duration-300 cursor-pointer"> Consult Now</button>
                     </div>
                 </div>
             </div>
@@ -165,7 +165,7 @@
                                 </div>
                             </div>
                         </div>
-                        <button  class="bg-[#04A45E] px-5 py-3 w-full text-center md:w-fit text-white rounded-[18px] shadow-gray-500 hover:bg-blue-9 transition-all ease-in-out duration-300 cursor-pointer"> Apply Now </button>
+                        <button  class="bg-[#04A45E] px-5 py-3 w-full text-center md:w-fit text-white rounded-[18px] shadow-gray-500 hover:bg-[#04A45E]/80  transition-all ease-in-out duration-300 cursor-pointer"> Apply Now </button>
                     </div>
                     <div  class="relative w-full md:w-1/2">
                         <img
@@ -178,6 +178,72 @@
             </div>
         </section>
 
+
+        <section  id="pembuatan-dokumen" class="py-6 md:py-12 relative z-10">
+            <div class="max-w-[1280px] mx-auto px-4 xl:px-40">
+                <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+                    <div  class="relative w-full md:w-1/2">
+                        <img
+                            alt="img-document-creation"
+                            class="w-full"
+                            src="/image/service-page/img-document-creation.png" />
+
+
+                        <img  src="/image/service-page/icon-document-creation-colored.png" alt="" class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-fit md:hidden">
+                    </div>
+                    <div  class="flex flex-col gap-6 w-full md:w-1/2">
+                        <div class="flex flex-col gap-4" >
+                            <img src="/image/service-page/icon-document-creation-colored.png" alt="" class="w-fit md:inline-block hidden" >
+                            <h2 class="relative mt-[-60px] ml-[20px]  text-2xl md:text-3xl font-bold md:text-left text-center" > Document Creation </h2><p class="text-[#55707A]" >Create various letters and legal agreements in an instant. Just answer the guide questions, your legal document will be filled automatically and ready to download.</p>
+                            <div class="flex flex-wrap gap-2" >
+                                <span class="px-2 py-0.5 rounded-lg bg-[#CBFFE8] text-[#04A45E] text-sm font-medium" >Sale and Purchase Agreement</span>
+                                <span class="px-2 py-0.5 rounded-lg bg-[#CBFFE8] text-[#04A45E] text-sm font-medium" >Power of Attorney</span>
+                                <span class="px-2 py-0.5 rounded-lg bg-[#CBFFE8] text-[#04A45E] text-sm font-medium" >Employment Agreement</span>
+                                <span class="px-2 py-0.5 rounded-lg bg-[#CBFFE8] text-[#04A45E] text-sm font-medium" >+24</span>
+                            </div>
+                        </div>
+                        <button  class="bg-[#04A45E] px-5 py-3 w-full text-center md:w-fit text-white rounded-[18px] shadow-gray-500 hover:bg-[#04A45E]/80  transition-all ease-in-out duration-300 cursor-pointer"> Create Now </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section  id="pendaftaran-haki" class="py-6 md:py-12 bg-[#F5FBFD] relative z-10">
+            <div  class="max-w-[1280px] mx-auto px-4 xl:px-40">
+                <div  class="flex flex-col-reverse md:flex-row gap-8 md:gap-12">
+                    <div  class="flex flex-col gap-4 w-full md:w-1/2">
+                        <img src="/image/service-page/icon-haki-registration-colored.png" alt="" class="w-fit md:inline-block hidden" >
+                        <h2 class="relative mt-[-60px] ml-[20px]  text-2xl md:text-3xl font-bold md:text-left text-center" > Registration of RIGHTS (Intellectual Property Rights)</h2>
+                        <p class="text-[#55707A]" > Get easy registration and legal protection for Intellectual Property Rights (IPR) including:</p>
+                        <div class="flex flex-col gap-3" >
+                            <div class="flex items-start gap-3" >
+                                <img src="/image/service-page/icon-check.png" alt="" >
+                                <div class="flex flex-col" >
+                                    <span class="md:text-xl font-bold" >Pendaftaran Merek</span><span class="text-[#55707A]" >Dapatkan hak eksklusif atas merek berikut perlindungan hukumnya</span>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3" >
+                                <img src="/image/service-page/icon-check.png" alt="" >
+                                <div class="flex flex-col" >
+                                    <span class="md:text-xl font-bold" >Pencatatan Hak Cipta</span><span class="text-[#55707A]" >Dapatkan hak eksklusif dari sebuah karya ciptaan.</span>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3" >
+                                <img src="/image/service-page/icon-check.png" alt="" ><div class="flex flex-col" ><span class="md:text-xl font-bold" >Permohonan Desain Industri</span><span class="text-[#55707A]" >Dapatkan perlindungan atas kreasi desain yang berguna untuk menghasilkan suatu produk, barang komoditas industri, atau kerajinan tangan.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button  class="bg-[#04A45E] px-5 py-3 w-full text-center md:w-fit text-white rounded-[18px] shadow-gray-500 hover:bg-[#04A45E]/80  transition-all ease-in-out duration-300 cursor-pointer"> Register Now </button>
+                </div>
+                <div  class="relative w-full md:w-1/2">
+                    <img
+                        alt="img-hero-service-page"
+                        class="w-full"
+                        src="/image/service-page/img-haki-registration.png" />
+                    <img  src="/image/service-page/icon-haki-registration-colored.png" alt="" class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-fit md:hidden"></div>
+                </div>
+            </div>
+        </section>
     </div>
   
 </template>
