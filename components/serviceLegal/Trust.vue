@@ -244,6 +244,60 @@
                 </div>
             </div>
         </section>
+
+        <section  id="konsultasi-pajak" class="py-6 md:py-12 relative z-10">
+            <div class="max-w-[1280px] mx-auto px-4 xl:px-40">
+                <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+                    <div class="relative w-full md:w-1/2">
+                        <img
+                            alt="img-tax-consultation"
+                            class="w-full"
+                            src="/image/service-page/img-tax-consultation.png" />
+                            
+                        <img  src="/image/service-page/icon-tax-consultation-colored.png" alt="" class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-fit md:hidden">
+                    </div>
+                    <div  class="flex flex-col gap-6 w-full md:w-1/2">
+                        <div  class="flex flex-col gap-4">
+                            <img  src="/image/service-page/icon-tax-consultation-colored.png" alt="" class="w-fit md:inline-block hidden">
+                            <h2  class="relative mt-[-60px] ml-[20px] text-2xl md:text-3xl font-bold md:text-left text-center"> Tax Consultation </h2>
+                            <p  class="text-[#55707A]"> Report corporate and personal taxes accurately with an experienced and certified attorney in the field of taxation. </p>
+                        </div>
+                        <button  class="bg-[#04A45E]  px-5 py-3 w-full text-center md:w-fit text-white rounded-[18px] shadow-gray-500 hover:bg-[#04A45E]/80   transition-all ease-in-out duration-300 cursor-pointer"> Consult Now </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-8 md:py-12 relative z-10" >
+            <div class="max-w-[1280px] mx-auto px-4 xl:px-40" >
+                <div class="flex flex-col gap-12" >
+                    <h2 class="text-2xl md:text-3xl font-bold text-center" > Process Stages </h2>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-6 text-center" >
+                        <div relative  p-4 pt-6 md:p-6 md:pt-8 flex flex-col gap-2 md:gap-4>
+                            <div class=" process-title-1  mx-auto  w-[130px] h-[130px]" ></div>
+                            <div class="processCard relative mt-[-80px]  p-4 pt-6 md:p-6 md:pt-8 flex flex-col gap-2 md:gap-4" >
+                            <span class="text-lg md:text-2xl font-bold" >Submit Offer Form</span><span class="text-[#556987] font-light text-left" >Explain the details of your legal needs by filling out the offer form.</span>
+                            </div>
+                        </div>
+
+                        <div relative  p-4 pt-6 md:p-6 md:pt-8 flex flex-col gap-2 md:gap-4>
+                            <div class=" process-title-2  mx-auto  w-[130px] h-[130px]" ></div>
+                            <div class="processCard relative mt-[-80px]  p-4 pt-6 md:p-6 md:pt-8 flex flex-col gap-2 md:gap-4" >
+                            <span class="text-lg md:text-2xl font-bold" >Consult Your Needs</span><span class="text-[#556987] font-light text-left" >The LawOnGo team will contact you within a maximum of 24 hours.</span>
+                            </div>
+                        </div>
+
+                        <div relative  p-4 pt-6 md:p-6 md:pt-8 flex flex-col gap-2 md:gap-4>
+                            <div class=" process-title-3  mx-auto  w-[130px] h-[130px]" ></div>
+                            <div class="processCard relative mt-[-80px]  p-4 pt-6 md:p-6 md:pt-8 flex flex-col gap-2 md:gap-4" >
+                            <span class="text-lg md:text-2xl font-bold" >Transparent Process</span><span class="text-[#556987] font-light text-left" >Our professional team will report the work process periodically until completion.</span>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
   
 </template>
@@ -259,6 +313,32 @@
 
 .service-card {
     background-image: url("/image/service-page/service_card.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.processCard {
+    background-image: url("/image/service-page/process_bg.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.process-title-1 {
+    background-image: url("/image/service-page/process_title_1.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.process-title-2 {
+    background-image: url("/image/service-page/process_title_2.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.process-title-3 {
+    background-image: url("/image/service-page/process_title_3.png");
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
