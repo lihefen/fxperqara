@@ -153,15 +153,15 @@ const items = ref([
     peopleHelped: "1000+",
     services: "Family Law, Criminal Law, Civil Law",
   },
-  {
-    id: 5,
-    image: "/image/landing-page/lawyer/profile-lawyer-5.png",
-    name: "Chairunnisa Ratu Salma, S.H.",
-    rating: 5,
-    experience: "10+ years",
-    peopleHelped: "1000+",
-    services: "Family Law, Criminal Law, Civil Law",
-  },
+//   {
+//     id: 5,
+//     image: "/image/landing-page/lawyer/profile-lawyer-5.png",
+//     name: "Chairunnisa Ratu Salma, S.H.",
+//     rating: 5,
+//     experience: "10+ years",
+//     peopleHelped: "1000+",
+//     services: "Family Law, Criminal Law, Civil Law",
+//   },
 ]);
 
 const onSwiper = (newSwiper) => {
