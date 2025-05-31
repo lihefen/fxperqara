@@ -4,7 +4,7 @@
  * @Author: hean
  * @Date: 2025-05-08 21:13:28
  * @LastEditors: hean
- * @LastEditTime: 2025-05-31 09:56:53
+ * @LastEditTime: 2025-05-31 14:15:15
 -->
 
 <template>
@@ -438,17 +438,17 @@
             </div>
         </section>
 
-        <section class="py-8 relative z-10 bg-gradient-to-b from-[#26F99D] to-[#52BEE7]">
+        <section class="py-8 relative z-10 bg-gradient-to-b from-[#DDF6EB] to-[#FFFFFF] ">
             <div class="max-w-[1280px] mx-auto px-4 xl:px-40">
                 <div class="space-y-4">
-                    <h2 class="text-2xl md:text-3xl font-bold text-[#262E35] text-center" > Frequent Ask Question </h2>
+                    <h2 class="text-2xl md:text-3xl font-bold text-[#262E35] text-center" > Frequently Asked Questions </h2>
                     <div class="space-y-4">
                         <el-collapse  @change="handleChange" class="rounded-xl px-4 py-3 shadow-sm flex gap-4 ">
                             <el-collapse-item title="Consistency" name="1">
                                 <template #title="{ isActive }">
                                 <div :class="['title-wrapper', { 'is-active': isActive }]">
                                     <div class="space-y-2 flex-1">
-                                        <p class="font-semibold leading-5" >Apa itu layanan hukum on-demand LawOnGo?</p>
+                                        <p class="font-semibold leading-5" >What is LawOnGo?</p>
                                     </div>
                                 </div>
                                 </template>
@@ -505,6 +505,18 @@
                                 </div>
                             </el-collapse-item>
                         </el-collapse>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section  class="py-8 relative z-10">
+            <div  class="max-w-[1280px] mx-auto px-4 xl:px-60">
+                <div class="relative bg-gradient-to-r from-[#00B163] to-[#00D89C]  md:p-6  flex flex-col md:flex-row items-center gap-3 md:gap-6 rounded-2xl">
+                    <img class="absolute left-[0] -bottom-[0px]"  src="/image/landing-page/icon-customer-service.png" alt="">
+                    <div  class="flex flex-col md:flex-row items-center justify-between w-full text-center md:text-left gap-3">
+                        <span  class="flex-1 font-semibold text-xl md:text-2xl text-cultured ml-[260px]">Can't find the service you need?</span>
+                        <button  class="w-full md:w-auto text-lightblack-1 font-semibold bg-white w-[180px] px-5 py-3 text-[#005F38] text-center rounded-[18px] text-[24px] shadow"> Contact Us </button>
                     </div>
                 </div>
             </div>
@@ -574,6 +586,7 @@
 
 ::v-deep .el-collapse {
     border: none;
+    background: #fff;
 }
 ::v-deep .el-collapse-item__wrap {
     border: none;
