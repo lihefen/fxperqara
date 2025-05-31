@@ -4,7 +4,7 @@
  * @Author: hean
  * @Date: 2025-05-11 10:03:08
  * @LastEditors: hean
- * @LastEditTime: 2025-05-24 13:15:59
+ * @LastEditTime: 2025-05-31 14:43:33
 -->
 <template>
   <div class="bg-cultured font-dm-sans min-h-screen">
@@ -66,210 +66,27 @@
                     <section id="career" class="md:mt-16 mt-8">
                         <div class="container max-w-[1280px] xl:px-32 mx-auto">
                             <div class="flex flex-col gap-6 bg-[#F5FBFD] md:p-8 p-4">
-                                <h1 class="text-[#1C232D] text-2xl sm:text-4xl font-semibold text-center"> Karir </h1>
+                                <h1 class="text-[#333333] text-2xl sm:text-4xl font-semibold text-center"> Career</h1>
 
                                 <div class="bg-[#FDFEFF] rounded-lg drop-shadow-[0_2px_10px_rgba(0,0,0,0.15)] md:px-8 sm:p-4 md:py-4 p-3 flex sm:flex-row flex-col md:gap-9 gap-3 md:items-center justify-between">
                                     <div class="flex flex-col gap-2 sm:w-1/3" >
-                                        <h2 class="text-base md:text-2xl font-semibold text-[#2072B8]" >Product Manager</h2>
-                                        <p class="text-base text-[#3A475B]" >Jakarta</p>
-                                    </div>
-                                    <div class="flex items-center gap-3 flex-1" >
-                                        <div class="flex items-center gap-2" >
-                                            <span class="relative flex items-center justify-center w-4.5 h-4.5" >
-                                                <span class="absolute inline-flex h-full w-full rounded-full bg-[#E7ECF0]" >
-                                                </span>
-                                                <span class="relative inline-flex rounded-full h-3 w-3 bg-[#55707A]" >
-                                                </span>
-                                            </span>
-                                            <span >Manager</span>
+                                        <h2 class="text-base md:text-2xl font-semibold text-[#333333]" >Product Manager</h2>
+                                        <div class="flex gap-1 items-center">
+                                            <img
+                                            alt="medal-star"
+                                            class="w-4 h-4"
+                                            src="/image/landing-page/icon-location-1.png"
+                                            />
+                                            <p class="text-base text-[#3A475B]" >Jakarta</p>
                                         </div>
-                                        <div class="flex items-center gap-2" >
-                                            <span class="relative flex items-center justify-center w-4.5 h-4.5" >
-                                                <span class="absolute inline-flex h-full w-full rounded-full bg-[#E7ECF0]" ></span>
-                                                <span class="relative inline-flex rounded-full h-3 w-3 bg-[#55707A]" ></span>
-                                            </span>
-                                            <span >Product</span>
-                                        </div>
+                                       
                                     </div>
-                                    <button type="button" class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 px-4.5 py-2.5 md:text-lg bg-blue-2 text-white hover:bg-blue-9 rounded-lg !px-7 sm:self-center" ><span><!--[--> Lihat Karir <!--]--></span></button>
+                                    <button type="button" class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 px-4.5 py-2.5 md:text-lg bg-[#04A45E] text-white hover:bg-blue-9 rounded-lg !px-7 sm:self-center" ><span>View Careers</span></button>
                                 </div>
-
-                                <div class="bg-[#FDFEFF] rounded-lg drop-shadow-[0_2px_10px_rgba(0,0,0,0.15)] md:px-8 sm:p-4 md:py-4 p-3 flex sm:flex-row flex-col md:gap-9 gap-3 md:items-center justify-between">
-                                    <div class="flex flex-col gap-2 sm:w-1/3" >
-                                        <h2 class="text-base md:text-2xl font-semibold text-[#2072B8]" >Product Manager</h2>
-                                        <p class="text-base text-[#3A475B]" >Jakarta</p>
-                                    </div>
-                                    <div class="flex items-center gap-3 flex-1" >
-                                        <div class="flex items-center gap-2" >
-                                            <span class="relative flex items-center justify-center w-4.5 h-4.5" >
-                                                <span class="absolute inline-flex h-full w-full rounded-full bg-[#E7ECF0]" >
-                                                </span>
-                                                <span class="relative inline-flex rounded-full h-3 w-3 bg-[#55707A]" >
-                                                </span>
-                                            </span>
-                                            <span >Manager</span>
-                                        </div>
-                                        <div class="flex items-center gap-2" >
-                                            <span class="relative flex items-center justify-center w-4.5 h-4.5" >
-                                                <span class="absolute inline-flex h-full w-full rounded-full bg-[#E7ECF0]" ></span>
-                                                <span class="relative inline-flex rounded-full h-3 w-3 bg-[#55707A]" ></span>
-                                            </span>
-                                            <span >Product</span>
-                                        </div>
-                                    </div>
-                                    <button type="button" class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 px-4.5 py-2.5 md:text-lg bg-blue-2 text-white hover:bg-blue-9 rounded-lg !px-7 sm:self-center" ><span><!--[--> Lihat Karir <!--]--></span></button>
-                                </div>
-
-
-                                <div class="bg-[#FDFEFF] rounded-lg drop-shadow-[0_2px_10px_rgba(0,0,0,0.15)] md:px-8 sm:p-4 md:py-4 p-3 flex sm:flex-row flex-col md:gap-9 gap-3 md:items-center justify-between">
-                                    <div class="flex flex-col gap-2 sm:w-1/3" >
-                                        <h2 class="text-base md:text-2xl font-semibold text-[#2072B8]" >Product Manager</h2>
-                                        <p class="text-base text-[#3A475B]" >Jakarta</p>
-                                    </div>
-                                    <div class="flex items-center gap-3 flex-1" >
-                                        <div class="flex items-center gap-2" >
-                                            <span class="relative flex items-center justify-center w-4.5 h-4.5" >
-                                                <span class="absolute inline-flex h-full w-full rounded-full bg-[#E7ECF0]" >
-                                                </span>
-                                                <span class="relative inline-flex rounded-full h-3 w-3 bg-[#55707A]" >
-                                                </span>
-                                            </span>
-                                            <span >Manager</span>
-                                        </div>
-                                        <div class="flex items-center gap-2" >
-                                            <span class="relative flex items-center justify-center w-4.5 h-4.5" >
-                                                <span class="absolute inline-flex h-full w-full rounded-full bg-[#E7ECF0]" ></span>
-                                                <span class="relative inline-flex rounded-full h-3 w-3 bg-[#55707A]" ></span>
-                                            </span>
-                                            <span >Product</span>
-                                        </div>
-                                    </div>
-                                    <button type="button" class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 px-4.5 py-2.5 md:text-lg bg-blue-2 text-white hover:bg-blue-9 rounded-lg !px-7 sm:self-center" ><span><!--[--> Lihat Karir <!--]--></span></button>
-                                </div>
-
-
-                                <div class="bg-[#FDFEFF] rounded-lg drop-shadow-[0_2px_10px_rgba(0,0,0,0.15)] md:px-8 sm:p-4 md:py-4 p-3 flex sm:flex-row flex-col md:gap-9 gap-3 md:items-center justify-between">
-                                    <div class="flex flex-col gap-2 sm:w-1/3" >
-                                        <h2 class="text-base md:text-2xl font-semibold text-[#2072B8]" >Product Manager</h2>
-                                        <p class="text-base text-[#3A475B]" >Jakarta</p>
-                                    </div>
-                                    <div class="flex items-center gap-3 flex-1" >
-                                        <div class="flex items-center gap-2" >
-                                            <span class="relative flex items-center justify-center w-4.5 h-4.5" >
-                                                <span class="absolute inline-flex h-full w-full rounded-full bg-[#E7ECF0]" >
-                                                </span>
-                                                <span class="relative inline-flex rounded-full h-3 w-3 bg-[#55707A]" >
-                                                </span>
-                                            </span>
-                                            <span >Manager</span>
-                                        </div>
-                                        <div class="flex items-center gap-2" >
-                                            <span class="relative flex items-center justify-center w-4.5 h-4.5" >
-                                                <span class="absolute inline-flex h-full w-full rounded-full bg-[#E7ECF0]" ></span>
-                                                <span class="relative inline-flex rounded-full h-3 w-3 bg-[#55707A]" ></span>
-                                            </span>
-                                            <span >Product</span>
-                                        </div>
-                                    </div>
-                                    <button type="button" class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 px-4.5 py-2.5 md:text-lg bg-blue-2 text-white hover:bg-blue-9 rounded-lg !px-7 sm:self-center" ><span><!--[--> Lihat Karir <!--]--></span></button>
-                                </div>
-
-
-                                <div class="bg-[#FDFEFF] rounded-lg drop-shadow-[0_2px_10px_rgba(0,0,0,0.15)] md:px-8 sm:p-4 md:py-4 p-3 flex sm:flex-row flex-col md:gap-9 gap-3 md:items-center justify-between">
-                                    <div class="flex flex-col gap-2 sm:w-1/3" >
-                                        <h2 class="text-base md:text-2xl font-semibold text-[#2072B8]" >Product Manager</h2>
-                                        <p class="text-base text-[#3A475B]" >Jakarta</p>
-                                    </div>
-                                    <div class="flex items-center gap-3 flex-1" >
-                                        <div class="flex items-center gap-2" >
-                                            <span class="relative flex items-center justify-center w-4.5 h-4.5" >
-                                                <span class="absolute inline-flex h-full w-full rounded-full bg-[#E7ECF0]" >
-                                                </span>
-                                                <span class="relative inline-flex rounded-full h-3 w-3 bg-[#55707A]" >
-                                                </span>
-                                            </span>
-                                            <span >Manager</span>
-                                        </div>
-                                        <div class="flex items-center gap-2" >
-                                            <span class="relative flex items-center justify-center w-4.5 h-4.5" >
-                                                <span class="absolute inline-flex h-full w-full rounded-full bg-[#E7ECF0]" ></span>
-                                                <span class="relative inline-flex rounded-full h-3 w-3 bg-[#55707A]" ></span>
-                                            </span>
-                                            <span >Product</span>
-                                        </div>
-                                    </div>
-                                    <button type="button" class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 px-4.5 py-2.5 md:text-lg bg-blue-2 text-white hover:bg-blue-9 rounded-lg !px-7 sm:self-center" ><span><!--[--> Lihat Karir <!--]--></span></button>
-                                </div>
-
-
-                                <div class="bg-[#FDFEFF] rounded-lg drop-shadow-[0_2px_10px_rgba(0,0,0,0.15)] md:px-8 sm:p-4 md:py-4 p-3 flex sm:flex-row flex-col md:gap-9 gap-3 md:items-center justify-between">
-                                    <div class="flex flex-col gap-2 sm:w-1/3" >
-                                        <h2 class="text-base md:text-2xl font-semibold text-[#2072B8]" >Product Manager</h2>
-                                        <p class="text-base text-[#3A475B]" >Jakarta</p>
-                                    </div>
-                                    <div class="flex items-center gap-3 flex-1" >
-                                        <div class="flex items-center gap-2" >
-                                            <span class="relative flex items-center justify-center w-4.5 h-4.5" >
-                                                <span class="absolute inline-flex h-full w-full rounded-full bg-[#E7ECF0]" >
-                                                </span>
-                                                <span class="relative inline-flex rounded-full h-3 w-3 bg-[#55707A]" >
-                                                </span>
-                                            </span>
-                                            <span >Manager</span>
-                                        </div>
-                                        <div class="flex items-center gap-2" >
-                                            <span class="relative flex items-center justify-center w-4.5 h-4.5" >
-                                                <span class="absolute inline-flex h-full w-full rounded-full bg-[#E7ECF0]" ></span>
-                                                <span class="relative inline-flex rounded-full h-3 w-3 bg-[#55707A]" ></span>
-                                            </span>
-                                            <span >Product</span>
-                                        </div>
-                                    </div>
-                                    <button type="button" class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 px-4.5 py-2.5 md:text-lg bg-blue-2 text-white hover:bg-blue-9 rounded-lg !px-7 sm:self-center" ><span><!--[--> Lihat Karir <!--]--></span></button>
-                                </div>
-
-                                <div class="relative flex sm:flex-row flex-col gap-3 justify-between rounded-2xl md:p-6 p-3 bg-gradient-to-r from-blue-2 to-[#D301BE]/50 overflow-hidden" data-v-63014e6b="">
-                                    <img src="/image/career-page/bg-form-career.svg" alt="" class="absolute inset-0 rounded-2xl z-0 w-full h-full" data-v-63014e6b="">
-                                    <div class="relative text-cultured flex flex-col gap-2" data-v-63014e6b="">
-                                        <h4 class="text-xl sm:text-2xl font-semibold" data-v-63014e6b=""> Tidak menemukan Karir yang anda cari? </h4>
-                                        <p data-v-63014e6b="">Temukan karir impianmu di LawOnGo</p>
-                                    </div>
-                                    <button type="button" class="focus:outline-none focus:outline-0 focus-visible:outline-0 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 flex-shrink-0 transition-all ease-in-out duration-300 px-4.5 py-2.5 md:text-lg bg-white text-lightblack-1 hover:bg-cultured rounded-lg !px-10 sm:self-center relative font-semibold" data-v-63014e6b=""><span><!--[--> Isi Form Karir <!--]--></span></button>
-                                </div>
-
                             </div>
                         </div>
                     </section>
 
-                    <div class="container max-w-[1280px] px-4 xl:px-40 mx-auto md:mt-20 sm:mt-12 mt-8" >
-                        <div class="relative bg-blue-2 rounded-2xl md:pt-3.5 md:pl-8 md:pr-14 md:pb-0 p-4 overflow-hidden" >
-                            <img src="/image/bg-banner-consultation.svg" alt="" class="absolute inset-0 z-0 w-full h-full md:block hidden">
-                            <img src="/image/landing-page/mobile-consult-now-bg.svg" alt="" class="absolute left-0 bottom-0 z-0 md:hidden block">
-                            <div class="relative flex md:flex-row flex-col items-center flex-1 md:gap-0 gap-3">
-                                <img src="/image/banner-icon-mobile.png" alt="">
-                                <div class="flex lg:flex-row flex-col lg:items-center lg:gap-8 gap-3 lg:mb-0 md:mb-4">
-                                    <div class="flex flex-col gap-2.5 text-cultured flex-1 md:text-left text-center">
-                                        <h1 class="text-2xl font-semibold"> Consult your legal problem now！ </h1>
-                                        <p>With LawOnGo,anyone can havea legal consultation anytime and anywhere.</p>
-                                    </div>
-                                    <div class="flex items-center md:justify-start justify-center gap-2">
-                                        <a href="https://apps.apple.com/id/app/perqara/id6443946589" rel="noopener noreferrer" target="_blank">
-                                            <img
-                                                alt="appstore-logo"
-                                                class="md:w-36 w-full"
-                                                src="/image/landing-page/appstore-logo.png" />
-                                        </a>
-                                        <a href="https://play.google.com/store/apps/details?id=com.limaindonesia.perqara" rel="noopener noreferrer" target="_blank">
-                                            <img
-                                                alt="android-logo"
-                                                class="md:w-36 w-full"
-                                                src="/image/landing-page/google-logo.png" />
-                                            </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
