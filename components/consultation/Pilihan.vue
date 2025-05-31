@@ -4,11 +4,6 @@
       <div
         class="relative overflow-hidden xl:px-14 bg-card md:rounded-[32px] md:py-6 py-4 px-4 space-y-2"
       >
-        <!-- <img
-          class="absolute bottom-0 left-0 w-full z-0"
-          src="/image/landing-page/shape-wave-advokat.webp"
-          alt=""
-        /> -->
         <div class="md:py-2 space-y-2 relative">
           <h2 class="md:text-3xl font-semibold text-xl text-black">
             Advocate Choice
@@ -47,7 +42,6 @@
               <div
                 class="bg-white relative rounded-lg min-w-[332px] max-h-[185px] my-2 cursor-pointer"
               >
-                <!---->
                 <div class="relative py-2">
                   <div class="absolute left-2 top-2">
                     <span class="relative z-[5] flex h-3 w-3"
@@ -62,7 +56,7 @@
                   <div class="px-2 flex gap-2">
                     <div class="relative h-fit">
                       <img
-                        src="https://storage.googleapis.com/perqara-public/lawyer/photo_1722932861"
+                        :src="item.image"
                         class="min-w-[62px] w-[62px] min-h-[93px] h-[93px] rounded-md object-cover"
                       />
                       <div
@@ -157,7 +151,6 @@
                   <div class="border-b my-2 border-[#E7ECF0]"></div>
                   <div class="flex justify-between items-center gap-1 px-2">
                     <div class="flex items-center gap-0.5">
-                      <!----><!---->
                       <div class="flex flex-col gap-0.5 md:gap-1 rounded-lg">
                         <div class="text-sm text-[#333333]">Mulai dari</div>
                         <div class="flex gap-1 items-center">
@@ -185,7 +178,6 @@
                   </div>
                 </div>
               </div>
-              <!---->
             </SwiperSlide>
           </Swiper>
           <div class="flex justify-center sm:justify-between mt-4">
@@ -221,7 +213,6 @@
 import { ref } from "vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
-
 import "swiper/css";
 
 const swiperRef = ref(null);
@@ -231,8 +222,7 @@ const isEnd = ref(false);
 const items = ref([
   {
     name: "Aura Akhman, S.H., M.H.",
-    image:
-      "https://storage.googleapis.com/perqara-public/lawyer/photo_1722932861",
+    image:"/image/landing-page/lawyer/profile-lawyer-1.png",
     location: "Jakarta Selatan",
     verified: true,
     experience: 4,
@@ -246,8 +236,7 @@ const items = ref([
   },
   {
     name: "Dwi Kurniawan, S.H.",
-    image:
-      "https://storage.googleapis.com/perqara-public/lawyer/photo_1722932861",
+    image:"/image/landing-page/lawyer/profile-lawyer-2.png",
     location: "Jakarta Selatan",
     verified: true,
     experience: 4,
@@ -261,8 +250,7 @@ const items = ref([
   },
   {
     name: "Dwi Kurniawan, S.H.",
-    image:
-      "https://storage.googleapis.com/perqara-public/lawyer/photo_1722932861",
+    image:"/image/landing-page/lawyer/profile-lawyer-3.png",
     location: "Jakarta Selatan",
     verified: true,
     experience: 4,
@@ -276,23 +264,7 @@ const items = ref([
   },
   {
     name: "Dwi Kurniawan, S.H.",
-    image:
-      "https://storage.googleapis.com/perqara-public/lawyer/photo_1722932861",
-    location: "Jakarta Selatan",
-    verified: true,
-    experience: 4,
-    rating: 5.0,
-    count: 304,
-    addCount: 3,
-    categories: ["Pidana"],
-    price: 40000,
-    oldPrice: 60000,
-    video: false,
-  },
-  {
-    name: "Dwi Kurniawan, S.H.",
-    image:
-      "https://storage.googleapis.com/perqara-public/lawyer/photo_1722932861",
+    image:"/image/landing-page/lawyer/profile-lawyer-4.png",
     location: "Jakarta Selatan",
     verified: true,
     experience: 4,

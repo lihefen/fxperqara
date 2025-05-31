@@ -98,7 +98,7 @@ const items = ref([
   {
     name: "Aura Akhman, S.H., M.H.",
     image:
-      "https://storage.googleapis.com/perqara-public/lawyer/photo_1722932861",
+      "/image/landing-page/lawyer/profile-lawyer-3.png",
     location: "Jakarta Selatan",
     verified: true,
     experience: 4,
