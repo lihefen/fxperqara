@@ -4,14 +4,48 @@
  * @Author: hean
  * @Date: 2025-05-08 21:13:28
  * @LastEditors: hean
- * @LastEditTime: 2025-05-30 18:15:22
+ * @LastEditTime: 2025-05-31 09:56:53
 -->
 
 <template>
     <div class="bg-white font-dm-sans min-h-screen">
       <main>
         <TheNavbar @loginHandler="loginHandler" />
-        <ServiceLegal />
+        <div class="service-head md:h-[572px]">
+            <div
+            class="relative z-10 max-w-[1280px] mx-auto px-10 xl:px-52 py-12 lg:py-12"
+            >
+            <div
+                class="flex flex-col md:flex-row justify-between items-center gap-12 md:gap-16"
+            >
+                <div class="flex flex-col ">
+                <p class="text-[42px] leading-[50px] font-bold text-[#333333]">
+                    Professional Legal Services for All Needs
+                </p>
+                <p class=" text-[#333333] text-[18px]">
+                    Serving various legal needs on-demand that you can access anytime and anywhere.
+                </p>
+                <div class="flex flex-wrap gap-2 mt-[4px]" >
+                    <span class="px-2 py-1 rounded-lg bg-[#B2F4D7] text-[#00854B] text-sm font-medium" >Document Creation</span>
+                    <span class="px-2 py-1 rounded-lg bg-[#B2F4D7] text-[#00854B] text-sm font-medium" > Corporate Notary Services</span>
+                    <span class="px-2 py-1 rounded-lg bg-[#B2F4D7] text-[#00854B] text-sm font-medium" > Copyright Registration</span>
+                    <span class="px-2 py-1 rounded-lg bg-[#B2F4D7] text-[#00854B] text-sm font-medium" > Tax Consultation</span>
+                </div>
+
+                <button class="font-bold px-4 py-2.5 md:px-6 md:py-3 md:w-60 rounded-md md:rounded-[16px]  bg-[linear-gradient(224deg,#18D683_0%,#00CE73_17%,#0DBC6F_46%,#04A45E_100%)]  mt-[10px] text-white text-[24px]">View Services</button>
+                </div>
+                <!-- <Video
+                video="https://media.w3.org/2010/05/sintel/trailer.mp4"
+                poster="/image/features/story-placeholder.png"
+                class="w-[360px] h-[212px] shrink-0"
+                /> -->
+                <iframe
+                src="https://www.youtube.com/embed/Sy4ROOthOg4"
+                class="w-[360px] h-[212px] rounded-xl shrink-0"
+                />
+            </div>
+            </div>
+        </div>
         <section class="p-4 md:-mt-60">
             <div class="relative z-10 max-w-[1280px] mx-auto mt-4 xl:px-52">
             <div
@@ -189,8 +223,6 @@
                 </div>
             </div>
         </section>
-
-
         <section  id="pembuatan-dokumen" class="py-6 md:py-12 relative z-10">
             <div class="max-w-[1280px] mx-auto px-4 xl:px-40">
                 <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
@@ -326,9 +358,9 @@
                                 </div>
 
                                 <div>
-                                    <p  class="font-medium font-dm-sans antialiased mb-2 text-black text-base">Nomor Handphone (Whatsapp)</p>
+                                    <p  class="font-medium font-dm-sans antialiased mb-2 text-black text-base">Mobile Number (Whats</p>
                                     <div class="relative w-full text-black">
-                                        <el-input v-model="inputPhone" type="text"  placeholder="Contoh: 08123456789" size="large" ></el-input>
+                                        <el-input v-model="inputPhone" type="text"  placeholder="Example:08123456789" size="large" ></el-input>
                                     </div>
                                 </div>
 
@@ -341,11 +373,11 @@
                             </div>
                             <div class="w-full sm:w-1/2 flex flex-col gap-3">
                                 <div>
-                                    <label class="mb-2 block">Layanan Hukum</label>
+                                    <label class="mb-2 block">Legal Services</label>
                                     <div class="relative z-100">
                                         <el-select
                                             v-model="inputHukum"
-                                            placeholder="Pilih layanan hukum"
+                                            placeholder="Choose legal service"
                                             size="large"
                                             >
                                             <el-option
@@ -357,25 +389,122 @@
                                         </el-select>
                                     </div>
                                 </div>
+
+                                <div>
+                                    <label class="mb-2 block">Type of Service</label>
+                                    <div class="relative z-100">
+                                        <el-select
+                                            v-model="inputType"
+                                            placeholder="Choose legal service"
+                                            size="large"
+                                            >
+                                            <el-option
+                                                v-for="item in hukumOptions"
+                                                :key="item.value"
+                                                :label="item.label"
+                                                :value="item.value"
+                                            />
+                                        </el-select>
+                                    </div>
+                                </div>
+
+                                <div >
+                                    <p  class="font-medium font-dm-sans antialiased mb-2 text-black text-base">Business Field (Optional)</p>
+                                    <div  class="relative w-full  text-black ">
+                                        <el-input v-model="inputBusiness" type="text"  placeholder="Example:Food,Beverages,Heavy Equipen"  size="large" ></el-input>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="border-b border-[#E7ECF0]"></div>
                         <div>
-                            <label class="mb-2 block">Detail Layanan yang Dibutuhkan</label>
+                            <label class="mb-2 block">Detail of Required Services</label>
                             <el-input
                                 v-model="textareaDibutuhkan"
                                 :rows="5"
                                 type="textarea"
-                                placeholder="Contoh: saya ingin mendaftarkan merek perusahaan furnitur saya"
+                                placeholder="Example: I want to register my furniture company brand"
                             />
                             <div class="flex items-center justify-between gap-2 text-xs">
                                 <span class="text-[#676767]">Minimal 10 karakter</span><span class="mr-1 transform duration-300 ease-in-out -translate-y-4 opacity-0">0</span>
                             </div>
                         </div>
-                        <div  class="rounded-lg px-3 py-2 flex items-center gap-2 bg-[#F5FBFD] text-[#344052] text-sm">
-                            <svg  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path  d="M9 12.7506L11.25 15.0006L15 9.75058M12 2.71484C9.8495 4.75147 6.94563 6.00059 3.75 6.00059C3.69922 6.00059 3.64852 6.00028 3.59789 5.99965C3.2099 7.17976 3 8.44069 3 9.75064C3 15.3422 6.82432 20.0405 12 21.3726C17.1757 20.0405 21 15.3422 21 9.75064C21 8.44069 20.7901 7.17976 20.4021 5.99965C20.3515 6.00028 20.3008 6.00059 20.25 6.00059C17.0544 6.00059 14.1505 4.75147 12 2.71484Z" stroke="#2072B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg><span  class="flex-1">Keamanan data Anda adalah prioritas utama kami, data ini akan digunakan secara eksklusif dalam layanan LawOnGo.</span>
+                        <div  class="rounded-lg px-3 py-2 flex items-center gap-2 bg-[#E7FFF4] text-[#00854B] text-sm">
+                            <img class="w-4" src="/image/register/anquan_icon.png"><span  class="flex-1">Your data security is our top priority, this data will be used exclusively in Perqara services.</span>
                         </div>
                         <button  class="text-center bg-[#04A45E] px-7 py-2.5 w-full text-lg text-white rounded-md shadow-gray-500 hover:bg-[#04A45E]/80 transition-all ease-in-out duration-300 cursor-pointer"> Kirim </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-8 relative z-10 bg-gradient-to-b from-[#26F99D] to-[#52BEE7]">
+            <div class="max-w-[1280px] mx-auto px-4 xl:px-40">
+                <div class="space-y-4">
+                    <h2 class="text-2xl md:text-3xl font-bold text-[#262E35] text-center" > Frequent Ask Question </h2>
+                    <div class="space-y-4">
+                        <el-collapse  @change="handleChange" class="rounded-xl px-4 py-3 shadow-sm flex gap-4 ">
+                            <el-collapse-item title="Consistency" name="1">
+                                <template #title="{ isActive }">
+                                <div :class="['title-wrapper', { 'is-active': isActive }]">
+                                    <div class="space-y-2 flex-1">
+                                        <p class="font-semibold leading-5" >Apa itu layanan hukum on-demand LawOnGo?</p>
+                                    </div>
+                                </div>
+                                </template>
+                                <div>
+                                    <p class="font-light text-[#737373] leading-6 group-data-[active=false]:hidden" >Layanan hukum on-demand LawOnGo memungkinkan Anda mendapatkan bantuan hukum sesuai kebutuhan. Anda bisa mengurus perizinan usaha, registrasi hak cipta, konsultasi pajak hingga membuat dokumen hukum kapan saja dengan biaya transparan.</p>
+                                </div>
+                            </el-collapse-item>
+                        </el-collapse>
+                    </div>
+                    <div class="space-y-4">
+                        <el-collapse  @change="handleChange" class="rounded-xl px-4 py-3 shadow-sm flex gap-4 ">
+                            <el-collapse-item title="Consistency" name="1">
+                                <template #title="{ isActive }">
+                                <div :class="['title-wrapper', { 'is-active': isActive }]">
+                                    <div class="space-y-2 flex-1">
+                                        <p class="font-semibold leading-5" >Apa itu layanan hukum on-demand LawOnGo?</p>
+                                    </div>
+                                </div>
+                                </template>
+                                <div>
+                                    <p class="font-light text-[#737373] leading-6 group-data-[active=false]:hidden" >Layanan hukum on-demand LawOnGo memungkinkan Anda mendapatkan bantuan hukum sesuai kebutuhan. Anda bisa mengurus perizinan usaha, registrasi hak cipta, konsultasi pajak hingga membuat dokumen hukum kapan saja dengan biaya transparan.</p>
+                                </div>
+                            </el-collapse-item>
+                        </el-collapse>
+                    </div>
+                    <div class="space-y-4">
+                        <el-collapse  @change="handleChange" class="rounded-xl px-4 py-3 shadow-sm flex gap-4 ">
+                            <el-collapse-item title="Consistency" name="1">
+                                <template #title="{ isActive }">
+                                <div :class="['title-wrapper', { 'is-active': isActive }]">
+                                    <div class="space-y-2 flex-1">
+                                        <p class="font-semibold leading-5" >Apa itu layanan hukum on-demand LawOnGo?</p>
+                                    </div>
+                                </div>
+                                </template>
+                                <div>
+                                    <p class="font-light text-[#737373] leading-6 group-data-[active=false]:hidden" >Layanan hukum on-demand LawOnGo memungkinkan Anda mendapatkan bantuan hukum sesuai kebutuhan. Anda bisa mengurus perizinan usaha, registrasi hak cipta, konsultasi pajak hingga membuat dokumen hukum kapan saja dengan biaya transparan.</p>
+                                </div>
+                            </el-collapse-item>
+                        </el-collapse>
+                    </div>
+                    <div class="space-y-4">
+                        <el-collapse  @change="handleChange" class="rounded-xl px-4 py-3 shadow-sm flex gap-4 ">
+                            <el-collapse-item title="Consistency" name="1">
+                                <template #title="{ isActive }">
+                                <div :class="['title-wrapper', { 'is-active': isActive }]">
+                                    <div class="space-y-2 flex-1">
+                                        <p class="font-semibold leading-5" >Apa itu layanan hukum on-demand LawOnGo?</p>
+                                    </div>
+                                </div>
+                                </template>
+                                <div>
+                                    <p class="font-light text-[#737373] leading-6 group-data-[active=false]:hidden" >Layanan hukum on-demand LawOnGo memungkinkan Anda mendapatkan bantuan hukum sesuai kebutuhan. Anda bisa mengurus perizinan usaha, registrasi hak cipta, konsultasi pajak hingga membuat dokumen hukum kapan saja dengan biaya transparan.</p>
+                                </div>
+                            </el-collapse-item>
+                        </el-collapse>
                     </div>
                 </div>
             </div>
@@ -390,6 +519,12 @@
   </template>
   
  <style scoped>
+ .service-head {
+  background-image: url("/image/service-page/service_head.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .card-bg {
   background-image: url("/image/about-us/trust_bg.png");
   background-size: 100% 100%;
@@ -431,13 +566,79 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+::v-deep .el-collapse-item__header {
+    border: none;
+    font-size: inherit;
+}
+
+::v-deep .el-collapse {
+    border: none;
+}
+::v-deep .el-collapse-item__wrap {
+    border: none;
+    
+}
+
+::v-deep .el-collapse-item__content {
+    padding-bottom: 10px;
+    font-size: inherit;
+}
+
+::v-deep .el-anchor {
+    background:initial;
+    font-size: initial;
+}
+
+::v-deep  .el-anchor__link {
+    font-size: initial;
+}
+
+::v-deep  .el-anchor__marker {
+    display: none;
+}
 </style>
   <script setup>
-  const showLoginDialog = ref(false);
-  const inputName = ref("")
-  const loginHandler = () => {
-    console.log("loginHandler");
-    showLoginDialog.value = true;
-  };
+    const showLoginDialog = ref(false);
+    const inputName = ref("");
+    const inputPhone = ref("");
+    const inputHukum =ref('')
+    const inputEmail = ref('')
+    const inputType = ref('')
+    const inputBusiness = ref('')
+    const hukumOptions = [
+    {
+        value: 'Pembuatan Dokumen',
+        label: 'Pembuatan Dokumen',
+    },
+    {
+        value: 'Pendaftaran HAKI (Hak Kekayaan Intelektual)',
+        label: 'Pendaftaran HAKI (Hak Kekayaan Intelektual)',
+    },
+    ]
+
+    const kotaOptions = [
+        {
+            value: 'SIMEULUE',
+            label: 'SIMEULUE',
+        },
+        {
+            value: 'ACEH SINGKIL',
+            label: 'ACEH SINGKIL',
+        },
+        {
+            value: 'ACEH SELATAN',
+            label: 'ACEH SELATAN',
+        },
+        {
+            value: 'ACEH TENGGARA',
+            label: 'ACEH TENGGARA',
+        },
+        
+    ]
+    const loginHandler = () => {
+        console.log("loginHandler");
+        showLoginDialog.value = true;
+    };
   </script>
   
