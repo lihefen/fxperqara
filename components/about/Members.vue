@@ -1,3 +1,11 @@
+<!--
+ * @Description: 
+ * @version: 
+ * @Author: hean
+ * @Date: 2025-05-29 20:45:10
+ * @LastEditors: hean
+ * @LastEditTime: 2025-06-01 10:07:50
+-->
 <template>
   <div class="custom-bg mb-12">
     <div class="max-w-[1280px] mx-auto pt-12 px-10 xl:px-42">

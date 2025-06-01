@@ -4,7 +4,7 @@
  * @Author: hean
  * @Date: 2025-05-31 14:46:30
  * @LastEditors: hean
- * @LastEditTime: 2025-06-01 09:43:48
+ * @LastEditTime: 2025-06-01 10:18:36
 -->
 <template>
   <div>
@@ -13,7 +13,7 @@
         <img class="absolute left-1/2 -translate-x-1/2 top-[10px] z-9" width="100" height="100"  src="/image/landing-page/font_bar.png">
     </h2>
     <div class="xl:flex xl:justify-center">
-      <div id="wrapper-carousel" class="max-w-[1280px] xl:px-40">
+      <div id="wrapper-carousel" class="max-w-[1280px] ">
         <div
           id="testimony-wrapper"
           class="flex flex-row overflow-x-auto scrollbar-hide scroll-smooth gap-6 pt-6 pb-2 px-2"
@@ -30,7 +30,7 @@
             @select="onSelect"
           >
             <div
-              class="relative w-52 pt-8  h-[175px] md:w-60 lg:w-[290px] xl:w-[320px] rounded-[24px] bg-card"
+              class="relative w-[458px] pt-6  h-[175px] md:w-60 lg:w-[458px] xl:w-[458px] rounded-[24px] bg-card"
             >
              <div class="flex pl-[20px] pr-[20px]">
                 <div class="w-[90px]">
