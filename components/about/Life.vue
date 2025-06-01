@@ -1,3 +1,11 @@
+<!--
+ * @Description: 
+ * @version: 
+ * @Author: hean
+ * @Date: 2025-05-29 20:45:10
+ * @LastEditors: hean
+ * @LastEditTime: 2025-06-01 10:52:33
+-->
 <template>
   <div class="max-w-[1280px] mx-auto pt-12 px-10 xl:px-42">
     <div class="relative text-center">
@@ -43,9 +51,9 @@
 import { ref } from "vue";
 
 const items = ref([
-  "/image/about-us/life-placeholder.png",
-  "/image/about-us/life-placeholder.png",
-  "/image/about-us/life-placeholder.png",
+  "/image/about-us/life-placeholder-1.jpg",
+  "/image/about-us/life-placeholder-2.jpg",
+  "/image/about-us/life-placeholder-3.jpg",
 ]);
 </script>
 <style scoped>
