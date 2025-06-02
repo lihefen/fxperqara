@@ -18,7 +18,7 @@ export default defineNuxtConfig({
         "~/assets/css/entry.css",
         "@fortawesome/fontawesome-svg-core/styles.css",
     ],
-    modules: ["@nuxt/eslint", "@nuxt/ui",'@element-plus/nuxt'],
+    modules: ["@nuxt/eslint", "@nuxt/ui",'@element-plus/nuxt','@nuxt/content'],
     vite: {
         plugins: [tailwindcss()],
     },
